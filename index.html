@@ -8,18 +8,19 @@
    
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>WarEden</title>
-  <script type="module" crossorigin src="/assets/index.46854b06.js"></script>
-  <link rel="stylesheet" href="/assets/index.e7ea50ad.css">
+  <script type="module" crossorigin src="./assets/index.4fc27bc6.js"></script>
+  <link rel="stylesheet" href="./assets/index.89071633.css">
 </head>
 
 <body>
   <div id="app">
-    <div class="UI">
-      <div class="column">
+    <img class="warLogo" src="./assets/Logo.caa9b2c6.png">
+    <div class="UI" id="UI">
+      <div class="column left-column">
         <div class="dropdown">
           <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">
-            <img id="helmetImg" style="width: 60px; height: auto;">
+            <img id="helmetImg">
           </button>
           <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
             <button class="dropdown-item" id="eagleHelmet" type="button">Eagle Helmet</button>
@@ -30,7 +31,7 @@
         <div class="dropdown">
           <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">
-            <img id="shoulderImg" style="width: 60px; height: auto;">
+            <img id="shoulderImg">
           </button>
           <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
             <button class="dropdown-item" id="eagleShoulders" type="button">Eagle Shoulders</button>
@@ -41,7 +42,7 @@
         <div class="dropdown">
           <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">
-            <img id="chestImg" style="width: 60px; height: auto;">
+            <img id="chestImg">
           </button>
           <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
             <button class="dropdown-item" id="eagleChest" type="button">Eagle Chest</button>
@@ -52,7 +53,7 @@
         <div class="dropdown">
           <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">
-            <img id="forearmImg" style="width: 60px; height: auto;">
+            <img id="forearmImg">
           </button>
           <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
             <button class="dropdown-item" id="eagleForearm" type="button">Eagle Forearm</button>
@@ -61,11 +62,11 @@
           </div>
         </div>
       </div>
-      <div class="column">
+      <div class="column right-column">
         <div class="dropdown">
           <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">
-            <img id="pantsImg" style="width: 60px; height: auto;">
+            <img id="pantsImg">
           </button>
           <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
             <button class="dropdown-item" id="eaglePants" type="button">Eagle Pants</button>
@@ -76,27 +77,29 @@
         <div class="dropdown">
           <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">
-            <img id="hipsImg" style="width: 60px; height: auto;">
+            <img id="hipsImg">
           </button>
           <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
             <button class="dropdown-item" id="eagleHips" type="button">Eagle Tassets</button>
+            <button class="dropdown-item" id="scorchedHips" type="button">Scorched Tassets</button>
             <button class="dropdown-item" id="unequipHipsButton" type="button">Unequip</button>
           </div>
         </div>
         <div class="dropdown">
           <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">
-            <img id="beltImg" style="width: 60px; height: auto;">
+            <img id="beltImg">
           </button>
           <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
             <button class="dropdown-item" id="ealgeBelt" type="button">Eagle Belt</button>
+            <button class="dropdown-item" id="scorchedBelt" type="button">Scorched Belt</button>
             <button class="dropdown-item" id="unequipBeltButton" type="button">Unequip</button>
           </div>
         </div>
         <div class="dropdown">
           <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">
-            <img id="bootsImg" style="width: 60px; height: auto;">
+            <img id="bootsImg">
           </button>
           <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
             <button class="dropdown-item" id="eagleBoots" type="button">Eagle Boots</button>
@@ -109,16 +112,25 @@
       <div class="dropdown" id="sword">
         <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown"
           aria-haspopup="true" aria-expanded="false">
-          <img id="swordImg" style="width: 60px; height: auto;">
+          <img id="swordImg">
         </button>
         <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
           <button class="dropdown-item" id="sword1" type="button">Sword 1</button>
           <button class="dropdown-item" id="sword2" type="button">Sword 2</button>
           <button class="dropdown-item" id="sword3" type="button">Sword 3</button>
           <button class="dropdown-item" id="sword4" type="button">Sword 4</button>
+          <button class="dropdown-item" id="sword5" type="button">Sword 5</button>
+          <button class="dropdown-item" id="sword6" type="button">Sword 6</button>
+          <button class="dropdown-item" id="sword7" type="button">Sword 7</button>
+          <button class="dropdown-item" id="sword8" type="button">Sword 8</button>
+          <button class="dropdown-item" id="sword9" type="button">Sword 9</button>
+          <button class="dropdown-item" id="sword10" type="button">Sword 10</button>
           <button class="dropdown-item" id="unequipSwordButton" type="button">Unequip</button>
         </div>
       </div>
+    </div>
+    <div>
+      <button class="UI-Handler btn btn-primary" id="UI-Handler">Hide UI</button>
     </div>
     
   </div>

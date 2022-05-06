@@ -6,17 +6,17 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
    
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="minimal-ui, width=device-width, initial-scale=1, user-scalable=no">
   <title>WarEden</title>
-  <script type="module" crossorigin src="./assets/index.4fc27bc6.js"></script>
-  <link rel="stylesheet" href="./assets/index.89071633.css">
+  <script type="module" crossorigin src="./assets/index.49a843b1.js"></script>
+  <link rel="stylesheet" href="./assets/index.dbda531e.css">
 </head>
 
 <body>
   <div id="app">
     <img class="warLogo" src="./assets/Logo.caa9b2c6.png">
     <div class="UI" id="UI">
-      <div class="column left-column">
+      <div class="column left-column" id="left-column">
         <div class="dropdown">
           <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">
@@ -62,13 +62,13 @@
           </div>
         </div>
       </div>
-      <div class="column right-column">
+      <div class="column right-column" id="right-column">
         <div class="dropdown">
           <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">
             <img id="pantsImg">
           </button>
-          <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu2">
             <button class="dropdown-item" id="eaglePants" type="button">Eagle Pants</button>
             <button class="dropdown-item" id="scorchedPants" type="button">Scorched Pants</button>
             <button class="dropdown-item" id="unequipPantsButton" type="button">Unequip</button>
@@ -79,7 +79,7 @@
             aria-haspopup="true" aria-expanded="false">
             <img id="hipsImg">
           </button>
-          <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu2">
             <button class="dropdown-item" id="eagleHips" type="button">Eagle Tassets</button>
             <button class="dropdown-item" id="scorchedHips" type="button">Scorched Tassets</button>
             <button class="dropdown-item" id="unequipHipsButton" type="button">Unequip</button>
@@ -90,7 +90,7 @@
             aria-haspopup="true" aria-expanded="false">
             <img id="beltImg">
           </button>
-          <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu2">
             <button class="dropdown-item" id="ealgeBelt" type="button">Eagle Belt</button>
             <button class="dropdown-item" id="scorchedBelt" type="button">Scorched Belt</button>
             <button class="dropdown-item" id="unequipBeltButton" type="button">Unequip</button>
@@ -101,7 +101,7 @@
             aria-haspopup="true" aria-expanded="false">
             <img id="bootsImg">
           </button>
-          <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu2">
             <button class="dropdown-item" id="eagleBoots" type="button">Eagle Boots</button>
             <button class="dropdown-item" id="scorchedBoots" type="button">Scorched Boots</button>
             <button class="dropdown-item" id="unequipBootsButton" type="button">Unequip</button>
@@ -130,7 +130,7 @@
       </div>
     </div>
     <div>
-      <button class="UI-Handler btn btn-primary" id="UI-Handler">Hide UI</button>
+      <button class="UI-Handler btn btn-secondary" id="UI-Handler"><img id="uiHandlerImg" alt=""></button>
     </div>
     
   </div>

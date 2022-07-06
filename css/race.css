@@ -1,0 +1,21 @@
+#race-heading{
+    text-align: center;
+    font-size: 40px;
+}
+
+#race-buttons{
+    margin: auto;
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#race-buttons button{
+    background: unset;
+    border: unset;
+}
+
+#race-buttons img{
+    width: 150px;
+    height: 150px;
+}

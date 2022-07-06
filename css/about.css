@@ -1,0 +1,214 @@
+.about {
+    position: relative;
+}
+
+.about-parent {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 30%;
+    width: 100%;
+}
+
+#about-background {
+    content: url('../img/SplashScreen.png');
+    width: 100%;
+    height: auto;
+}
+
+#about-heading {
+    position: absolute;
+    z-index: 1;
+    top: 5%;
+    color: red;
+    font-size: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.row-left {
+    width: 50%;
+    z-index: 1;
+}
+
+.row-right {
+    width: 50%;
+    z-index: 1;
+}
+
+.wrapper {
+    
+    padding: 0 20px;
+}
+
+.wrapper .parent-tab {
+    margin-bottom: 8px;
+    border-radius: 3px;
+    /* box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.18); */
+}
+
+.wrapper .parent-tab label {
+    padding: 10px 20px;
+    display: flex;
+    align-items: left;
+    cursor: pointer;
+    border-radius: 3px;
+    position: relative;
+    z-index: 2;
+    transition: all 0.3s ease;
+}
+
+.wrapper .parent-tab .icon-container {
+    width: 35px;
+    height: 35px;
+    margin-right: 20px;
+}
+
+.wrapper .parent-tab #tab-icon-1 {
+    background: url('../img/human.png');
+    background-size: cover;
+}
+
+.wrapper .parent-tab #tab-icon-2 {
+    background: url('../img/nelf.png');
+    background-size: cover;
+}
+
+.wrapper .parent-tab #tab-icon-3 {
+    background: url('../img/orc.png');
+    background-size: cover;
+}
+
+.wrapper .parent-tab #tab-icon-4 {
+    background: url('../img/undead.png');
+    background-size: cover;
+}
+
+.wrapper .parent-tab #tab-icon-1:hover {
+    background: unset;
+}
+
+.wrapper .parent-tab #tab-icon-2:hover {
+    background: unset;
+}
+
+.wrapper .parent-tab #tab-icon-3:hover {
+    background: unset;
+}
+
+.wrapper .parent-tab #tab-icon-4:hover {
+    background: unset;
+}
+
+.wrapper .parent-tab label :hover {
+    color: gold;
+}
+
+.parent-tab input:checked~label {
+    border-radius: 3px 3px 0 0;
+}
+
+.wrapper label span {
+    color: #fff;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.wrapper .parent-tab .content {
+    max-height: 0px;
+    overflow: hidden;
+    background: transparent;
+    border-radius: 0 0 3px 3px;
+    font-size: 20px;
+    color: white;
+    padding-left: 55px;
+    /* transition: all 0.4s ease; */
+}
+
+.parent-tab input:checked~.content {
+    max-height: 100vh;
+}
+
+.parent-tab .content p {
+    padding: 15px 20px;
+    font-size: 16px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    display: none;
+}
+
+.carousel-item {
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-fade .active.carousel-item-start,
+.carousel-fade .active.carousel-item-end {
+    transition: opacity 0.5s ease-out;
+}
+
+.carousel-item img{
+    width: 350px;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+@media (max-width: 1000px){
+    .about-parent{
+        flex-direction: column;
+        top: 15%;
+    }
+
+    .row-left{
+        order: 2;
+        display: block;
+        margin: auto;
+        width: 100%;
+    }
+
+    .row-right{
+        display: block;
+        margin: auto;
+        order: 1;
+        width: 100%;
+    }
+
+    #about-background {
+        content: url('../img/SplashScreenCopy.png');
+        width: 100%;
+        height: auto;
+    }
+
+    .wrapper{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .wrapper span{
+        display: none;
+    }
+
+    .wrapper .parent-tab .content{
+       padding: 0%;
+       position: absolute;
+       top: 90%;
+       width: 400px;
+       text-align: center;
+       left: 50%;
+       transform: translateX(-50%);
+    }
+
+    .wrapper .parent-tab label{
+        padding: 0;
+    }
+
+    .wrapper .parent-tab .icon-container{
+        margin: 0 10px;
+        width: 100px;
+        height: 100px;
+    }
+}

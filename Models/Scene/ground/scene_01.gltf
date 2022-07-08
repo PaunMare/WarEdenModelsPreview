@@ -169,7 +169,7 @@
     "materials" : [
         {
             "doubleSided" : true,
-            "name" : "14 - Default.003",
+            "name" : "14 - Default",
             "pbrMetallicRoughness" : {
                 "baseColorTexture" : {
                     "index" : 0
@@ -181,7 +181,7 @@
         {
             "alphaMode" : "BLEND",
             "doubleSided" : true,
-            "name" : "03 - Default.003",
+            "name" : "03 - Default",
             "pbrMetallicRoughness" : {
                 "baseColorTexture" : {
                     "index" : 1
@@ -192,7 +192,7 @@
         },
         {
             "doubleSided" : true,
-            "name" : "Material #71.003",
+            "name" : "Material #71",
             "pbrMetallicRoughness" : {
                 "baseColorTexture" : {
                     "index" : 2
@@ -204,7 +204,7 @@
         {
             "alphaMode" : "BLEND",
             "doubleSided" : true,
-            "name" : "Material #99.003",
+            "name" : "19 - Default",
             "pbrMetallicRoughness" : {
                 "baseColorTexture" : {
                     "index" : 3
@@ -216,7 +216,7 @@
     ],
     "meshes" : [
         {
-            "name" : "Mesh.015",
+            "name" : "Mesh",
             "primitives" : [
                 {
                     "attributes" : {
@@ -243,7 +243,7 @@
             ]
         },
         {
-            "name" : "Mesh.016",
+            "name" : "Mesh.001",
             "primitives" : [
                 {
                     "attributes" : {
@@ -268,7 +268,7 @@
             ]
         },
         {
-            "name" : "Mesh.017",
+            "name" : "Mesh.002",
             "primitives" : [
                 {
                     "attributes" : {
@@ -293,7 +293,7 @@
             ]
         },
         {
-            "name" : "Mesh.018",
+            "name" : "Mesh.003",
             "primitives" : [
                 {
                     "attributes" : {
@@ -312,13 +312,13 @@
                         }
                     },
                     "indices" : 16,
-                    "material" : 1,
+                    "material" : 3,
                     "mode" : 4
                 }
             ]
         },
         {
-            "name" : "Mesh.019",
+            "name" : "Mesh.004",
             "primitives" : [
                 {
                     "attributes" : {
@@ -343,7 +343,7 @@
             ]
         },
         {
-            "name" : "Mesh.020",
+            "name" : "Mesh.005",
             "primitives" : [
                 {
                     "attributes" : {
@@ -368,7 +368,7 @@
             ]
         },
         {
-            "name" : "Mesh.021",
+            "name" : "Mesh.006",
             "primitives" : [
                 {
                     "attributes" : {
@@ -393,7 +393,7 @@
             ]
         },
         {
-            "name" : "Mesh.022",
+            "name" : "Mesh.007",
             "primitives" : [
                 {
                     "attributes" : {
@@ -418,7 +418,7 @@
             ]
         },
         {
-            "name" : "Mesh.023",
+            "name" : "Mesh.008",
             "primitives" : [
                 {
                     "attributes" : {
@@ -458,7 +458,7 @@
         },
         {
             "sampler" : 0,
-            "source" : 1
+            "source" : 3
         }
     ],
     "images" : [
@@ -476,12 +476,17 @@
             "mimeType" : "image/png",
             "name" : "m_cliff_rocks",
             "uri" : "m_cliff_rocks.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "t_treetest_02",
+            "uri" : "t_treetest_02.png"
         }
     ],
     "accessors" : [
         {
             "componentType" : 5126,
-            "count" : 1960,
+            "count" : 2713,
             "max" : [
                 323.07940673828125,
                 34.62430191040039,
@@ -496,22 +501,22 @@
         },
         {
             "componentType" : 5126,
-            "count" : 1960,
+            "count" : 2713,
             "type" : "VEC3"
         },
         {
             "componentType" : 5126,
-            "count" : 1960,
+            "count" : 2713,
             "type" : "VEC2"
         },
         {
             "componentType" : 5126,
-            "count" : 1960,
+            "count" : 2713,
             "type" : "VEC2"
         },
         {
             "componentType" : 5123,
-            "count" : 9090,
+            "count" : 10944,
             "type" : "SCALAR"
         },
         {
@@ -753,48 +758,48 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 18691,
+            "byteLength" : 25555,
             "byteOffset" : 0
         },
         {
             "buffer" : 0,
             "byteLength" : 3050,
-            "byteOffset" : 18692
+            "byteOffset" : 25556
         },
         {
             "buffer" : 0,
             "byteLength" : 19270,
-            "byteOffset" : 21744
+            "byteOffset" : 28608
         },
         {
             "buffer" : 0,
-            "byteLength" : 11614,
-            "byteOffset" : 41016
+            "byteLength" : 11859,
+            "byteOffset" : 47880
         },
         {
             "buffer" : 0,
             "byteLength" : 112145,
-            "byteOffset" : 52632
+            "byteOffset" : 59740
         },
         {
             "buffer" : 0,
             "byteLength" : 26065,
-            "byteOffset" : 164780
+            "byteOffset" : 171888
         },
         {
             "buffer" : 0,
             "byteLength" : 24919,
-            "byteOffset" : 190848
+            "byteOffset" : 197956
         },
         {
             "buffer" : 0,
             "byteLength" : 6696,
-            "byteOffset" : 215768
+            "byteOffset" : 222876
         },
         {
             "buffer" : 0,
             "byteLength" : 6696,
-            "byteOffset" : 222464
+            "byteOffset" : 229572
         }
     ],
     "samplers" : [
@@ -805,7 +810,7 @@
     ],
     "buffers" : [
         {
-            "byteLength" : 229160,
+            "byteLength" : 236268,
             "uri" : "scene_01.bin"
         }
     ]

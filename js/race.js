@@ -7,9 +7,10 @@ let elfIcon = document.getElementById('race-elf');
 let slider = document.getElementById('splide-race');
 
 slider = new Splide('#splide-race',{
-    padding: '30%',
+    padding: '10%',
     arrows: false,
-    pagination: false
+    pagination: false,
+    drag   : 'free',
 }).mount();
 
 humanIcon.addEventListener("click", function(){

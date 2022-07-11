@@ -21,7 +21,7 @@
     "nodes" : [
         {
             "mesh" : 0,
-            "name" : "sm_dwarf_dhodin_helmet",
+            "name" : "sm_human_dodin_helmet",
             "rotation" : [
                 0.7071068286895752,
                 0,
@@ -89,8 +89,8 @@
             "count" : 2842,
             "max" : [
                 29.423072814941406,
-                25.83177947998047,
-                1.2533679008483887
+                26.50216293334961,
+                0.37031006813049316
             ],
             "min" : [
                 -29.951683044433594,
@@ -118,7 +118,7 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 22113,
+            "byteLength" : 22139,
             "byteOffset" : 0
         }
     ],
@@ -130,7 +130,7 @@
     ],
     "buffers" : [
         {
-            "byteLength" : 22116,
+            "byteLength" : 22140,
             "uri" : "sm_dwarf_dhodin_helmet.bin"
         }
     ]

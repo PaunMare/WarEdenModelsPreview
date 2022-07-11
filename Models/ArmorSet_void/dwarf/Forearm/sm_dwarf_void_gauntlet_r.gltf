@@ -48,7 +48,7 @@
     ],
     "meshes" : [
         {
-            "name" : "Mesh.024",
+            "name" : "Mesh.003",
             "primitives" : [
                 {
                     "attributes" : {
@@ -81,13 +81,13 @@
             "count" : 894,
             "max" : [
                 15.43341064453125,
-                11.530679702758789,
+                12.846759796142578,
                 -3.6869990825653076
             ],
             "min" : [
                 -17.56032943725586,
-                -16.706132888793945,
-                -44.36935806274414
+                -16.73053741455078,
+                -44.368858337402344
             ],
             "type" : "VEC3"
         },
@@ -115,13 +115,13 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 9204,
+            "byteLength" : 9217,
             "byteOffset" : 0
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 9204,
+            "byteLength" : 9220,
             "uri" : "sm_dwarf_void_gauntlet_r.bin"
         }
     ]

@@ -33,7 +33,7 @@
     "materials" : [
         {
             "doubleSided" : true,
-            "name" : "Helmet",
+            "name" : "Helmet1.001",
             "pbrMetallicRoughness" : {
                 "baseColorTexture" : {
                     "index" : 0
@@ -45,7 +45,7 @@
     ],
     "meshes" : [
         {
-            "name" : "Mesh.016",
+            "name" : "Mesh.013",
             "primitives" : [
                 {
                     "attributes" : {
@@ -86,14 +86,14 @@
     "accessors" : [
         {
             "componentType" : 5126,
-            "count" : 983,
+            "count" : 972,
             "max" : [
-                15.184576988220215,
-                27.092369079589844,
-                3.0841245651245117
+                15.691350936889648,
+                28.86815643310547,
+                -0.2645745277404785
             ],
             "min" : [
-                -15.713562965393066,
+                -15.977714538574219,
                 -10.076780319213867,
                 -36.64960479736328
             ],
@@ -101,24 +101,24 @@
         },
         {
             "componentType" : 5126,
-            "count" : 983,
+            "count" : 972,
             "type" : "VEC3"
         },
         {
             "componentType" : 5126,
-            "count" : 983,
+            "count" : 972,
             "type" : "VEC2"
         },
         {
             "componentType" : 5123,
-            "count" : 4422,
+            "count" : 4374,
             "type" : "SCALAR"
         }
     ],
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 8955,
+            "byteLength" : 8895,
             "byteOffset" : 0
         }
     ],
@@ -130,7 +130,7 @@
     ],
     "buffers" : [
         {
-            "byteLength" : 8956,
+            "byteLength" : 8896,
             "uri" : "sm_dwarf_avian_helmet.bin"
         }
     ]

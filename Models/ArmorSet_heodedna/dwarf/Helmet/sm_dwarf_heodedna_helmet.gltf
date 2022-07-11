@@ -33,7 +33,7 @@
     "materials" : [
         {
             "doubleSided" : true,
-            "name" : "t_armor_heodedna_helmet.002",
+            "name" : "t_armor_heodedna_helmet1",
             "pbrMetallicRoughness" : {
                 "baseColorTexture" : {
                     "index" : 0
@@ -45,7 +45,7 @@
     ],
     "meshes" : [
         {
-            "name" : "Mesh.045",
+            "name" : "Mesh.018",
             "primitives" : [
                 {
                     "attributes" : {
@@ -88,13 +88,13 @@
             "componentType" : 5126,
             "count" : 5345,
             "max" : [
-                17.45763397216797,
-                27.920028686523438,
-                7.488212585449219
+                21.471885681152344,
+                37.040977478027344,
+                8.854812622070312
             ],
             "min" : [
-                -17.410703659057617,
-                -12.422633171081543,
+                -22.301904678344727,
+                -14.841225624084473,
                 -38.89485168457031
             ],
             "type" : "VEC3"
@@ -118,7 +118,7 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 41281,
+            "byteLength" : 41241,
             "byteOffset" : 0
         }
     ],
@@ -130,7 +130,7 @@
     ],
     "buffers" : [
         {
-            "byteLength" : 41284,
+            "byteLength" : 41244,
             "uri" : "sm_dwarf_heodedna_helmet.bin"
         }
     ]

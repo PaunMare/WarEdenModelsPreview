@@ -33,28 +33,24 @@
     "materials" : [
         {
             "doubleSided" : true,
-            "name" : "Material.005",
+            "name" : "resize:Material #66",
             "pbrMetallicRoughness" : {
-                "baseColorFactor" : [
-                    0.800000011920929,
-                    0.800000011920929,
-                    0.800000011920929,
-                    1
-                ],
                 "metallicFactor" : 0,
-                "roughnessFactor" : 0.5
+                "roughnessFactor" : 0.5527864098548889
             }
         }
     ],
     "meshes" : [
         {
-            "name" : "Mesh.038",
+            "name" : "Mesh.002",
             "primitives" : [
                 {
                     "attributes" : {
                         "POSITION" : 0,
                         "NORMAL" : 1,
-                        "TEXCOORD_0" : 2
+                        "TEXCOORD_0" : 2,
+                        "TEXCOORD_1" : 3,
+                        "COLOR_0" : 4
                     },
                     "extensions" : {
                         "KHR_draco_mesh_compression" : {
@@ -62,11 +58,13 @@
                             "attributes" : {
                                 "POSITION" : 0,
                                 "NORMAL" : 1,
-                                "TEXCOORD_0" : 2
+                                "TEXCOORD_0" : 2,
+                                "TEXCOORD_1" : 3,
+                                "COLOR_0" : 4
                             }
                         }
                     },
-                    "indices" : 3,
+                    "indices" : 5,
                     "material" : 0,
                     "mode" : 4
                 }
@@ -78,14 +76,14 @@
             "componentType" : 5126,
             "count" : 1172,
             "max" : [
-                26.00210952758789,
-                6.857250213623047,
-                -3.243682861328125
+                28.20919418334961,
+                5.409170150756836,
+                -0.59320068359375
             ],
             "min" : [
-                -27.314151763916016,
-                -30.51913070678711,
-                -52.182823181152344
+                -29.423580169677734,
+                -34.99485778808594,
+                -53.49601745605469
             ],
             "type" : "VEC3"
         },
@@ -100,6 +98,17 @@
             "type" : "VEC2"
         },
         {
+            "componentType" : 5126,
+            "count" : 1172,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5123,
+            "count" : 1172,
+            "normalized" : true,
+            "type" : "VEC4"
+        },
+        {
             "componentType" : 5123,
             "count" : 4764,
             "type" : "SCALAR"
@@ -108,13 +117,13 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 10338,
+            "byteLength" : 12544,
             "byteOffset" : 0
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 10340,
+            "byteLength" : 12544,
             "uri" : "sm_dwarf_void_paldron_l.bin"
         }
     ]

@@ -33,7 +33,7 @@
     "materials" : [
         {
             "doubleSided" : true,
-            "name" : "t_armor_dhodin_boots4.002",
+            "name" : "t_armor_dhodin_boots5",
             "pbrMetallicRoughness" : {
                 "baseColorFactor" : [
                     0.5,
@@ -41,14 +41,13 @@
                     0.5,
                     1
                 ],
-                "metallicFactor" : 0,
                 "roughnessFactor" : 0.5527864098548889
             }
         }
     ],
     "meshes" : [
         {
-            "name" : "Mesh.026",
+            "name" : "Mesh.007",
             "primitives" : [
                 {
                     "attributes" : {
@@ -78,14 +77,14 @@
             "componentType" : 5126,
             "count" : 1163,
             "max" : [
-                15.29092025756836,
+                16.267345428466797,
                 15.47973918914795,
                 9.38079833984375
             ],
             "min" : [
                 -14.435173034667969,
                 -15.61394214630127,
-                -25.415767669677734
+                -25.488868713378906
             ],
             "type" : "VEC3"
         },
@@ -108,13 +107,13 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 9946,
+            "byteLength" : 9959,
             "byteOffset" : 0
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 9948,
+            "byteLength" : 9960,
             "uri" : "sm_dwarf_dhodin_boots_up_l.bin"
         }
     ]

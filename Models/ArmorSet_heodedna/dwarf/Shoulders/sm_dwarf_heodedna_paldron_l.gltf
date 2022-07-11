@@ -33,7 +33,7 @@
     "materials" : [
         {
             "doubleSided" : true,
-            "name" : "t_armor_heodedna_paldron.004",
+            "name" : "t_armor_heodedna_paldron",
             "pbrMetallicRoughness" : {
                 "baseColorFactor" : [
                     0.5,
@@ -48,7 +48,7 @@
     ],
     "meshes" : [
         {
-            "name" : "Mesh.052",
+            "name" : "Mesh.015",
             "primitives" : [
                 {
                     "attributes" : {
@@ -78,14 +78,14 @@
             "componentType" : 5126,
             "count" : 8022,
             "max" : [
-                20.71409034729004,
-                10.22419548034668,
-                -0.227294921875
+                21.526578903198242,
+                9.058982849121094,
+                -3.34710693359375
             ],
             "min" : [
-                -20.425573348999023,
-                -27.387020111083984,
-                -47.25320816040039
+                -22.04660415649414,
+                -30.777061462402344,
+                -53.15472412109375
             ],
             "type" : "VEC3"
         },
@@ -108,13 +108,13 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 56077,
+            "byteLength" : 56082,
             "byteOffset" : 0
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 56080,
+            "byteLength" : 56084,
             "uri" : "sm_dwarf_heodedna_paldron_l.bin"
         }
     ]

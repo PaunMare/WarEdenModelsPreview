@@ -33,7 +33,7 @@
     "materials" : [
         {
             "doubleSided" : true,
-            "name" : "resize:Paldron1.001",
+            "name" : "resize:Paldron1",
             "pbrMetallicRoughness" : {
                 "metallicFactor" : 0,
                 "roughnessFactor" : 0.5527864098548889
@@ -42,7 +42,7 @@
     ],
     "meshes" : [
         {
-            "name" : "Mesh.016",
+            "name" : "Mesh.030",
             "primitives" : [
                 {
                     "attributes" : {
@@ -72,14 +72,14 @@
             "componentType" : 5126,
             "count" : 1084,
             "max" : [
-                19.616371154785156,
-                16.288179397583008,
-                -3.868241786956787
+                27.46815299987793,
+                17.4498233795166,
+                -4.40586519241333
             ],
             "min" : [
-                -20.483142852783203,
-                -19.481698989868164,
-                -42.088897705078125
+                -18.697059631347656,
+                -23.73082733154297,
+                -48.40801239013672
             ],
             "type" : "VEC3"
         },

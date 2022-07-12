@@ -33,8 +33,14 @@
     "materials" : [
         {
             "doubleSided" : true,
-            "name" : "resize:Material #66",
+            "name" : "resize:Material #66.001",
             "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.800000011920929,
+                    1
+                ],
                 "metallicFactor" : 0,
                 "roughnessFactor" : 0.5527864098548889
             }
@@ -42,15 +48,14 @@
     ],
     "meshes" : [
         {
-            "name" : "Mesh.002",
+            "name" : "Mesh.032",
             "primitives" : [
                 {
                     "attributes" : {
                         "POSITION" : 0,
                         "NORMAL" : 1,
                         "TEXCOORD_0" : 2,
-                        "TEXCOORD_1" : 3,
-                        "COLOR_0" : 4
+                        "TEXCOORD_1" : 3
                     },
                     "extensions" : {
                         "KHR_draco_mesh_compression" : {
@@ -59,12 +64,11 @@
                                 "POSITION" : 0,
                                 "NORMAL" : 1,
                                 "TEXCOORD_0" : 2,
-                                "TEXCOORD_1" : 3,
-                                "COLOR_0" : 4
+                                "TEXCOORD_1" : 3
                             }
                         }
                     },
-                    "indices" : 5,
+                    "indices" : 4,
                     "material" : 0,
                     "mode" : 4
                 }
@@ -77,8 +81,8 @@
             "count" : 1172,
             "max" : [
                 28.20919418334961,
-                5.409170150756836,
-                -0.59320068359375
+                5.407535552978516,
+                -0.5947380065917969
             ],
             "min" : [
                 -29.423580169677734,
@@ -104,12 +108,6 @@
         },
         {
             "componentType" : 5123,
-            "count" : 1172,
-            "normalized" : true,
-            "type" : "VEC4"
-        },
-        {
-            "componentType" : 5123,
             "count" : 4764,
             "type" : "SCALAR"
         }
@@ -117,13 +115,13 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 12544,
+            "byteLength" : 12460,
             "byteOffset" : 0
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 12544,
+            "byteLength" : 12460,
             "uri" : "sm_dwarf_void_paldron_l.bin"
         }
     ]

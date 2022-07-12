@@ -21,7 +21,7 @@
     "nodes" : [
         {
             "mesh" : 0,
-            "name" : "sm_dwarf_avian_paldron_l",
+            "name" : "sm_human_avian_paldron_l",
             "rotation" : [
                 0.7071068286895752,
                 0,
@@ -33,7 +33,7 @@
     "materials" : [
         {
             "doubleSided" : true,
-            "name" : "Pladron",
+            "name" : "Pladron.002",
             "pbrMetallicRoughness" : {
                 "metallicFactor" : 0,
                 "roughnessFactor" : 0.5527864098548889
@@ -42,7 +42,7 @@
     ],
     "meshes" : [
         {
-            "name" : "Mesh.017",
+            "name" : "Mesh.022",
             "primitives" : [
                 {
                     "attributes" : {
@@ -72,14 +72,14 @@
             "componentType" : 5126,
             "count" : 3999,
             "max" : [
-                19.772602081298828,
-                6.331530570983887,
-                -6.408203125
+                22.524316787719727,
+                8.242246627807617,
+                -3.041208267211914
             ],
             "min" : [
-                -24.378576278686523,
-                -31.80636978149414,
-                -59.655181884765625
+                -26.8414306640625,
+                -34.40001678466797,
+                -62.57704162597656
             ],
             "type" : "VEC3"
         },

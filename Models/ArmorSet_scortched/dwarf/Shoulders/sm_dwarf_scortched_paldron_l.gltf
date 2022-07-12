@@ -21,7 +21,7 @@
     "nodes" : [
         {
             "mesh" : 0,
-            "name" : "sm_dwarf_scortched_paldron_l",
+            "name" : "sm_dwarf_skortched_paldron_l",
             "rotation" : [
                 0.7071068286895752,
                 0,
@@ -42,7 +42,7 @@
     ],
     "meshes" : [
         {
-            "name" : "Mesh.015",
+            "name" : "Mesh.031",
             "primitives" : [
                 {
                     "attributes" : {
@@ -72,14 +72,14 @@
             "componentType" : 5126,
             "count" : 3536,
             "max" : [
-                27.166261672973633,
-                16.239810943603516,
-                -3.105299234390259
+                25.092641830444336,
+                10.691106796264648,
+                -3.8190865516662598
             ],
             "min" : [
-                -20.30994415283203,
-                -51.62147521972656,
-                -60.102176666259766
+                -23.554649353027344,
+                -58.84409713745117,
+                -58.97492218017578
             ],
             "type" : "VEC3"
         },
@@ -102,13 +102,13 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 26059,
+            "byteLength" : 26034,
             "byteOffset" : 0
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 26060,
+            "byteLength" : 26036,
             "uri" : "sm_dwarf_scortched_paldron_l.bin"
         }
     ]

@@ -1,0 +1,125 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.8.19",
+        "version" : "2.0"
+    },
+    "extensionsUsed" : [
+        "KHR_draco_mesh_compression"
+    ],
+    "extensionsRequired" : [
+        "KHR_draco_mesh_compression"
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "sm_rock_03",
+            "scale" : [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ],
+            "translation" : [
+                -2.77990460395813,
+                0.04497799277305603,
+                2.594651937484741
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "rock.002",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.9506579041481018,
+                    0.020517785102128983,
+                    0.7274245023727417,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5527864098548889
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Mesh.017",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 0,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1,
+                                "TEXCOORD_0" : 2
+                            }
+                        }
+                    },
+                    "indices" : 3,
+                    "material" : 0,
+                    "mode" : 4
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "componentType" : 5126,
+            "count" : 560,
+            "max" : [
+                139.47535705566406,
+                31.854690551757812,
+                132.83990478515625
+            ],
+            "min" : [
+                -139.4753875732422,
+                -31.854690551757812,
+                -132.8399200439453
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 560,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 560,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5123,
+            "count" : 2628,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 5432,
+            "byteOffset" : 0
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 5432,
+            "uri" : "sm_rock_03.bin"
+        }
+    ]
+}

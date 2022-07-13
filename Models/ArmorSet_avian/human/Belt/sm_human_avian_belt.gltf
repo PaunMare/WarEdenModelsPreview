@@ -1,0 +1,136 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.8.19",
+        "version" : "2.0"
+    },
+    "extensionsUsed" : [
+        "KHR_draco_mesh_compression"
+    ],
+    "extensionsRequired" : [
+        "KHR_draco_mesh_compression"
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "sm_human_avian_belt",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Belt",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0
+                },
+                "metallicFactor" : 0
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Mesh.013",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 0,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1,
+                                "TEXCOORD_0" : 2
+                            }
+                        }
+                    },
+                    "indices" : 3,
+                    "material" : 0,
+                    "mode" : 4
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "t_human_avian_belt",
+            "uri" : "t_human_avian_belt.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "componentType" : 5126,
+            "count" : 830,
+            "max" : [
+                18.082380294799805,
+                12.510109901428223,
+                35.50434875488281
+            ],
+            "min" : [
+                -18.0823917388916,
+                -17.949661254882812,
+                -7.486930847167969
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 830,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 830,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5123,
+            "count" : 3774,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 6598,
+            "byteOffset" : 0
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 6600,
+            "uri" : "sm_human_avian_belt.bin"
+        }
+    ]
+}

@@ -1,0 +1,121 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.2.40",
+        "version" : "2.0"
+    },
+    "extensionsUsed" : [
+        "KHR_draco_mesh_compression"
+    ],
+    "extensionsRequired" : [
+        "KHR_draco_mesh_compression"
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "sm_dwarf_heodedna_paldron_r",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "t_armor_heodedna_paldron.001",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.5,
+                    0.5,
+                    0.5,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5527864098548889
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Mesh.017",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 0,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1,
+                                "TEXCOORD_0" : 2
+                            }
+                        }
+                    },
+                    "indices" : 3,
+                    "material" : 0,
+                    "mode" : 4
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "componentType" : 5126,
+            "count" : 8021,
+            "max" : [
+                22.053794860839844,
+                8.858238220214844,
+                -3.843353271484375
+            ],
+            "min" : [
+                -21.546545028686523,
+                -30.964019775390625,
+                -53.65098571777344
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 8021,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 8021,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5123,
+            "count" : 18366,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 56349,
+            "byteOffset" : 0
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 56352,
+            "uri" : "sm_dwarf_heodedna_paldron_r.bin"
+        }
+    ]
+}

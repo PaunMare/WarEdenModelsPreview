@@ -1,0 +1,132 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.8.19",
+        "version" : "2.0"
+    },
+    "extensionsUsed" : [
+        "KHR_draco_mesh_compression"
+    ],
+    "extensionsRequired" : [
+        "KHR_draco_mesh_compression"
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "sm_floor_01",
+            "scale" : [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ],
+            "translation" : [
+                -1.0858149528503418,
+                -0.7076318264007568,
+                0.7532592415809631
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "floor",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.5,
+                    0.5,
+                    0.5,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5527864098548889
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Mesh.013",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2,
+                        "TEXCOORD_1" : 3
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 0,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1,
+                                "TEXCOORD_0" : 2,
+                                "TEXCOORD_1" : 3
+                            }
+                        }
+                    },
+                    "indices" : 4,
+                    "material" : 0,
+                    "mode" : 4
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "componentType" : 5126,
+            "count" : 3112,
+            "max" : [
+                431.660888671875,
+                105.38748168945312,
+                325.0799560546875
+            ],
+            "min" : [
+                -431.660888671875,
+                -105.3874740600586,
+                -325.0799560546875
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 3112,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 3112,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 3112,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5123,
+            "count" : 12444,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 28820,
+            "byteOffset" : 0
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 28820,
+            "uri" : "sm_floor_01.bin"
+        }
+    ]
+}

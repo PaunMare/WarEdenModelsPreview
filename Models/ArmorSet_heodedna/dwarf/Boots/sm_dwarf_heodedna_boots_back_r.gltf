@@ -1,0 +1,121 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.2.40",
+        "version" : "2.0"
+    },
+    "extensionsUsed" : [
+        "KHR_draco_mesh_compression"
+    ],
+    "extensionsRequired" : [
+        "KHR_draco_mesh_compression"
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "sm_dwarf_heodedna_boots_back_r",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "t_armor_heodedna_boots.001",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.5,
+                    0.5,
+                    0.5,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5527864098548889
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Mesh.034",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 0,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1,
+                                "TEXCOORD_0" : 2
+                            }
+                        }
+                    },
+                    "indices" : 3,
+                    "material" : 0,
+                    "mode" : 4
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "componentType" : 5126,
+            "count" : 544,
+            "max" : [
+                11.839935302734375,
+                10.302533149719238,
+                12.041838645935059
+            ],
+            "min" : [
+                -11.745635032653809,
+                -20.14007568359375,
+                -16.79058265686035
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 544,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 544,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5123,
+            "count" : 2892,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 4520,
+            "byteOffset" : 0
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 4520,
+            "uri" : "sm_dwarf_heodedna_boots_back_r.bin"
+        }
+    ]
+}

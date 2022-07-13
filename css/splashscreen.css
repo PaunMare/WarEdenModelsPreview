@@ -1,0 +1,70 @@
+.splash{
+    position: relative;
+}
+
+#splash-background{
+    width: 100%;
+    height: auto;
+}
+
+#splash-info{
+    display: block;
+    width: 500px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+}
+
+#splash-logo{
+    width: 400px;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+#splash-text{
+    text-align: center;
+    font-size: 25px;
+}
+
+#splash-buttons{
+    padding-top: 250px;
+    justify-content: space-around;
+    display: flex;
+}
+
+#splash-buttons a img{ 
+    width: 200px;
+    height: auto;
+}
+
+#splash-icons{
+    padding-top: 50px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+#splash-icons a{
+    color: unset;
+}
+
+#splash-icons a .splashIcon{
+    font-size: 50px;
+}
+
+@media (max-width: 1000px){
+    #splash-logo{
+        padding-top: 50px;
+        width: 300px;
+    }
+    #splash-buttons{
+        padding-top: 50px;
+    }
+    #splash-icons{
+        padding-top: 20px;
+    }
+}

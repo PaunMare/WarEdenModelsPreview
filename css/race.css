@@ -17,9 +17,70 @@
 
 #race-buttons img{
     width: 150px;
-    height: 150px;
+    height: auto;
 }
 
-#race-cards li{
+#race-cards li img{
     width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+@media (max-width: 1100px)
+and (orientation: landscape) {
+    #race-buttons{
+        width: 400px;
+    }
+    #race-buttons img{
+        width: 130px;
+        height: auto;
+    }
+}
+
+@media (max-width: 900px)
+and (orientation: landscape) {
+    #race-buttons img{
+        width: 90px;
+        height: auto;
+    }
+}
+
+@media (max-width: 600px)
+and (orientation: landscape) {
+    #race-buttons img{
+        width: 60px;
+        height: auto;
+    }
+}
+
+@media (max-width: 1200px)
+and (orientation: portrait) {
+
+    #race-buttons img{
+        width: 120px;
+        height: auto;
+    }
+}
+
+@media (max-width: 900px)
+and (orientation: portrait) {
+    #race-buttons{
+        width: 90%;
+    }
+    #race-buttons img{
+        width: 70px;
+        height: auto;
+    }
+}
+
+@media (max-width: 600px)
+and (orientation: portrait) {
+    #race-buttons{
+        width: 90%;
+    }
+    #race-buttons img{
+        width: 50px;
+        height: auto;
+    }
 }

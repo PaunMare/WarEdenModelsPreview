@@ -1,6 +1,6 @@
 {
     "asset" : {
-        "generator" : "Khronos glTF Blender I/O v1.8.19",
+        "generator" : "Khronos glTF Blender I/O v3.2.40",
         "version" : "2.0"
     },
     "extensionsUsed" : [
@@ -29,16 +29,16 @@
                 0.7071067094802856
             ],
             "scale" : [
-                1.0099999904632568,
-                1.0099999904632568,
-                1.0099999904632568
+                1.0299999713897705,
+                1.0299999713897705,
+                1
             ]
         }
     ],
     "materials" : [
         {
             "doubleSided" : true,
-            "name" : "lambert3.001",
+            "name" : "lambert4.001",
             "pbrMetallicRoughness" : {
                 "metallicFactor" : 0,
                 "roughnessFactor" : 0.858578622341156
@@ -47,7 +47,7 @@
     ],
     "meshes" : [
         {
-            "name" : "Mesh.041",
+            "name" : "Mesh.054",
             "primitives" : [
                 {
                     "attributes" : {
@@ -77,14 +77,14 @@
             "componentType" : 5126,
             "count" : 1656,
             "max" : [
-                10.147207260131836,
+                10.988009452819824,
                 9.819409370422363,
                 4.556388854980469
             ],
             "min" : [
-                -11.497794151306152,
+                -12.289190292358398,
                 -21.27566909790039,
-                -38.675804138183594
+                -36.05801773071289
             ],
             "type" : "VEC3"
         },
@@ -107,13 +107,13 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 13795,
+            "byteLength" : 13859,
             "byteOffset" : 0
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 13796,
+            "byteLength" : 13860,
             "uri" : "sm_human_scortched_gauntlet_l.bin"
         }
     ]

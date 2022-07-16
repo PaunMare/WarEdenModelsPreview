@@ -7,10 +7,10 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <meta name="viewport" content="minimal-ui, width=device-width, initial-scale=1, user-scalable=no">
     <title>WarEden</title>
-  <script type="module" crossorigin src="../assets/nested.3e33f455.js"></script>
+  <script type="module" crossorigin src="../assets/nested.101d3931.js"></script>
   <link rel="modulepreload" href="../assets/splide.esm.cd103580.js">
-  <link rel="stylesheet" href="../assets/splide.esm.2c863bc7.css">
-  <link rel="stylesheet" href="../assets/nested.44fac448.css">
+  <link rel="stylesheet" href="../assets/splide.esm.0dbe4198.css">
+  <link rel="stylesheet" href="../assets/nested.ba3f4945.css">
 </head>
 
 <body>
@@ -49,11 +49,11 @@
                         <img id="helmetImg">
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                        <button class="dropdown-item helmet" id="avianHelmet" type="button">Eagle Helmet</button>
-                        <button class="dropdown-item helmet" id="scortchedHelmet" type="button">Scorched Helmet</button>
-                        <button class="dropdown-item helmet" id="dhodinHelmet" type="button">Dhodin Helmet</button>
-                        <button class="dropdown-item helmet" id="voidHelmet" type="button">Void Helmet</button>
-                        <button class="dropdown-item helmet" id="heodednaHelmet" type="button">Heodedna Helmet</button>
+                        <button class="dropdown-item helmet first-dropdown" id="avianHelmet" type="button">Avian Helmet <img id="avian-helmet" class="dropdownIcon"></button>
+                        <button class="dropdown-item helmet" id="scortchedHelmet" type="button">Scorched Helmet <img id="scortched-helmet" class="dropdownIcon"></button>
+                        <button class="dropdown-item helmet" id="dhodinHelmet" type="button">Dhodin Helmet <img id="dhodin-helmet" class="dropdownIcon"></button>
+                        <button class="dropdown-item helmet" id="voidHelmet" type="button">Void Helmet <img id="void-helmet" class="dropdownIcon"></button>
+                        <button class="dropdown-item helmet" id="heodednaHelmet" type="button">Heodedna Helmet <img id="heodedna-helmet" class="dropdownIcon"></button>
                         <button class="dropdown-item helmet" id="unequipHelmet" type="button">Unequip</button>
                     </div>
                 </div>
@@ -63,15 +63,15 @@
                         <img id="shoulderImg">
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                        <button class="dropdown-item shoulders" id="avianShoulders" type="button">Eagle
-                            Shoulders</button>
+                        <button class="dropdown-item shoulders first-dropdown" id="avianShoulders" type="button">Avian
+                            Shoulders <img id="avian-shoulder" class="dropdownIcon"></button>
                         <button class="dropdown-item shoulders" id="scortchedShoulders" type="button">Scorced
-                            Shoulders</button>
+                            Shoulders <img id="scortched-shoulder" class="dropdownIcon"></button>
                         <button class="dropdown-item shoulders" id="dhodinShoulders" type="button">Dhodin
-                            Shoulders</button>
-                        <button class="dropdown-item shoulders" id="voidShoulders" type="button">Void Shoulders</button>
+                            Shoulders <img id="dhodin-shoulder" class="dropdownIcon"></button>
+                        <button class="dropdown-item shoulders" id="voidShoulders" type="button">Void Shoulders <img id="void-shoulder" class="dropdownIcon"></button>
                         <button class="dropdown-item shoulders" id="heodednaShoulders" type="button">Heodedna
-                            Shoulders</button>
+                            Shoulders <img id="heodedna-shoulder" class="dropdownIcon"></button>
                         <button class="dropdown-item shoulders" id="unequipShoulders" type="button">Unequip</button>
                     </div>
                 </div>
@@ -81,11 +81,11 @@
                         <img id="chestImg">
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                        <button class="dropdown-item chest" id="avianChest" type="button">Eagle Chest</button>
-                        <button class="dropdown-item chest" id="scortchedChest" type="button">Scorched Chest</button>
-                        <button class="dropdown-item chest" id="dhodinChest" type="button">Dhodin Chest</button>
-                        <button class="dropdown-item chest" id="voidChest" type="button">Void Chest</button>
-                        <button class="dropdown-item chest" id="heodednaChest" type="button">Heodedna Chest</button>
+                        <button class="dropdown-item chest first-dropdown" id="avianChest" type="button">Avian Chest <img id="avian-chest" class="dropdownIcon"></button>
+                        <button class="dropdown-item chest" id="scortchedChest" type="button">Scorched Chest <img id="scortched-chest" class="dropdownIcon"></button>
+                        <button class="dropdown-item chest" id="dhodinChest" type="button">Dhodin Chest <img id="dhodin-chest" class="dropdownIcon"></button>
+                        <button class="dropdown-item chest" id="voidChest" type="button">Void Chest <img id="void-chest" class="dropdownIcon"></button>
+                        <button class="dropdown-item chest" id="heodednaChest" type="button">Heodedna Chest <img id="heodedna-chest" class="dropdownIcon"></button>
                         <button class="dropdown-item chest" id="unequipChest" type="button">Unequip</button>
                     </div>
                 </div>
@@ -95,13 +95,13 @@
                         <img id="forearmImg">
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                        <button class="dropdown-item forearms" id="avianForearm" type="button">Eagle Forearm</button>
+                        <button class="dropdown-item forearms first-dropdown" id="avianForearm" type="button">Avian Forearm <img id="avian-forearm" class="dropdownIcon"></button>
                         <button class="dropdown-item forearms" id="scortchedForearm" type="button">Scorched
-                            Forearm</button>
-                        <button class="dropdown-item forearms" id="dhodinForearm" type="button">Dhodin Forearm</button>
-                        <button class="dropdown-item forearms" id="voidForearm" type="button">Void Forearm</button>
+                            Forearm <img id="scortched-forearm" class="dropdownIcon"></button>
+                        <button class="dropdown-item forearms" id="dhodinForearm" type="button">Dhodin Forearm <img id="dhodin-forearm" class="dropdownIcon"></button>
+                        <button class="dropdown-item forearms" id="voidForearm" type="button">Void Forearm <img id="void-forearm" class="dropdownIcon"></button>
                         <button class="dropdown-item forearms" id="heodednaForearm" type="button">Heodedna
-                            Forearm</button>
+                            Forearm <img id="heodedna-forearm" class="dropdownIcon"></button>
                         <button class="dropdown-item forearms" id="unequipForearm" type="button">Unequip</button>
                     </div>
                 </div>
@@ -114,11 +114,11 @@
                         <img id="pantsImg">
                     </button>
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu2">
-                        <button class="dropdown-item pants" id="avianPants" type="button">Eagle Pants</button>
-                        <button class="dropdown-item pants" id="scortchedPants" type="button">Scorched Pants</button>
-                        <button class="dropdown-item pants" id="dhodinPants" type="button">Dhodin Pants</button>
-                        <button class="dropdown-item pants" id="voidPants" type="button">Void Pants</button>
-                        <button class="dropdown-item pants" id="heodednaPants" type="button">Heodedna Pants</button>
+                        <button class="dropdown-item pants first-dropdown" id="avianPants" type="button">Avian Pants <img id="avian-pants" class="dropdownIcon"></button>
+                        <button class="dropdown-item pants" id="scortchedPants" type="button">Scorched Pants <img id="scortched-pants" class="dropdownIcon"></button>
+                        <button class="dropdown-item pants" id="dhodinPants" type="button">Dhodin Pants <img id="dhodin-pants" class="dropdownIcon"></button>
+                        <button class="dropdown-item pants" id="voidPants" type="button">Void Pants <img id="void-pants" class="dropdownIcon"></button>
+                        <button class="dropdown-item pants" id="heodednaPants" type="button">Heodedna Pants <img id="heodedna-pants" class="dropdownIcon"></button>
                         <button class="dropdown-item pants" id="unequipPants" type="button">Unequip</button>
                     </div>
                 </div>
@@ -128,13 +128,13 @@
                         <img id="hipsImg">
                     </button>
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu2">
-                        <button class="dropdown-item tassets" id="avianTassets" type="button">Eagle Tassets</button>
+                        <button class="dropdown-item tassets first-dropdown" id="avianTassets" type="button">Avian Tassets <img id="avian-tasset" class="dropdownIcon"></button>
                         <button class="dropdown-item tassets" id="scortchedTassets" type="button">Scorched
-                            Tassets</button>
-                        <button class="dropdown-item tassets" id="dhodinTassets" type="button">Dhodin Tassets</button>
-                        <button class="dropdown-item tassets" id="voidTassets" type="button">Void Tassets</button>
+                            Tassets <img id="scortched-tasset" class="dropdownIcon"></button>
+                        <button class="dropdown-item tassets" id="dhodinTassets" type="button">Dhodin Tassets <img id="dhodin-tasset" class="dropdownIcon"></button>
+                        <button class="dropdown-item tassets" id="voidTassets" type="button">Void Tassets <img id="void-tasset" class="dropdownIcon"></button>
                         <button class="dropdown-item tassets" id="heodednaTassets" type="button">Heodedna
-                            Tassets</button>
+                            Tassets <img id="heodedna-tasset" class="dropdownIcon"></button>
                         <button class="dropdown-item tassets" id="unequipTassets" type="button">Unequip</button>
                     </div>
                 </div>
@@ -144,11 +144,11 @@
                         <img id="beltImg">
                     </button>
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu2">
-                        <button class="dropdown-item belt" id="avianBelt" type="button">Eagle Belt</button>
-                        <button class="dropdown-item belt" id="scortchedBelt" type="button">Scorched Belt</button>
-                        <button class="dropdown-item belt" id="dhodinBelt" type="button">Dhodin Belt</button>
-                        <button class="dropdown-item belt" id="voidBelt" type="button">Void Belt</button>
-                        <button class="dropdown-item belt" id="heodednaBelt" type="button">Heodedna Belt</button>
+                        <button class="dropdown-item belt first-dropdown" id="avianBelt" type="button">Avian Belt <img id="avian-belt" class="dropdownIcon"></button>
+                        <button class="dropdown-item belt" id="scortchedBelt" type="button">Scorched Belt <img id="scortched-belt" class="dropdownIcon"></button>
+                        <button class="dropdown-item belt" id="dhodinBelt" type="button">Dhodin Belt <img id="dhodin-belt" class="dropdownIcon"></button>
+                        <button class="dropdown-item belt" id="voidBelt" type="button">Void Belt <img id="void-belt" class="dropdownIcon"></button>
+                        <button class="dropdown-item belt" id="heodednaBelt" type="button">Heodedna Belt <img id="heodedna-belt" class="dropdownIcon"></button>
                         <button class="dropdown-item belt" id="unequipBelt" type="button">Unequip</button>
                     </div>
                 </div>
@@ -159,11 +159,11 @@
                         <img id="bootsImg">
                     </button>
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu2">
-                        <button class="dropdown-item boots" id="avianBoots" type="button">Eagle Boots</button>
-                        <button class="dropdown-item boots" id="scortchedBoots" type="button">Scorched Boots</button>
-                        <button class="dropdown-item boots" id="dhodinBoots" type="button">Dhodin Boots</button>
-                        <button class="dropdown-item boots" id="voidBoots" type="button">Void Boots</button>
-                        <button class="dropdown-item boots" id="heodednaBoots" type="button">Heodedna Boots</button>
+                        <button class="dropdown-item boots first-dropdown" id="avianBoots" type="button">Eagle Boots <img id="avian-boots" class="dropdownIcon"></button>
+                        <button class="dropdown-item boots" id="scortchedBoots" type="button">Scorched Boots <img id="scortched-boots" class="dropdownIcon"></button>
+                        <button class="dropdown-item boots" id="dhodinBoots" type="button">Dhodin Boots <img id="dhodin-boots" class="dropdownIcon"></button>
+                        <button class="dropdown-item boots" id="voidBoots" type="button">Void Boots <img id="void-boots" class="dropdownIcon"></button>
+                        <button class="dropdown-item boots" id="heodednaBoots" type="button">Heodedna Boots <img id="heodedna-boots" class="dropdownIcon"></button>
                         <button class="dropdown-item boots" id="unequipBoots" type="button">Unequip</button>
                     </div>
                 </div>
@@ -175,16 +175,16 @@
                     <img id="swordImg">
                 </button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                    <button class="dropdown-item sword" id="sword69" type="button">Sword 1</button>
-                    <button class="dropdown-item sword" id="sword77" type="button">Sword 2</button>
-                    <button class="dropdown-item sword" id="sword93" type="button">Sword 3</button>
-                    <button class="dropdown-item sword" id="sword171" type="button">Sword 4</button>
-                    <button class="dropdown-item sword" id="sword25" type="button">Sword 5</button>
-                    <button class="dropdown-item sword" id="sword17" type="button">Sword 6</button>
-                    <button class="dropdown-item sword" id="sword73b" type="button">Sword 7</button>
-                    <button class="dropdown-item sword" id="sword66" type="button">Sword 8</button>
-                    <button class="dropdown-item sword" id="sword37" type="button">Sword 9</button>
-                    <button class="dropdown-item sword" id="sword181" type="button">Sword 10</button>
+                    <button class="dropdown-item sword first-dropdown" id="sword69" type="button">Sword 1 <img class="dropdownIcon"></button>
+                    <button class="dropdown-item sword" id="sword77" type="button">Sword 2 <img class="dropdownIcon"></button>
+                    <button class="dropdown-item sword" id="sword93" type="button">Sword 3 <img class="dropdownIcon"></button>
+                    <button class="dropdown-item sword" id="sword171" type="button">Sword 4 <img class="dropdownIcon"></button>
+                    <button class="dropdown-item sword" id="sword25" type="button">Sword 5 <img class="dropdownIcon"></button>
+                    <button class="dropdown-item sword" id="sword17" type="button">Sword 6 <img class="dropdownIcon"></button>
+                    <button class="dropdown-item sword" id="sword73b" type="button">Sword 7 <img class="dropdownIcon"></button>
+                    <button class="dropdown-item sword" id="sword66" type="button">Sword 8 <img class="dropdownIcon"></button>
+                    <button class="dropdown-item sword" id="sword37" type="button">Sword 9 <img class="dropdownIcon"></button>
+                    <button class="dropdown-item sword" id="sword181" type="button">Sword 10 <img class="dropdownIcon"></button>
                     <button class="dropdown-item sword" id="swordunequip" type="button">Unequip</button>
                 </div>
             </div>

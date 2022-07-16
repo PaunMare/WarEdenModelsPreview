@@ -34,7 +34,7 @@
                 0,
                 0.12674884498119354,
                 0,
-                0.9919349551200867
+                0.9919348359107971
             ],
             "scale" : [
                 0.009999999776482582,
@@ -155,62 +155,46 @@
             ],
             "translation" : [
                 -1.087923526763916,
-                -0.7437462210655212,
+                -0.7437461614608765,
                 0.75225830078125
             ]
         }
     ],
     "materials" : [
         {
-            "alphaMode" : "BLEND",
             "doubleSided" : true,
-            "name" : "03 - Default.002",
+            "name" : "LISCE",
             "pbrMetallicRoughness" : {
                 "baseColorTexture" : {
                     "index" : 0
                 },
-                "metallicFactor" : 0,
-                "roughnessFactor" : 0.5527864098548889
+                "metallicFactor" : 0
             }
         },
         {
             "doubleSided" : true,
-            "name" : "Material #71.002",
+            "name" : "KAMEN",
             "pbrMetallicRoughness" : {
                 "baseColorTexture" : {
                     "index" : 1
                 },
-                "metallicFactor" : 0,
-                "roughnessFactor" : 0.5527864098548889
+                "metallicFactor" : 0
             }
         },
         {
-            "alphaMode" : "BLEND",
             "doubleSided" : true,
-            "name" : "19 - Default.002",
+            "name" : "POD",
             "pbrMetallicRoughness" : {
                 "baseColorTexture" : {
                     "index" : 2
                 },
-                "metallicFactor" : 0,
-                "roughnessFactor" : 0.5527864098548889
-            }
-        },
-        {
-            "doubleSided" : true,
-            "name" : "Material #105.002",
-            "pbrMetallicRoughness" : {
-                "baseColorTexture" : {
-                    "index" : 3
-                },
-                "metallicFactor" : 0,
-                "roughnessFactor" : 0.5527864098548889
+                "metallicFactor" : 0
             }
         }
     ],
     "meshes" : [
         {
-            "name" : "Mesh.018",
+            "name" : "Mesh.028",
             "primitives" : [
                 {
                     "attributes" : {
@@ -235,7 +219,7 @@
             ]
         },
         {
-            "name" : "Mesh.019",
+            "name" : "Mesh.029",
             "primitives" : [
                 {
                     "attributes" : {
@@ -260,7 +244,7 @@
             ]
         },
         {
-            "name" : "Mesh.020",
+            "name" : "Mesh.030",
             "primitives" : [
                 {
                     "attributes" : {
@@ -279,13 +263,13 @@
                         }
                     },
                     "indices" : 11,
-                    "material" : 2,
+                    "material" : 0,
                     "mode" : 4
                 }
             ]
         },
         {
-            "name" : "Mesh.021",
+            "name" : "Mesh.031",
             "primitives" : [
                 {
                     "attributes" : {
@@ -304,13 +288,13 @@
                         }
                     },
                     "indices" : 15,
-                    "material" : 2,
+                    "material" : 0,
                     "mode" : 4
                 }
             ]
         },
         {
-            "name" : "Mesh.022",
+            "name" : "Mesh.032",
             "primitives" : [
                 {
                     "attributes" : {
@@ -329,13 +313,13 @@
                         }
                     },
                     "indices" : 19,
-                    "material" : 2,
+                    "material" : 0,
                     "mode" : 4
                 }
             ]
         },
         {
-            "name" : "Mesh.023",
+            "name" : "Mesh.033",
             "primitives" : [
                 {
                     "attributes" : {
@@ -354,13 +338,13 @@
                         }
                     },
                     "indices" : 23,
-                    "material" : 2,
+                    "material" : 0,
                     "mode" : 4
                 }
             ]
         },
         {
-            "name" : "Mesh.024",
+            "name" : "Mesh.034",
             "primitives" : [
                 {
                     "attributes" : {
@@ -379,13 +363,13 @@
                         }
                     },
                     "indices" : 27,
-                    "material" : 2,
+                    "material" : 0,
                     "mode" : 4
                 }
             ]
         },
         {
-            "name" : "Mesh.025",
+            "name" : "Mesh.035",
             "primitives" : [
                 {
                     "attributes" : {
@@ -404,13 +388,13 @@
                         }
                     },
                     "indices" : 27,
-                    "material" : 2,
+                    "material" : 0,
                     "mode" : 4
                 }
             ]
         },
         {
-            "name" : "Mesh.026",
+            "name" : "Mesh.036",
             "primitives" : [
                 {
                     "attributes" : {
@@ -431,7 +415,7 @@
                         }
                     },
                     "indices" : 35,
-                    "material" : 3,
+                    "material" : 2,
                     "mode" : 4
                 }
             ]
@@ -449,27 +433,18 @@
         {
             "sampler" : 0,
             "source" : 2
-        },
-        {
-            "sampler" : 0,
-            "source" : 3
         }
     ],
     "images" : [
         {
             "mimeType" : "image/png",
-            "name" : "t_treetest_01",
-            "uri" : "t_treetest_01.png"
+            "name" : "t_treetest_02",
+            "uri" : "t_treetest_02.png"
         },
         {
             "mimeType" : "image/png",
             "name" : "m_cliff_rocks",
             "uri" : "m_cliff_rocks.png"
-        },
-        {
-            "mimeType" : "image/png",
-            "name" : "t_treetest_02",
-            "uri" : "t_treetest_02.png"
         },
         {
             "mimeType" : "image/png",
@@ -483,8 +458,8 @@
             "count" : 326,
             "max" : [
                 2094.390625,
-                479.4515380859375,
-                403.7674865722656
+                479.451416015625,
+                403.76531982421875
             ],
             "min" : [
                 1582.7860107421875,
@@ -512,9 +487,9 @@
             "componentType" : 5126,
             "count" : 3271,
             "max" : [
-                206.3067169189453,
-                38.18394088745117,
-                176.71893310546875
+                206.31524658203125,
+                38.202537536621094,
+                176.71896362304688
             ],
             "min" : [
                 -347.848876953125,
@@ -542,9 +517,9 @@
             "componentType" : 5126,
             "count" : 1540,
             "max" : [
-                51.873008728027344,
-                66.88589477539062,
-                -196.18585205078125
+                51.87298583984375,
+                66.87742614746094,
+                -196.18133544921875
             ],
             "min" : [
                 -538.3633422851562,
@@ -573,8 +548,8 @@
             "count" : 27522,
             "max" : [
                 366.24981689453125,
-                64.1890869140625,
-                14.946990966796875
+                64.18902587890625,
+                14.9442138671875
             ],
             "min" : [
                 -127.126220703125,
@@ -603,8 +578,8 @@
             "count" : 3800,
             "max" : [
                 3.7592086791992188,
-                28.0523681640625,
-                -162.7099151611328
+                28.053695678710938,
+                -162.71131896972656
             ],
             "min" : [
                 -59.85102844238281,
@@ -633,8 +608,8 @@
             "count" : 3620,
             "max" : [
                 110.23238372802734,
-                27.620134353637695,
-                -291.99560546875
+                27.62154769897461,
+                -291.99609375
             ],
             "min" : [
                 48.044403076171875,
@@ -662,9 +637,9 @@
             "componentType" : 5126,
             "count" : 926,
             "max" : [
-                -55.3861083984375,
+                -55.38479995727539,
                 48.976417541503906,
-                18.3116455078125
+                18.311317443847656
             ],
             "min" : [
                 -104.07611083984375,
@@ -692,9 +667,9 @@
             "componentType" : 5126,
             "count" : 926,
             "max" : [
-                -53.35545349121094,
+                -53.354305267333984,
                 38.24726104736328,
-                -113.63075256347656
+                -113.63105010986328
             ],
             "min" : [
                 -97.3692626953125,
@@ -715,11 +690,11 @@
         },
         {
             "componentType" : 5126,
-            "count" : 3112,
+            "count" : 3117,
             "max" : [
                 431.87176513671875,
-                108.99893188476562,
-                325.1800537109375
+                109.00875091552734,
+                325.185791015625
             ],
             "min" : [
                 -431.45001220703125,
@@ -730,17 +705,17 @@
         },
         {
             "componentType" : 5126,
-            "count" : 3112,
+            "count" : 3117,
             "type" : "VEC3"
         },
         {
             "componentType" : 5126,
-            "count" : 3112,
+            "count" : 3117,
             "type" : "VEC2"
         },
         {
             "componentType" : 5126,
-            "count" : 3112,
+            "count" : 3117,
             "type" : "VEC2"
         },
         {
@@ -752,48 +727,48 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 3050,
+            "byteLength" : 3064,
             "byteOffset" : 0
         },
         {
             "buffer" : 0,
-            "byteLength" : 28832,
-            "byteOffset" : 3052
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 12769,
-            "byteOffset" : 31884
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 149628,
-            "byteOffset" : 44656
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 26065,
-            "byteOffset" : 194284
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 24919,
-            "byteOffset" : 220352
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 6696,
-            "byteOffset" : 245272
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 6696,
-            "byteOffset" : 251968
-        },
-        {
-            "buffer" : 0,
             "byteLength" : 28823,
-            "byteOffset" : 258664
+            "byteOffset" : 3064
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 12235,
+            "byteOffset" : 31888
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 148355,
+            "byteOffset" : 44124
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 25606,
+            "byteOffset" : 192480
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 24434,
+            "byteOffset" : 218088
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 6569,
+            "byteOffset" : 242524
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 6570,
+            "byteOffset" : 249096
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 28736,
+            "byteOffset" : 255668
         }
     ],
     "samplers" : [
@@ -804,7 +779,7 @@
     ],
     "buffers" : [
         {
-            "byteLength" : 287488,
+            "byteLength" : 284404,
             "uri" : "scene_01.bin"
         }
     ]

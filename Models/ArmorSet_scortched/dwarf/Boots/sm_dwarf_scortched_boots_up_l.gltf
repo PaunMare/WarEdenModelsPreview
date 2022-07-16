@@ -33,7 +33,7 @@
     "materials" : [
         {
             "doubleSided" : true,
-            "name" : "resize:ArmorNoge2",
+            "name" : "resize:ArmorNoge2.001",
             "pbrMetallicRoughness" : {
                 "metallicFactor" : 0,
                 "roughnessFactor" : 0.5527864098548889
@@ -42,7 +42,7 @@
     ],
     "meshes" : [
         {
-            "name" : "Mesh.006",
+            "name" : "Mesh.051",
             "primitives" : [
                 {
                     "attributes" : {
@@ -72,13 +72,13 @@
             "componentType" : 5126,
             "count" : 1923,
             "max" : [
-                14.740962982177734,
+                14.853038787841797,
                 19.2635555267334,
                 9.36375617980957
             ],
             "min" : [
                 -17.806650161743164,
-                -16.122669219970703,
+                -16.193527221679688,
                 -28.011768341064453
             ],
             "type" : "VEC3"
@@ -102,13 +102,13 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 15913,
+            "byteLength" : 15923,
             "byteOffset" : 0
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 15916,
+            "byteLength" : 15924,
             "uri" : "sm_dwarf_scortched_boots_up_l.bin"
         }
     ]

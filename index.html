@@ -8,10 +8,10 @@
   <script src="https://kit.fontawesome.com/31934fcd04.js" crossorigin="anonymous"></script>
   <meta name="viewport" content="minimal-ui, width=device-width, initial-scale=1, user-scalable=no">
   <title>WarEden</title>
-  <script type="module" crossorigin src="./assets/main.91facb81.js"></script>
+  <script type="module" crossorigin src="./assets/main.4e193620.js"></script>
   <link rel="modulepreload" href="./assets/splide.esm.cd103580.js">
-  <link rel="stylesheet" href="./assets/splide.esm.2c863bc7.css">
-  <link rel="stylesheet" href="./assets/main.2ee75f13.css">
+  <link rel="stylesheet" href="./assets/splide.esm.0dbe4198.css">
+  <link rel="stylesheet" href="./assets/main.10db693a.css">
 </head>
 
 <body>
@@ -28,30 +28,38 @@
        <li><a href="./index.html">THE GAME</a></li>
        <li><a href="./nested/">MARKETPLACE</a></li>
        <li><a href="#">ROADMAP</a></li>
-       <li><a href="#">TOKENOMICS</a></li>
+       <li><a href="#">NFT & TOKENOMICS</a></li>
     </ul>
  </nav>
 
   <div class="splash">
-    <img id="splash-background" src="./assets/SplashScreen.e0f3c0be.png">
+    <img id="splash-background">
+    <div id="video-wrapper">
+      <video id="spash-video" src="./assets/Splash.a8984435.mp4" autoplay loop muted></video>
+    </div>
     <div id="splash-info">
       <img id="splash-logo" src="./assets/Logo.65be4d1f.png">
-      <p id="splash-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, accusantium!
-         Quo eligendi dolorum dolore consequatur suscipit id, aut non temporibus.</p>
+      <p id="splash-text">A MMORPG battleground where Eden is forged by War.</p>
       <div id="splash-buttons">
-        <a><img src="./assets/Hide.869183f8.png"></a>
-        <a><img src="./assets/Hide.869183f8.png"></a>
+        <a><img src="./assets/WhitePaper.57b051e6.png"></a>
+        <a><img src="./assets/Marketplace.e8922326.png"></a>
       </div>
       <div id="splash-icons">
         <a href="#"><i class="fa-brands fa-discord splashIcon"></i></a>
         <a href="#"><i class="fa-brands fa-telegram splashIcon"></i></a>
         <a href="#"><i class="fa-brands fa-instagram splashIcon"></i></a>
         <a href="#"><i class="fa-brands fa-twitter splashIcon"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin splashIcon"></i></a>
       </div>
     </div>
+    <img id="section-break" src="./assets/Line_Section.81818a32.png">
   </div>
 
-  <div class="about">
+  <div class="video-section">
+
+  </div>
+
+  <div id="about-section" class="about">
     <p id="about-heading">ABOUT WAREDEN</p>
     <img id="about-background" >
     <div class="about-parent">
@@ -131,22 +139,26 @@
       </div>
     </div>
   </div>
+
+  
   <div class="race">
     <p id="race-heading">CHOOSE YOUR RACE</p>
     <div id="race-buttons">
-      <button id="race-human"><img src="./assets/human.c6e10e83.png"></button>
-      <button id="race-dwarf"><img src="./assets/orc.e12b6359.png"></button>
-      <button id="race-elf"><img src="./assets/nelf.9b50727d.png"></button>
-      <button id="race-undead"><img src="./assets/undead.b7971dac.png"></button>
+      <button ><img class="raceIcon" id="race-Human"></button>
+      <button ><img class="raceIcon" id="race-Dwarf"></button>
+      <button ><img class="raceIcon" id="race-Enveni"></button>
+      <button ><img class="raceIcon" id="race-Drahar"></button>
+      <button ><img class="raceIcon" id="race-Yun"></button>
     </div>
     <div id="race-cards">
       <section class="splide" id="splide-race" aria-label="Splide Basic HTML Example">
         <div class="splide__track">
           <ul class="splide__list">
-            <li class="splide__slide"><img src="./assets/BannerEnveni.89b201dc.png"></li>
-            <li class="splide__slide"><img src="./assets/BannerDwarves.346a083b.png"></li>
-            <li class="splide__slide"><img src="./assets/BannerEnveni.89b201dc.png"></li>
-            <li class="splide__slide"><img src="./assets/BannerDwarves.346a083b.png"></li>
+            <li class="splide__slide"><img src="./assets/Humans.21b69c5d.png"></li>
+            <li class="splide__slide"><img src="./assets/Fireborn.d68ed994.png"></li>
+            <li class="splide__slide"><img src="./assets/Enveni.89b201dc.png"></li>
+            <li class="splide__slide"><img src="./assets/Drahar.34e4056d.png"></li>
+            <li class="splide__slide"><img src="./assets/Yun.fac10fdd.png"></li>
           </ul>
         </div>
       </section>
@@ -279,24 +291,93 @@
     </div>
   </div>
 
-  <div class="team"></div>
+  <div class="team">
+    <p class="team-heading first-heading">TEAM</p>
+    <img class="team-separator" src="./assets/Star.78f8004d.png">
+    <p id="sub-heading">WAREDEN IS LED BY THE MIRACLE DOJO, A GAME DEVELOPMENT COMPANY FOUNDED IN 2015.</p>
+    <div id="team-section">
+      <div id="team-md">
+        <img src="./assets/MD_Logo.789f6175.png">
+        <p><span>7</span> YEARS OF EXPERIENCE<br>
+          <span>5</span> DEVELOPED GAMES<br>
+          <span>15</span> PEOPLE<br>
+          <span>600K+</span> DOWNLOADS
+        </p>
+      </div>
+      <img class="mobile-separator">
+      <div id="team-core">
+        <div class="core-card">
+          <img class="core-img" src="./assets/Team_1.6d2c0cfb.png">
+          <p class="core-name">Uroš Mijaklović</p>
+          <p class="core-position">CEO</p>
+          <p class="core-description">Co-founder of Miracle Dojo, 7 years in gaming</p>
+        </div>
+        <div class="core-card">
+          <img class="core-img" src="./assets/Team_2.c3827e00.png">
+          <p class="core-name">Stefan Đorđević</p>
+          <p class="core-position">CTO</p>
+          <p class="core-description">Co-founder of Miracle Dojo, 7 years in gaming</p>
+        </div>
+        <div class="core-card">
+          <img class="core-img" src="./assets/Team_3.6a811af7.png">
+          <p class="core-name">Ivan Stijović</p>
+          <p class="core-position">COO</p>
+          <p class="core-description">Founder of DEX, web dev company of 25 people, 10 years in various businesses</p>
+        </div>
+      </div>
+      <img class="mobile-separator">
+      <div id="team-advisors">
+        <div id="advisor-core">
+          <div class="advisor-card">
+            <img class="advisor-img" src="./assets/Advisors_1.96c7a7d3.png">
+            <p class="advisor-name">Stevan Radak</p>
+            <p class="advisor-description">Investor, Acitve Shareholder</p>
+          </div>
+          <div class="advisor-card">
+            <img class="advisor-img" src="./assets/Advisors_2.d6b3549c.png">
+            <p class="advisor-name">Oltac Unsal</p>
+            <p class="advisor-description">WorldBank, Investor, Standford DAO</p>
+          </div>
+          <div class="advisor-card">
+            <img class="advisor-img" src="./assets/Advisors_3.be0e635c.png">
+            <p class="advisor-name">Leo Wong</p>
+            <p class="advisor-description">Enzac Research</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p class="team-heading second-heading">PARTNERS</p>
+    <img class="team-separator" src="./assets/Star.78f8004d.png">
+    <div id="partners-section">
+      <img class="partner-img" src="./assets/Partners_1.73f826f2.png">
+      <img class="partner-img" src="./assets/Partners_2.3ab080bf.png">
+      <img class="partner-img" src="./assets/Partners_3.88be6b06.png">
+      <img class="partner-img" src="./assets/Partners_4.fd43b35f.png">
+      <img class="partner-img" src="./assets/Partners_5.80fbff87.png">
+      <img class="partner-img" src="./assets/Partners_6.043fb1e4.png">
+      <img class="partner-img" src="./assets/Partners_7.32ad50b9.png">
+    </div>
+  </div>
 
   <footer>
+    <p id="footer-text">STAY CONNECTED</p>
+    <img id="footer-line" >
     <div class="social">
       <a href="#"><i class="fa-brands fa-discord splashIcon"></i></a>
         <a href="#"><i class="fa-brands fa-telegram splashIcon"></i></a>
-        <a href="#"><i class="fa-brands fa-instagram splashIcon"></i></a>
         <a href="#"><i class="fa-brands fa-twitter splashIcon"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram splashIcon"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin splashIcon"></i></a>
     </div>
 
-    <ul class="links">
+    <!-- <ul class="links">
       <li><a href="#">Home</a></li>
       <li><a href="#">Marketplace</a></li>
       <li><a href="#">Tokenomics</a></li>
-    </ul>
-
+    </ul> -->
+    <img id="footer-logo" src="./assets/Logo.65be4d1f.png">
     <p class="copyright">
-      © 2022 Miracle Dojo
+      © 2022 WAREDEN
     </p>
 
   </footer>

@@ -1,0 +1,18 @@
+.roadmap .accordion-button{
+    background-color: transparent;
+    box-shadow: none;
+    padding: 0;
+}
+
+.roadmap .accordion-button::after{
+    display: none;
+}
+
+.roadmap .accordion-button:focus{
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.roadmap .accordion-item{
+    border: unset;
+}

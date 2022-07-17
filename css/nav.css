@@ -146,6 +146,7 @@ nav{
   and (orientation: landscape) {
     nav{
       padding:0%;
+      height: 50px;
     }
 
     nav .logo{
@@ -168,7 +169,7 @@ nav{
     nav ul{
       padding-left: 0px;
       position: fixed;
-      top: 80px;
+      top: 50px;
       left: -100%;
       background-color: rgb(3, 29, 59);
       height: 100vh;

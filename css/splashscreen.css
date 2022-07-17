@@ -2,7 +2,7 @@
     position: relative;
 }
 
-#section-break{
+.section-break{
     position: absolute;
     bottom: -20px;
     left: 0%;
@@ -11,14 +11,14 @@
     height: auto;
 }
 
-#video-wrapper{
+#splash-wrapper{
     max-width: 100%;
     height: auto;
     margin: auto;
     display: block;
 }
 
-#video-wrapper video{
+#splash-wrapper video{
     height: auto;
     vertical-align: middle;
     width: 100%;

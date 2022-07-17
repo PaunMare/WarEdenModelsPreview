@@ -1,0 +1,42 @@
+.video-section{
+    position: relative;
+}
+
+#video-wrapper{
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+#video-wrapper video{
+    height: auto;
+    vertical-align: middle;
+    width: 100%;
+}
+
+#video-info{
+    display: block;
+    width: 450px;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    transform: translateX(-50%);
+    color: white;
+}
+
+#video-info #video-up-heading{
+
+    color: gold;
+    padding-bottom: 0px;
+    margin-bottom: -20px;
+}
+
+#video-info #video-heading{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+#video-info #video-subheading{
+    font-size: 25px;
+}

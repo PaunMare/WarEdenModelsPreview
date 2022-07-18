@@ -1,7 +1,30 @@
 .race{
-    background-image: url('../img/Race_Bg.png');
-    background-repeat: no-repeat;
-    padding-bottom: 100px;
+    background: url('../img/Bg_Race_1450.png') no-repeat;
+    background-position: right top;
+    background-attachment: local;
+    width: 100%;
+    height: 1450px;
+    background-size: cover;
+}
+
+#banner-human{
+    content: url('../img/Humans.png');
+}
+
+#banner-fireborn{
+    content: url('../img/Fireborn.png')
+}
+
+#banner-enveni{
+    content:url('../img/Enveni.png');
+}
+
+#banner-drahar{
+    content: url('../img/Drahar.png');
+}
+
+#banner-yun{
+    content: url('../img/Yun.png');
 }
 
 #race-heading{
@@ -77,9 +100,40 @@ and (orientation: landscape) {
 @media (max-width: 1200px)
 and (orientation: portrait) {
 
+    .race{
+        background-image: url('../img/ThunderUspravno.png');
+    }
+
+    #race-buttons{
+        margin: auto;
+        width: 60%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
     #race-buttons img{
-        width: 120px;
+        width: 140px;
         height: auto;
+    }
+
+    #banner-human{
+        content: url('../img/UspravnoBaneriHuman.png');
+    }
+    
+    #banner-fireborn{
+        content: url('../img/UspravnoBaneriFireborn.png')
+    }
+    
+    #banner-enveni{
+        content:url('../img/UspravnoBaneriEnveni.png');
+    }
+    
+    #banner-drahar{
+        content: url('../img/UspravnoBaneriDrahera.png');
+    }
+    
+    #banner-yun{
+        content: url('../img/UspravnoBaneriYun.png');
     }
 }
 
@@ -87,9 +141,10 @@ and (orientation: portrait) {
 and (orientation: portrait) {
     #race-buttons{
         width: 90%;
+        justify-content: center;
     }
     #race-buttons img{
-        width: 70px;
+        width: 100px;
         height: auto;
     }
 }
@@ -97,10 +152,10 @@ and (orientation: portrait) {
 @media (max-width: 600px)
 and (orientation: portrait) {
     #race-buttons{
-        width: 90%;
+        width: 70%;
     }
     #race-buttons img{
-        width: 50px;
+        width: 70px;
         height: auto;
     }
 }

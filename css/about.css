@@ -1,5 +1,10 @@
 .about {
     position: relative;
+    background: url('../img/Bg_About.png') no-repeat right;
+    background-attachment: local;
+    width: 100%;
+    height: 1000px;
+    background-size: cover;
 }
 
 .about #about-up-heading{
@@ -22,12 +27,6 @@
     position: absolute;
     top: 20%;
     width: 100%;
-}
-
-#about-background {
-    content: url('../img/SplashScreen.png');
-    width: 100%;
-    height: auto;
 }
 
 .row-left {
@@ -63,45 +62,48 @@
 }
 
 .wrapper .parent-tab .icon-container {
-    width: 35px;
-    height: 35px;
+    width: 100px;
+    height: 100px;
     margin-right: 20px;
 }
 
-.wrapper .parent-tab #tab-icon-1 {
-    background: url('../img/human.png');
-    background-size: cover;
-}
-
 .wrapper .parent-tab #tab-icon-2 {
-    background: url('../img/nelf.png');
+    background: url('../img/Icon_Batleground.png');
     background-size: cover;
 }
 
 .wrapper .parent-tab #tab-icon-3 {
-    background: url('../img/orc.png');
+    background: url('../img/Icon_Play.png');
     background-size: cover;
 }
 
 .wrapper .parent-tab #tab-icon-4 {
-    background: url('../img/undead.png');
+    background: url('../img/Icon_Tech.png');
     background-size: cover;
 }
 
-.wrapper .parent-tab #tab-icon-1:hover {
-    background: unset;
+.wrapper .parent-tab #tab-icon-5 {
+    background: url('../img/Icon_Immutable.png');
+    background-size: cover;
 }
-
 .wrapper .parent-tab #tab-icon-2:hover {
-    background: unset;
+    background: url('../img/Icon_Batleground_On.png');
+    background-size: cover;
 }
 
 .wrapper .parent-tab #tab-icon-3:hover {
-    background: unset;
+    background: url('../img/Icon_Play_On.png');
+    background-size: cover;
 }
 
 .wrapper .parent-tab #tab-icon-4:hover {
-    background: unset;
+    background: url('../img/Icon_Tech_On.png');
+    background-size: cover;
+}
+
+.wrapper .parent-tab #tab-icon-5:hover {
+    background: url('../img/Icon_Immutable_On.png');
+    background-size: cover;
 }
 
 .wrapper .parent-tab label :hover {
@@ -114,8 +116,9 @@
 
 .wrapper label span {
     color: #fff;
-    font-size: 23px;
+    font-size: 35px;
     font-weight: 500;
+    margin-top:20px;
 }
 
 .wrapper .parent-tab .content {
@@ -159,6 +162,19 @@ input[type="checkbox"] {
     display: block;
 }
 
+#about-wrapper{
+    max-width: 718px;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+#about-video{
+    height: auto;
+    vertical-align: middle;
+    width: 100%;
+}
+
 @media (max-width: 600px)
 and (orientation: portrait){
 
@@ -184,12 +200,6 @@ and (orientation: portrait){
         order: 1;
         width: 100%;
         padding-top: 30px;
-    }
-
-    #about-background {
-        content: url('../img/SplashScreenCopy.png');
-        width: 100%;
-        height: auto;
     }
 
     .wrapper{

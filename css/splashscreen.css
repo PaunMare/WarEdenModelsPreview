@@ -25,7 +25,7 @@
 }
 
 #splash-background{
-    content: url('../img/SplashScreen.png');
+    content: url('../img/SplashScreen/VoidSplasPolozen.png');
     width: 100%;
     height: auto;
     display: none;
@@ -87,7 +87,7 @@
     font-size: 35px;
 }
 
-@media (max-width: 1300px)
+@media (max-width: 1400px)
 and (orientation: landscape) {
     #splash-info{
         left: 75%;
@@ -138,6 +138,10 @@ and (orientation: landscape) {
     #splash-icons a .splashIcon{
         font-size: 30px;
     }
+
+    .section-break{
+        bottom: -7px;
+    }
 }
 
 @media (max-width: 920px)
@@ -146,13 +150,18 @@ and (orientation: landscape) {
         width: 300px;
         top: 8%;
     }
-    #video-wrapper{
+
+    #splash-background{
+        content: url('../img/SplashScreen/VoidSplashPolozen.png');
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    #splash-wrapper{
         display: none;
     }
 
-    #splash-background{
-        display: block;
-    }
     #splash-logo{
         padding-top: 30px;
         width: 150px;
@@ -182,7 +191,11 @@ and (orientation: landscape) {
     }
 
     #splash-icons a .splashIcon{
-        font-size: 35px;
+        font-size: 30px;
+    }
+
+    .section-break{
+        bottom: -5px;
     }
 }
 
@@ -218,38 +231,68 @@ and (orientation: portrait) {
 @media (max-width: 1000px)
 and (orientation: portrait) {
     #splash-info{
-        left: 75%;
-        width: 400px;
+        width: 90%;
+        left: 50%;
+        top: 10%;
     }
     #splash-logo{
         width: 200px;
         padding-bottom: 20px;
     }
 
-    #splash-buttons{
-        padding-top: 30px;
-    }
-
-    #splash-buttons a img{ 
-        width: 150px;
+    #splash-background{
+        content: url('../img/SplashScreen/VoidSplashTablet.png');
+        display: block;
+        width: 100%;
         height: auto;
     }
 
-    #splash-icons{
+    #splash-wrapper{
+        display: none;
+    }
+
+    #splash-info{
+        width: 90%;
+        left: 50%;
+        top: 10%;
+    }
+    #splash-logo{
         padding-top: 30px;
+        width: 500px;
+        padding-bottom: 50px;
+    }
+    #splash-text{
+        font-size: 30px;
+    }
+    #splash-buttons{
+        padding-top: 100px;
+        flex-direction: column;
+        justify-content: unset;
+    }
+
+    #splash-buttons a{
+        display: block;
+        margin: auto;
+        width: 400px;
+        padding-bottom: 30px;
+    }
+
+    #splash-buttons a img{
+        width: 400px;
+    }
+
+    #splash-icons{
+        padding-top: 70%;
+        width: 500px;
     }
 
     #splash-icons a .splashIcon{
-        font-size: 30px;
+        font-size: 60px;
     }
 }
 
 @media (max-width: 600px)
 and (orientation: portrait) {
-
-    #splash-background{
-        content: url('../img/SplashScreenCopy.png');
-    }
 
     #splash-info{
         width: 90%;
@@ -273,20 +316,45 @@ and (orientation: portrait) {
     #splash-buttons a{
         display: block;
         margin: auto;
-        width: 150px;
+        width: 200px;
         padding-bottom: 30px;
     }
 
     #splash-buttons a img{
-        width: 150px;
+        width: 200px;
     }
 
     #splash-icons{
-        padding-top: 20px;
+        padding-top: 65%;
+        width: 300px;
     }
 
     #splash-icons a .splashIcon{
         font-size: 40px;
+    }
+
+    .section-break{
+        bottom: -5px;
+    }
+}
+
+
+@media (max-width: 400px)
+and (max-height: 800px)
+and (orientation: portrait) {
+
+    #splash-icons{
+        padding-top: 180px;
+        width: 300px;
+    }
+}
+
+@media (max-width: 400px)
+and (max-height: 700px)
+and (orientation: portrait) {
+
+    #splash-icons{
+        padding-top: 130px;
     }
 }
 

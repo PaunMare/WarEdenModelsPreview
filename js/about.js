@@ -1,8 +1,7 @@
-let option0 = document.getElementById('option1');
-let option1 = document.getElementById('option2');
-let option2 = document.getElementById('option3');
-let option3 = document.getElementById('option4');
-let aboutSection = document.getElementById('about-section');
+let option0 = document.getElementById('option0');
+let option1 = document.getElementById('option1');
+let option2 = document.getElementById('option2');
+let option3 = document.getElementById('option3');
 
 var myCarousel = document.querySelector('#carouselExampleFade')
 var carousel = new bootstrap.Carousel(myCarousel);

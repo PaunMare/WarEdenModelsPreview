@@ -8,10 +8,10 @@
   <script src="https://kit.fontawesome.com/31934fcd04.js" crossorigin="anonymous"></script>
   <meta name="viewport" content="minimal-ui, width=device-width, initial-scale=1, user-scalable=no">
   <title>WarEden</title>
-  <script type="module" crossorigin src="./assets/main.25d9d189.js"></script>
+  <script type="module" crossorigin src="./assets/main.ebe3a597.js"></script>
   <link rel="modulepreload" href="./assets/splide.esm.cd103580.js">
   <link rel="stylesheet" href="./assets/splide.esm.92bd8ccd.css">
-  <link rel="stylesheet" href="./assets/main.cfb5f13c.css">
+  <link rel="stylesheet" href="./assets/main.8a5e286d.css">
 </head>
 
 <body>
@@ -24,7 +24,7 @@
     <i class="fas fa-bars"></i>
     </label>
     <ul>
-       <li id="ul-logo"><img src="/assets/Logo.65be4d1f.png"></li>
+       <li id="ul-logo"><img src="./assets/Logo.65be4d1f.png"></li>
        <li><a href="./index.html">THE GAME</a></li>
        <li><a href="./nested/">MARKETPLACE</a></li>
        <li><a href="#">ROADMAP</a></li>
@@ -35,14 +35,14 @@
   <div class="splash">
     <img id="splash-background">
     <div id="splash-wrapper">
-      <video id="spash-video" src="/assets/Test Composition 2.7ee4573b.mp4" autoplay loop muted></video>
+      <video id="spash-video" src="./assets/Test Composition 2.7ee4573b.mp4" autoplay loop muted></video>
     </div>
     <div id="splash-info">
-      <img id="splash-logo" src="/assets/Logo.65be4d1f.png">
+      <img id="splash-logo" src="./assets/Logo.65be4d1f.png">
       <p id="splash-text">A MMORPG battleground where Eden is forged by War.</p>
       <div id="splash-buttons">
-        <a><img src="/assets/WhitePaper.57b051e6.png"></a>
-        <a><img src="/assets/Marketplace.e8922326.png"></a>
+        <a><img src="./assets/WhitePaper.57b051e6.png"></a>
+        <a><img src="./assets/Marketplace.e8922326.png"></a>
       </div>
       <div id="splash-icons">
         <a href="#"><i class="fa-brands fa-discord splashIcon"></i></a>
@@ -52,23 +52,23 @@
         <a href="#"><i class="fa-brands fa-linkedin splashIcon"></i></a>
       </div>
     </div>
-    <img class="section-break" src="/assets/Line_Section.81818a32.png">
+    <img class="section-break" src="./assets/Line_Section.81818a32.png">
   </div>
 
   <div class="video-section">
     <img id="video-background">
     <div id="video-wrapper">
-      <video id="spash-video-landscape" src="/assets/New_Web_Humans_1.7ac6e84a.mp4" autoplay loop muted></video>
-      <video id="spash-video-portrait" src="/assets/Tree.40ad916b.mp4" autoplay loop muted></video>
+      <video id="spash-video-landscape" src="./assets/New_Web_Humans_1.7ac6e84a.mp4" autoplay loop muted></video>
+      <video id="spash-video-portrait" src="./assets/Tree.40ad916b.mp4" autoplay loop muted></video>
     </div>
     <div id="video-info">
-      <p id="video-up-heading">WELCOME CONQUEROR</p>
-      <p id="video-heading">THE GAME</p>
-      <p id="video-subheading">WarEden is an Epic Fantasy Play&Earn PC Game designed for competitive hardcore gamers that enjoy
+      <p class="upheading" id="video-up-heading">WELCOME CONQUEROR</p>
+      <p class="infoheading" id="video-heading">THE GAME</p>
+      <p class="subheading" id="video-subheading">WarEden is an Epic Fantasy Play&Earn PC Game designed for competitive hardcore gamers that enjoy
         playing skill-bassed MMORPG battlegrounds.
       </p>
     </div>
-    <img class="section-break" src="/assets/Line_Section.81818a32.png">
+    <img class="section-break" src="./assets/Line_Section.81818a32.png">
   </div>
 
   <div id="about-section" class="about">
@@ -77,25 +77,25 @@
         <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-pause ="false" >
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="/assets/about1.46f95a70.png" class="d-block" alt="...">
+              <img src="./assets/about1.46f95a70.png" class="d-block" alt="...">
             </div>
             <div class="carousel-item">
               <div id="about-wrapper">
-                <video id="about-video" src="/assets/Swords With Frame.904047da.mp4" autoplay loop muted></video>
+                <video id="about-video" src="./assets/Swords With Frame.904047da.mp4" autoplay loop muted></video>
               </div>
             </div>
             <div class="carousel-item">
-              <img src="/assets/about3.faef5341.png" class="d-block" alt="...">
+              <img src="./assets/about3.faef5341.png" class="d-block" alt="...">
             </div>
             <div class="carousel-item">
-              <img src="/assets/about4.f841e471.png" class="d-block" alt="...">
+              <img src="./assets/about4.f841e471.png" class="d-block" alt="...">
             </div>
           </div>
         </div>
       </div>
       <div class="row-right">
-        <p id="about-up-heading">GAME OVERVIEW</p>
-        <p id="about-heading">ABOUT WAREDEN</p>
+        <p class="upheading" id="about-up-heading">GAME OVERVIEW</p>
+        <p class="infoheading" id="about-heading">ABOUT WAREDEN</p>
         <div class="wrapper">
           <div class="parent-tab">
             <input type="radio" name="tab" id="tab-1" checked>
@@ -135,7 +135,7 @@
               <ul>
                 <li>WarEden has been built on our custom-made engine, framework and tooling system where the team has complete control without paying the massive technical costs of third-party engines</li>
                 <li>Main component of the engine is the live code reload without using scripting language which gives us very fast iteration times and reduces overall development time</li>
-                <li>The vision is to ship the tech to the community for additional game development within WarEden metaverse</li>
+                <!-- <li>The vision is to ship the tech to the community for additional game development within WarEden metaverse</li> -->
               </ul>
             </div>
           </div>
@@ -156,9 +156,9 @@
 
   
   <div class="race">
-    <p id="race-heading">CHOOSE YOUR MIGHTY RACE</p>
-    <img id="race-separator" src="/assets/Star.78f8004d.png">
-    <p id="race-subheading">THERE WILL BE MORE THAN 10 RACES WITHIN THE WAREDEN METAVERSE.<br> CHOOSE YOUR FAVORITE AND DIVE INTO THE DEEP LORE OF THE UNIQUE EPIC FANTASY WORLD.</p>
+    <p class="infoheading" id="race-heading">CHOOSE YOUR MIGHTY RACE</p>
+    <img id="race-separator" src="./assets/Star.78f8004d.png">
+    <p class="infoheading" id="race-subheading">THERE WILL BE MORE THAN 10 RACES WITHIN THE WAREDEN METAVERSE.<br> CHOOSE YOUR FAVORITE AND DIVE INTO THE DEEP LORE OF THE UNIQUE EPIC FANTASY WORLD.</p>
     <div id="race-buttons">
       <button ><img class="raceIcon" id="race-Human"></button>
       <button ><img class="raceIcon" id="race-Dwarf"></button>
@@ -181,34 +181,55 @@
     </div>
   </div>
 
-  <div class="identity">
+  <div class="customize">
+    <div id="customize-info">
+      <p class="upheading">YOUR IDENTITY</p>
+      <p class="infoheading">CREATE YOUR CHARACTER FOR FREE</p>
+      <p id="customize-subheading">After choosing the race, the next step in developing your epic Fantasy
+        identity is to create the character that you will be playing with. It's obligatory, but free,
+        as we do not want any entry barrier to our Free to Play version of the game.
+      </p>
+      <img id="customize-gender">
+    </div>
+  </div>
+
+  <div class="trading">
+    <p id="trading-upheading" class="upheading">TRADE WITH EMOTION</p>
+    <p id="trading-heading" class="infoheading">ENHANCED IN-GAME NFT TRADING</p>
+    <p id="trading-subheading">The WarEden Marketplace will enable players to start their journey
+      before the game is released by creating a unique identity in WarEden metaverse, providing
+      an enhanced and interactive trading experience.
+    </p>
+  </div>
+
+  <!-- <div class="identity">
     <p id="identity-heading">CREATE YOUR IDENTITY</p>
     <p id="identity-lower-heading">The WarEden Marketplace will enable players to start their journey before the game is released by creating an unique identity in the WarEden metaverse. </p>
   
     <div id="identity-buttons">
-      <button id="identity0"><img src="/assets/human.c6e10e83.png"></button>
-      <button id="identity1"><img src="/assets/nelf.9b50727d.png"></button>
-      <button id="identity2"><img src="/assets/orc.e12b6359.png"></button>
-      <button id="identity3"><img src="/assets/undead.b7971dac.png"></button>
+      <button id="identity0"><img src="./img/human.png"></button>
+      <button id="identity1"><img src="./img/nelf.png"></button>
+      <button id="identity2"><img src="./img/orc.png"></button>
+      <button id="identity3"><img src="./img/undead.png"></button>
     </div>
 
     <div id="carouselExampleFade1" class="carousel slide carousel-fade" data-bs-pause ="false" >
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="/assets/1.bb6adf38.png" class="d-block" alt="...">
+          <img src="./img/1.png" class="d-block" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="/assets/2.3df1e082.png" class="d-block" alt="...">
+          <img src="./img/2.png" class="d-block" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="/assets/3.25dcb0c2.png" class="d-block" alt="...">
+          <img src="./img/3.png" class="d-block" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="/assets/4.2489ed33.png" class="d-block" alt="...">
+          <img src="./img/4.png" class="d-block" alt="...">
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
   <!-- <div class="roadmap">
     <div class="accordion accordion-flush" id="accordionFlushExample">
@@ -309,53 +330,53 @@
 
   <div class="team">
     <p class="team-heading first-heading">TEAM</p>
-    <img class="team-separator" src="/assets/Star.78f8004d.png">
+    <img class="team-separator" src="./assets/Star.78f8004d.png">
     <p id="sub-heading">WAREDEN IS LED BY THE MIRACLE DOJO, A GAME DEVELOPMENT COMPANY FOUNDED IN 2015.</p>
     <div id="team-section">
       <div id="team-md">
-        <img src="/assets/MD_Logo.789f6175.png">
+        <img src="./assets/MD_Logo.789f6175.png">
         <p><span>7</span> YEARS OF EXPERIENCE<br>
           <span>5</span> DEVELOPED GAMES<br>
           <span>15</span> PEOPLE<br>
           <span>600K+</span> DOWNLOADS
         </p>
       </div>
-      <img class="mobile-separator" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZMAAAAICAYAAAA8yhJVAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyNpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDYuMC1jMDA2IDc5LjE2NDc1MywgMjAyMS8wMi8xNS0xMTo1MjoxMyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDIyLjMgKFdpbmRvd3MpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkFDQUQwMUEwMDQxRjExRURBQjdEODgxOTM0MkQyQzk3IiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkFDQUQwMUExMDQxRjExRURBQjdEODgxOTM0MkQyQzk3Ij4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6QUNBRDAxOUUwNDFGMTFFREFCN0Q4ODE5MzQyRDJDOTciIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6QUNBRDAxOUYwNDFGMTFFREFCN0Q4ODE5MzQyRDJDOTciLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz6tkt3EAAADMElEQVR42uxawY7bIBBlsLfqH/ZaVT320E/poef+Y1upqtbA68wADk42CXjtTRoxWQs8PIYxxu9lcchcNzLrjDbG0o65bh1jj1jdunV72fAAY+MNMa/J+2w/+vL1k1a+f/tBFSRIG/qoot6CpVeM33IdW7bfSni6yHU7Rw54gGvYuz9W+loxNfW1fV6T44mPdQQqJoWQUAUx14gCVbbXjEsV7S2xanJuESpaQdpbilAXiW5bkXEN+TyamKwl2WsEi5W+vcvathYRw0zUHz9/eB98eBdCePIhDNbagRvIe0/EJ+M4EBmy3G6JaAiAtFstGSF1KQ3RCPWZATAchyyXo2EfjzRyjJHLQWIxLtdHGDwx1HI5YzgvOUY5FB8x6pe64CQpic8ZjAVeSiul5iRl6ef8U3vGLM6NXks+1/5Eh3Y910/EmoTTeaTotwWpD9Gvp5wrTMrpmggeY0yOkW4cHYnsGkHZGtft/zbH6/PPDcl+gZFnpQKH4qALZBcOcbWOohmpnVIJ/VAqzYyXjEIsjM9xETE+4aS99Pl0ISGfI5eAL/xuxkvMACZevh/GTIwLHM1zPlO6R9JnmvtAcHBMPY47BuYJwbjoN47jCMYLJsdhLNN8CEwqE+N9ytlzdyfzw7wtecLGWIH5VfpicnzKgwwDU39qt8PgWCf8NE1/lbSenycvHue8Y8J2PI5PSctcgP0yPxoAOoEyOGSitM6ZiV/+QvTFSUxu7RcvKF5YUNdiIUgcwQRojORHvv/zTQcONyeNKTiEMtahfnFBYl5eZzEIJ4uWjhcqXSJcJBEo68XYV/9zwdHDhTckeOpC0u1Wa0m/mRHVxq4SrEQkdEGYaH4+cXas4plcfjtHZqdT/ImonRHEmcuAxbd+JH7ECf6IRw0W/Jc5NQuJikIk24xTvmXG98qnWUhE0JTnk7iKkEgWIiRBOJ8FQ8soJP7Xz99hi22ulu2jvs3Vt7m69W2uR9/mQsPc3tM2V+3W3Yv1lhfYLf4aXH8Bfzsh6KLTrYUkH1lM1vTf6wX8mhfrTYTfOH6T2O79c9tb7N/f08+DO2l363b/YnIP4+LOMM39/gkwABb+eb2QYvLdAAAAAElFTkSuQmCC">
+      <img class="mobile-separator" src="./assets/Line_Short.png">
       <div id="team-core">
         <div class="core-card">
-          <img class="core-img" src="/assets/Team_1.6d2c0cfb.png">
+          <img class="core-img" src="./assets/Team_1.6d2c0cfb.png">
           <p class="core-name">Uroš Mijaklović</p>
           <p class="core-position">CEO</p>
           <p class="core-description">Co-founder of Miracle Dojo, 7 years in gaming</p>
         </div>
         <div class="core-card">
-          <img class="core-img" src="/assets/Team_2.c3827e00.png">
+          <img class="core-img" src="./assets/Team_2.c3827e00.png">
           <p class="core-name">Stefan Đorđević</p>
           <p class="core-position">CTO</p>
           <p class="core-description">Co-founder of Miracle Dojo, 7 years in gaming</p>
         </div>
         <div class="core-card">
-          <img class="core-img" src="/assets/Team_3.6a811af7.png">
+          <img class="core-img" src="./assets/Team_3.6a811af7.png">
           <p class="core-name">Ivan Stijović</p>
           <p class="core-position">COO</p>
           <p class="core-description">Founder of DEX, web dev company of 25 people, 10 years in various businesses</p>
         </div>
       </div>
-      <img class="mobile-separator" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZMAAAAICAYAAAA8yhJVAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyNpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDYuMC1jMDA2IDc5LjE2NDc1MywgMjAyMS8wMi8xNS0xMTo1MjoxMyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDIyLjMgKFdpbmRvd3MpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkFDQUQwMUEwMDQxRjExRURBQjdEODgxOTM0MkQyQzk3IiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkFDQUQwMUExMDQxRjExRURBQjdEODgxOTM0MkQyQzk3Ij4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6QUNBRDAxOUUwNDFGMTFFREFCN0Q4ODE5MzQyRDJDOTciIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6QUNBRDAxOUYwNDFGMTFFREFCN0Q4ODE5MzQyRDJDOTciLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz6tkt3EAAADMElEQVR42uxawY7bIBBlsLfqH/ZaVT320E/poef+Y1upqtbA68wADk42CXjtTRoxWQs8PIYxxu9lcchcNzLrjDbG0o65bh1jj1jdunV72fAAY+MNMa/J+2w/+vL1k1a+f/tBFSRIG/qoot6CpVeM33IdW7bfSni6yHU7Rw54gGvYuz9W+loxNfW1fV6T44mPdQQqJoWQUAUx14gCVbbXjEsV7S2xanJuESpaQdpbilAXiW5bkXEN+TyamKwl2WsEi5W+vcvathYRw0zUHz9/eB98eBdCePIhDNbagRvIe0/EJ+M4EBmy3G6JaAiAtFstGSF1KQ3RCPWZATAchyyXo2EfjzRyjJHLQWIxLtdHGDwx1HI5YzgvOUY5FB8x6pe64CQpic8ZjAVeSiul5iRl6ef8U3vGLM6NXks+1/5Eh3Y910/EmoTTeaTotwWpD9Gvp5wrTMrpmggeY0yOkW4cHYnsGkHZGtft/zbH6/PPDcl+gZFnpQKH4qALZBcOcbWOohmpnVIJ/VAqzYyXjEIsjM9xETE+4aS99Pl0ISGfI5eAL/xuxkvMACZevh/GTIwLHM1zPlO6R9JnmvtAcHBMPY47BuYJwbjoN47jCMYLJsdhLNN8CEwqE+N9ytlzdyfzw7wtecLGWIH5VfpicnzKgwwDU39qt8PgWCf8NE1/lbSenycvHue8Y8J2PI5PSctcgP0yPxoAOoEyOGSitM6ZiV/+QvTFSUxu7RcvKF5YUNdiIUgcwQRojORHvv/zTQcONyeNKTiEMtahfnFBYl5eZzEIJ4uWjhcqXSJcJBEo68XYV/9zwdHDhTckeOpC0u1Wa0m/mRHVxq4SrEQkdEGYaH4+cXas4plcfjtHZqdT/ImonRHEmcuAxbd+JH7ECf6IRw0W/Jc5NQuJikIk24xTvmXG98qnWUhE0JTnk7iKkEgWIiRBOJ8FQ8soJP7Xz99hi22ulu2jvs3Vt7m69W2uR9/mQsPc3tM2V+3W3Yv1lhfYLf4aXH8Bfzsh6KLTrYUkH1lM1vTf6wX8mhfrTYTfOH6T2O79c9tb7N/f08+DO2l363b/YnIP4+LOMM39/gkwABb+eb2QYvLdAAAAAElFTkSuQmCC">
+      <img class="mobile-separator" src="./assets/Line_Short.png">
       <div id="team-advisors">
         <div id="advisor-core">
           <div class="advisor-card">
-            <img class="advisor-img" src="/assets/Advisors_1.96c7a7d3.png">
+            <img class="advisor-img" src="./assets/Advisors_1.96c7a7d3.png">
             <p class="advisor-name">Stevan Radak</p>
             <p class="advisor-description">Investor, Acitve Shareholder</p>
           </div>
           <div class="advisor-card">
-            <img class="advisor-img" src="/assets/Advisors_2.d6b3549c.png">
+            <img class="advisor-img" src="./assets/Advisors_2.d6b3549c.png">
             <p class="advisor-name">Oltac Unsal</p>
             <p class="advisor-description">WorldBank, Investor, Standford DAO</p>
           </div>
           <div class="advisor-card">
-            <img class="advisor-img" src="/assets/Advisors_3.be0e635c.png">
+            <img class="advisor-img" src="./assets/Advisors_3.be0e635c.png">
             <p class="advisor-name">Leo Wong</p>
             <p class="advisor-description">Enzac Research</p>
           </div>
@@ -363,21 +384,21 @@
       </div>
     </div>
     <p class="team-heading second-heading">PARTNERS</p>
-    <img class="team-separator" src="/assets/Star.78f8004d.png">
+    <img class="team-separator" src="./assets/Star.78f8004d.png">
     <div id="partners-section">
-      <img class="partner-img" src="/assets/Partners_1.73f826f2.png">
-      <img class="partner-img" src="/assets/Partners_2.3ab080bf.png">
-      <img class="partner-img" src="/assets/Partners_3.88be6b06.png">
-      <img class="partner-img" src="/assets/Partners_4.fd43b35f.png">
-      <img class="partner-img" src="/assets/Partners_5.80fbff87.png">
-      <img class="partner-img" src="/assets/Partners_6.043fb1e4.png">
-      <img class="partner-img" src="/assets/Partners_7.32ad50b9.png">
+      <img class="partner-img" src="./assets/Partners_1.73f826f2.png">
+      <img class="partner-img" src="./assets/Partners_2.3ab080bf.png">
+      <img class="partner-img" src="./assets/Partners_3.88be6b06.png">
+      <img class="partner-img" src="./assets/Partners_4.fd43b35f.png">
+      <img class="partner-img" src="./assets/Partners_5.80fbff87.png">
+      <img class="partner-img" src="./assets/Partners_6.043fb1e4.png">
+      <img class="partner-img" src="./assets/Partners_7.32ad50b9.png">
     </div>
   </div>
 
   <footer>
     <p id="footer-text">STAY CONNECTED</p>
-    <img id="footer-line" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZMAAAAICAYAAAA8yhJVAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyNpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDYuMC1jMDA2IDc5LjE2NDc1MywgMjAyMS8wMi8xNS0xMTo1MjoxMyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDIyLjMgKFdpbmRvd3MpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkFDQUQwMUEwMDQxRjExRURBQjdEODgxOTM0MkQyQzk3IiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkFDQUQwMUExMDQxRjExRURBQjdEODgxOTM0MkQyQzk3Ij4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6QUNBRDAxOUUwNDFGMTFFREFCN0Q4ODE5MzQyRDJDOTciIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6QUNBRDAxOUYwNDFGMTFFREFCN0Q4ODE5MzQyRDJDOTciLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz6tkt3EAAADMElEQVR42uxawY7bIBBlsLfqH/ZaVT320E/poef+Y1upqtbA68wADk42CXjtTRoxWQs8PIYxxu9lcchcNzLrjDbG0o65bh1jj1jdunV72fAAY+MNMa/J+2w/+vL1k1a+f/tBFSRIG/qoot6CpVeM33IdW7bfSni6yHU7Rw54gGvYuz9W+loxNfW1fV6T44mPdQQqJoWQUAUx14gCVbbXjEsV7S2xanJuESpaQdpbilAXiW5bkXEN+TyamKwl2WsEi5W+vcvathYRw0zUHz9/eB98eBdCePIhDNbagRvIe0/EJ+M4EBmy3G6JaAiAtFstGSF1KQ3RCPWZATAchyyXo2EfjzRyjJHLQWIxLtdHGDwx1HI5YzgvOUY5FB8x6pe64CQpic8ZjAVeSiul5iRl6ef8U3vGLM6NXks+1/5Eh3Y910/EmoTTeaTotwWpD9Gvp5wrTMrpmggeY0yOkW4cHYnsGkHZGtft/zbH6/PPDcl+gZFnpQKH4qALZBcOcbWOohmpnVIJ/VAqzYyXjEIsjM9xETE+4aS99Pl0ISGfI5eAL/xuxkvMACZevh/GTIwLHM1zPlO6R9JnmvtAcHBMPY47BuYJwbjoN47jCMYLJsdhLNN8CEwqE+N9ytlzdyfzw7wtecLGWIH5VfpicnzKgwwDU39qt8PgWCf8NE1/lbSenycvHue8Y8J2PI5PSctcgP0yPxoAOoEyOGSitM6ZiV/+QvTFSUxu7RcvKF5YUNdiIUgcwQRojORHvv/zTQcONyeNKTiEMtahfnFBYl5eZzEIJ4uWjhcqXSJcJBEo68XYV/9zwdHDhTckeOpC0u1Wa0m/mRHVxq4SrEQkdEGYaH4+cXas4plcfjtHZqdT/ImonRHEmcuAxbd+JH7ECf6IRw0W/Jc5NQuJikIk24xTvmXG98qnWUhE0JTnk7iKkEgWIiRBOJ8FQ8soJP7Xz99hi22ulu2jvs3Vt7m69W2uR9/mQsPc3tM2V+3W3Yv1lhfYLf4aXH8Bfzsh6KLTrYUkH1lM1vTf6wX8mhfrTYTfOH6T2O79c9tb7N/f08+DO2l363b/YnIP4+LOMM39/gkwABb+eb2QYvLdAAAAAElFTkSuQmCC">
+    <img id="footer-line" src="./assets/Line_Short.png">
     <div class="social">
       <a href="#"><i class="fa-brands fa-discord splashIcon"></i></a>
         <a href="#"><i class="fa-brands fa-telegram splashIcon"></i></a>
@@ -391,7 +412,7 @@
       <li><a href="#">Marketplace</a></li>
       <li><a href="#">Tokenomics</a></li>
     </ul> -->
-    <img id="footer-logo" src="/assets/Logo.65be4d1f.png">
+    <img id="footer-logo" src="./assets/Logo.65be4d1f.png">
     <p class="copyright">
       © 2022 WAREDEN
     </p>

@@ -9,11 +9,11 @@
 }
 
 .about #about-up-heading{
-    padding-left: 127px;
+    padding-left: 115px;
 }
 
 .about #about-heading{
-    padding-left: 127px;
+    padding-left: 115px;
     margin-bottom: 15px;
 }
 
@@ -53,8 +53,8 @@
 }
 
 .wrapper .parent-tab .icon-container {
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     margin-right: 20px;
 }
 
@@ -115,10 +115,11 @@
 }
 
 .wrapper label span {
-    color: #fff;
-    font-size: 35px;
+    color: #e4ecf2;
+    font-size: 30px;
     font-weight: 500;
-    margin-top:20px;
+    margin-top: 18px;
+    text-shadow:1px 1px 5px #000, 1px 1px 5px #000;
 }
 
 .wrapper .parent-tab .content {
@@ -129,6 +130,7 @@
     font-size: 20px;
     color: white;
     padding-left: 135px;
+    text-shadow:1px 1px 5px #000, 1px 1px 5px #000;
 }
 
 .parent-tab input:checked~.content {
@@ -142,10 +144,12 @@
 .parent-tab .content p {
     padding: 15px 20px;
     font-size: 20px;
+    text-shadow:1px 1px 5px #000, 1px 1px 5px #000;
 }
 
 .parent-tab .content ul {
     margin-bottom: 0;
+    text-shadow:1px 1px 5px #000, 1px 1px 5px #000;
 }
 
 input[type="radio"],

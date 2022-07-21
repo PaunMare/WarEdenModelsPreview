@@ -30,22 +30,9 @@
     display: block;
     width: 450px;
     position: absolute;
-    top: 25%;
+    top: 30%;
     left: 25%;
     transform: translateX(-50%);
-    color: white;
-}
-
-.upheading{
-    color: gold;
-    font-size: 20px;
-    padding-bottom: 0px;
-    margin-bottom: -20px;
-}
-
-.infoheading{
-    font-size: 50px;
-    font-weight: 700;
     color: white;
 }
 

@@ -35,6 +35,8 @@
 #race-separator{
     margin: auto;
     display: block;
+    margin-top: -20px;
+    padding-bottom: 20px;
 }
 
 #race-subheading{
@@ -48,6 +50,7 @@
     width: 600px;
     display: flex;
     justify-content: space-evenly;
+    padding-bottom: 20px;
 }
 
 #race-buttons button{
@@ -56,7 +59,7 @@
 }
 
 #race-buttons img{
-    width: 180px;
+    width: 240px;
     height: auto;
 }
 

@@ -1,11 +1,21 @@
 footer{
     background-image: url('../img/Bg_Footer.png');
+    background-position: top center;
+    height: 750px;
+    position: relative;
+}
+
+.footer-info{
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 footer #footer-text{
     padding-top: 10px;
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
     color: white;
 }
 
@@ -26,6 +36,8 @@ footer .social a{
     text-align: center;
     text-decoration: none;
     color: white;
+    margin-left:10px;
+    margin-right: 10px;
 }
 
 footer #footer-logo{
@@ -60,4 +72,20 @@ footer .copyright{
     padding-bottom: 15px;
     margin-bottom: 0;
     color:white
+}
+
+@media (max-width: 1200px)
+and (orientation: landscape){
+    footer{
+        height: 500px;
+        background-image: url('../img/Bg_Footer_ML.png');
+    }
+}
+
+@media (max-width: 800px)
+and (orientation: portrait){
+    footer{
+        height: 600px;
+        background-image: url('../img/Bg_Footer_MP.png');
+    }
 }

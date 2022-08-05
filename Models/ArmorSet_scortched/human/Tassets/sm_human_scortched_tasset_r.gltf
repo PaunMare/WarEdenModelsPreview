@@ -1,0 +1,120 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.8.19",
+        "version" : "2.0"
+    },
+    "extensionsUsed" : [
+        "KHR_draco_mesh_compression"
+    ],
+    "extensionsRequired" : [
+        "KHR_draco_mesh_compression"
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "sm_human_scortched_tasset_r",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "scale" : [
+                1.0099999904632568,
+                1.0099999904632568,
+                1.0099999904632568
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "taset1.001",
+            "pbrMetallicRoughness" : {
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.858578622341156
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Mesh.046",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 0,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1,
+                                "TEXCOORD_0" : 2
+                            }
+                        }
+                    },
+                    "indices" : 3,
+                    "material" : 0,
+                    "mode" : 4
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "componentType" : 5126,
+            "count" : 1054,
+            "max" : [
+                14.733036041259766,
+                14.354564666748047,
+                10.287267684936523
+            ],
+            "min" : [
+                4.659982681274414,
+                -13.673567771911621,
+                -37.87884521484375
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 1054,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 1054,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5123,
+            "count" : 4053,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 8820,
+            "byteOffset" : 0
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 8820,
+            "uri" : "sm_human_scortched_tasset_r.bin"
+        }
+    ]
+}

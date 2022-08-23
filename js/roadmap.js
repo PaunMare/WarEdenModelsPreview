@@ -10,7 +10,7 @@ let accordionItem2 = document.getElementById('accordion-item-2');
 let accordionItem3 = document.getElementById('accordion-item-3');
 let accordionItem4 = document.getElementById('accordion-item-4');
 
-let accordionItem0Enable = false;
+let accordionItem0Enable = true;
 let accordionItem1Enable = false;
 let accordionItem2Enable = false;
 let accordionItem3Enable = false;
@@ -27,7 +27,7 @@ let endingLetter;
 
 function assignImages(endingLetter){
     
-roadmapImage0.src = '../img/Roadmap1_Off' + endingLetter + '.png';
+roadmapImage0.src = '../img/Roadmap1_On' + endingLetter + '.png';
 roadmapImage1.src = '../img/Roadmap2_Off' + endingLetter + '.png';;
 roadmapImage2.src = '../img/Roadmap3_Off' + endingLetter + '.png';;
 roadmapImage3.src = '../img/Roadmap4_Off' + endingLetter + '.png';;

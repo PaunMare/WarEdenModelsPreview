@@ -1,6 +1,6 @@
 {
     "asset" : {
-        "generator" : "Khronos glTF Blender I/O v3.2.40",
+        "generator" : "Khronos glTF Blender I/O v3.2.43",
         "version" : "2.0"
     },
     "extensionsUsed" : [
@@ -23,35 +23,37 @@
             "mesh" : 0,
             "name" : "sm_human_avian_chest_add",
             "rotation" : [
-                0.7604060173034668,
+                0.7071068286895752,
                 0,
                 0,
-                0.649448037147522
+                0.7071067094802856
             ]
         }
     ],
     "materials" : [
         {
             "doubleSided" : true,
-            "name" : "Chest_03",
+            "name" : "Material.001",
             "pbrMetallicRoughness" : {
                 "baseColorTexture" : {
                     "index" : 0
                 },
                 "metallicFactor" : 0,
-                "roughnessFactor" : 0.5527864098548889
+                "roughnessFactor" : 0.5
             }
         }
     ],
     "meshes" : [
         {
-            "name" : "Mesh.059",
+            "name" : "Mesh",
             "primitives" : [
                 {
                     "attributes" : {
                         "POSITION" : 0,
                         "NORMAL" : 1,
-                        "TEXCOORD_0" : 2
+                        "TEXCOORD_0" : 2,
+                        "TEXCOORD_1" : 3,
+                        "TEXCOORD_2" : 4
                     },
                     "extensions" : {
                         "KHR_draco_mesh_compression" : {
@@ -59,11 +61,13 @@
                             "attributes" : {
                                 "POSITION" : 0,
                                 "NORMAL" : 1,
-                                "TEXCOORD_0" : 2
+                                "TEXCOORD_0" : 2,
+                                "TEXCOORD_1" : 3,
+                                "TEXCOORD_2" : 4
                             }
                         }
                     },
-                    "indices" : 3,
+                    "indices" : 5,
                     "material" : 0,
                     "mode" : 4
                 }
@@ -86,39 +90,49 @@
     "accessors" : [
         {
             "componentType" : 5126,
-            "count" : 3109,
+            "count" : 964,
             "max" : [
-                24.680747985839844,
-                24.03807830810547,
-                24.7869873046875
+                16.15001678466797,
+                19.530269622802734,
+                27.606040954589844
             ],
             "min" : [
-                -24.68074607849121,
-                -20.666717529296875,
-                -37.42010498046875
+                -17.022268295288086,
+                -11.81159782409668,
+                -28.287750244140625
             ],
             "type" : "VEC3"
         },
         {
             "componentType" : 5126,
-            "count" : 3109,
+            "count" : 964,
             "type" : "VEC3"
         },
         {
             "componentType" : 5126,
-            "count" : 3109,
+            "count" : 964,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 964,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 964,
             "type" : "VEC2"
         },
         {
             "componentType" : 5123,
-            "count" : 15444,
+            "count" : 4308,
             "type" : "SCALAR"
         }
     ],
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 24845,
+            "byteLength" : 10711,
             "byteOffset" : 0
         }
     ],
@@ -130,7 +144,7 @@
     ],
     "buffers" : [
         {
-            "byteLength" : 24848,
+            "byteLength" : 10712,
             "uri" : "sm_human_avian_chest_add.bin"
         }
     ]

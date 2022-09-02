@@ -1,6 +1,6 @@
 {
     "asset" : {
-        "generator" : "Khronos glTF Blender I/O v3.2.40",
+        "generator" : "Khronos glTF Blender I/O v3.2.43",
         "version" : "2.0"
     },
     "extensionsUsed" : [
@@ -23,17 +23,17 @@
             "mesh" : 0,
             "name" : "sm_dwarf_avian_chest_add",
             "rotation" : [
-                0.7604060173034668,
+                0.7071068286895752,
                 0,
                 0,
-                0.649448037147522
+                0.7071067094802856
             ]
         }
     ],
     "materials" : [
         {
             "doubleSided" : true,
-            "name" : "Chest_02.001",
+            "name" : "lambert2.002",
             "pbrMetallicRoughness" : {
                 "baseColorTexture" : {
                     "index" : 0
@@ -45,13 +45,15 @@
     ],
     "meshes" : [
         {
-            "name" : "Mesh.044",
+            "name" : "Mesh.025",
             "primitives" : [
                 {
                     "attributes" : {
                         "POSITION" : 0,
                         "NORMAL" : 1,
-                        "TEXCOORD_0" : 2
+                        "TEXCOORD_0" : 2,
+                        "TEXCOORD_1" : 3,
+                        "TEXCOORD_2" : 4
                     },
                     "extensions" : {
                         "KHR_draco_mesh_compression" : {
@@ -59,11 +61,13 @@
                             "attributes" : {
                                 "POSITION" : 0,
                                 "NORMAL" : 1,
-                                "TEXCOORD_0" : 2
+                                "TEXCOORD_0" : 2,
+                                "TEXCOORD_1" : 3,
+                                "TEXCOORD_2" : 4
                             }
                         }
                     },
-                    "indices" : 3,
+                    "indices" : 5,
                     "material" : 0,
                     "mode" : 4
                 }
@@ -86,39 +90,49 @@
     "accessors" : [
         {
             "componentType" : 5126,
-            "count" : 3113,
+            "count" : 916,
             "max" : [
-                32.696266174316406,
-                35.37306594848633,
-                29.790695190429688
+                21.370712280273438,
+                27.393735885620117,
+                38.458709716796875
             ],
             "min" : [
-                -33.22547149658203,
-                -28.296592712402344,
-                -42.27147674560547
+                -22.125686645507812,
+                -13.507551193237305,
+                -35.73969268798828
             ],
             "type" : "VEC3"
         },
         {
             "componentType" : 5126,
-            "count" : 3113,
+            "count" : 916,
             "type" : "VEC3"
         },
         {
             "componentType" : 5126,
-            "count" : 3113,
+            "count" : 916,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 916,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 916,
             "type" : "VEC2"
         },
         {
             "componentType" : 5123,
-            "count" : 15444,
+            "count" : 4098,
             "type" : "SCALAR"
         }
     ],
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 25167,
+            "byteLength" : 9999,
             "byteOffset" : 0
         }
     ],
@@ -130,7 +144,7 @@
     ],
     "buffers" : [
         {
-            "byteLength" : 25168,
+            "byteLength" : 10000,
             "uri" : "sm_dwarf_avian_chest_add.bin"
         }
     ]

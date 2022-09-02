@@ -6,20 +6,16 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="icon" type="image/x-icon" href="../assets/favicon.e498a36b.png">
-
-    
-    
-    
     <meta name="viewport" content="minimal-ui, width=device-width, initial-scale=1, user-scalable=no">
     <script src="https://kit.fontawesome.com/31934fcd04.js" crossorigin="anonymous"></script>
     <title>WarEden Marketplace</title>
-  <script type="module" crossorigin src="../assets/marketplace.142500d4.js"></script>
+  <script type="module" crossorigin src="../assets/marketplace.01ba1845.js"></script>
   <link rel="modulepreload" href="../assets/splide.esm.cd103580.js">
   <link rel="stylesheet" href="../assets/splide.esm.87ade321.css">
-  <link rel="stylesheet" href="../assets/marketplace.9d6e44ec.css">
+  <link rel="stylesheet" href="../assets/marketplace.3762607c.css">
 </head>
 
-<body>
+<body id="body">
     <nav id="navbar">
         <div class="logo">
             <a href="../"><img src="../assets/Logo_Bar.e37d57a7.png"></a>
@@ -36,7 +32,7 @@
         </ul>
     </nav>
     <div id="app">
-        <div class="upper-row" id="upper-row">
+        <div class="lower-row" id="lower-row">
             <section class="splide" aria-label="Splide Basic HTML Example">
                 <div class="splide__arrows">
                     <button class="splide__arrow splide__arrow--prev">
@@ -80,7 +76,7 @@
                             <li><button class="dropdown-item helmet" id="varnaicHelmet" type="button">Varnaic Helmet
                                     <img id="varnaic-helmet" class="dropdownIcon"></button></li>
                             <li><button class="dropdown-item helmet" id="mushroomHelmet" type="button">Mushroom Helmet
-                                <img id="mushroom-helmet" class="dropdownIcon"></button></li>
+                                    <img id="mushroom-helmet" class="dropdownIcon"></button></li>
 
                         </div>
                         <button class="dropdown-item helmet" id="unequipHelmet" type="button">Unequip</button>
@@ -113,7 +109,7 @@
                         <button class="dropdown-item shoulders" id="unequipShoulders" type="button">Unequip</button>
                     </ul>
                 </div>
-                <div class="dropdown">
+                <div class="dropdown upper-first">
                     <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2"
                         data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <img class="armorIcon" id="chestImg">
@@ -139,7 +135,7 @@
                         <button class="dropdown-item chest" id="unequipChest" type="button">Unequip</button>
                     </ul>
                 </div>
-                <div class="dropdown">
+                <div class="dropdown upper-second">
                     <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2"
                         data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <img class="armorIcon" id="forearmImg">
@@ -245,7 +241,7 @@
                         <button class="dropdown-item tassets" id="unequipTassets" type="button">Unequip</button>
                     </ul>
                 </div>
-                <div class="dropdown">
+                <div class="dropdown upper-first">
                     <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2"
                         data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <img class="armorIcon" id="beltImg">
@@ -271,7 +267,7 @@
                         <button class="dropdown-item belt" id="unequipBelt" type="button">Unequip</button>
                     </ul>
                 </div>
-                <div class="dropdown">
+                <div class="dropdown upper-second">
                     <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2"
                         data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <img class="armorIcon" id="bootsImg">
@@ -279,7 +275,7 @@
                     <ul class="dropdown-menu">
                         <input class="form-control first-dropdown" id="bootsInput" type="text" placeholder="Search..">
                         <div class="dropdown-container">
-                            <li><button class="dropdown-item boots" id="avianBoots" type="button">Eagle Boots
+                            <li><button class="dropdown-item boots" id="avianBoots" type="button">Avian Boots
                                     <img id="avian-boots" class="dropdownIcon"></button></li>
                             <li><button class="dropdown-item boots" id="scortchedBoots" type="button">Scorched Boots
                                     <img id="scortched-boots" class="dropdownIcon"></button></li>
@@ -291,8 +287,8 @@
                                         id="heodedna-boots" class="dropdownIcon"></button></li>
                             <li><button class="dropdown-item boots" id="varnaicBoots" type="button">Varnaic Boots <img
                                         id="varnaic-boots" class="dropdownIcon"></button></li>
-                                        <li><button class="dropdown-item boots" id="mushroomBoots" type="button">Mushroom Boots <img
-                                            id="mushroom-boots" class="dropdownIcon"></button></li>
+                            <li><button class="dropdown-item boots" id="mushroomBoots" type="button">Mushroom Boots <img
+                                        id="mushroom-boots" class="dropdownIcon"></button></li>
                         </div>
                         <button class="dropdown-item boots" id="unequipBoots" type="button">Unequip</button>
                     </ul>
@@ -305,72 +301,67 @@
                     <ul class="dropdown-menu">
                         <input class="form-control first-dropdown" id="mountInput" type="text" placeholder="Search..">
                         <div class="dropdown-container">
-                            <li><button class="dropdown-item mount" id="manahoundMount" type="button">Mana Hound<img
-                                        id="manahound-mount" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item mount" id="raptorMount" type="button">Raptor<img
-                                        id="raptor-mount" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item mount" id="horseMount" type="button">Horse<img
-                                        id="horse-mount" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item mount" id="zombiehorseMount" type="button">Zombie Horse<img
-                                        id="zombiehorse-mount" class="dropdownIcon"></button></li>
+                            <li><button class="dropdown-item mount" id="manahoundMountgrimrocks" type="button">Grimrocks
+                                    Mana Hound<img id="manahoundgrimrocks-mount" class="dropdownIcon"></button></li>
+                            <li><button class="dropdown-item mount" id="raptorMountcopperbrown" type="button">Copper Brown
+                                    Raptor<img id="raptorcopperbrown-mount" class="dropdownIcon"></button></li>
+                            <li><button class="dropdown-item mount" id="raptorMountolive" type="button">Olive
+                                    Raptor<img id="raptorolive-mount" class="dropdownIcon"></button></li>
+                            <li><button class="dropdown-item mount" id="raptorMountsteelgrey" type="button">Steel Grey
+                                    Raptor<img id="raptorsteelgrey-mount" class="dropdownIcon"></button></li>
+                            <li><button class="dropdown-item mount" id="horseMountblack" type="button">Black Horse<img
+                                        id="horseblack-mount" class="dropdownIcon"></button></li>
+                            <li><button class="dropdown-item mount" id="horseMountbuck" type="button">Buck Horse<img
+                                        id="horsebuck-mount" class="dropdownIcon"></button></li>
+                            <li><button class="dropdown-item mount" id="horseMountcalico" type="button">Calico Horse<img
+                                        id="horsecalico-mount" class="dropdownIcon"></button></li>
+                            <li><button class="dropdown-item mount" id="horseMountchestnut" type="button">Chestnut
+                                    Horse<img id="horsechestnut-mount" class="dropdownIcon"></button></li>
+                            <li><button class="dropdown-item mount" id="horseMountwiredchestnut" type="button">Wired
+                                    Chestnut
+                                    Horse<img id="horsewiredchestnut-mount" class="dropdownIcon"></button></li>
+                            <li><button class="dropdown-item mount" id="horseMountcream" type="button">Cream Horse<img
+                                        id="horsecream-mount" class="dropdownIcon"></button></li>
+                            <li><button class="dropdown-item mount" id="horseMountcremello" type="button">Cremello
+                                    Horse<img id="horsecremello-mount" class="dropdownIcon"></button></li>
+                            <li><button class="dropdown-item mount" id="horseMountdapplegrey" type="button">Dapple Grey
+                                    Horse<img id="horsedapplegrey-mount" class="dropdownIcon"></button></li>
+                            <li><button class="dropdown-item mount" id="horseMountdarkbay" type="button">Dark Bay
+                                    Horse<img id="horsedarkbay-mount" class="dropdownIcon"></button></li>
+                            <li><button class="dropdown-item mount" id="horseMountwireddarkbay" type="button">Wired Dark
+                                    Bay
+                                    Horse<img id="horsewireddarkbay-mount" class="dropdownIcon"></button></li>
+                            <li><button class="dropdown-item mount" id="horseMountdarkgrey" type="button">Dark Grey
+                                    Horse<img id="horsedarkgrey-mount" class="dropdownIcon"></button></li>
+                            <li><button class="dropdown-item mount" id="horseMountlightgrey" type="button">Light Grey
+                                    Horse<img id="horselightgrey-mount" class="dropdownIcon"></button></li>
+                            <li><button class="dropdown-item mount" id="horseMountdun" type="button">Dun Horse<img
+                                        id="horsedun-mount" class="dropdownIcon"></button></li>
+                            <li><button class="dropdown-item mount" id="horseMountpalomino" type="button">Palomino
+                                    Horse<img id="horsepalomino-mount" class="dropdownIcon"></button></li>
+                            <li><button class="dropdown-item mount" id="horseMountpiebald" type="button">Piebald
+                                    Horse<img id="horsepiebald-mount" class="dropdownIcon"></button></li>
+                            <li><button class="dropdown-item mount" id="horseMountroan" type="button">Roan Horse<img
+                                        id="horseroan-mount" class="dropdownIcon"></button></li>
+                            <li><button class="dropdown-item mount" id="horseMountsilverbay" type="button">Silver Bay
+                                    Horse<img id="horsesilverbay-mount" class="dropdownIcon"></button></li>
+                            <li><button class="dropdown-item mount" id="horseMountspottedcream" type="button">Spotted
+                                    Cream
+                                    Horse<img id="horsespottedcream-mount" class="dropdownIcon"></button></li>
+                            <li><button class="dropdown-item mount" id="horseMounttanned" type="button">Tanned Horse<img
+                                        id="horsetanned-mount" class="dropdownIcon"></button></li>
+                            <li><button class="dropdown-item mount" id="horseMountwhite" type="button">White Horse<img
+                                        id="horsewhite-mount" class="dropdownIcon"></button></li>
+                            <li><button class="dropdown-item mount" id="zombiehorseMountcobalt" type="button">Cobalt
+                                    Zombie Horse<img id="zombiehorsecobalt-mount" class="dropdownIcon"></button></li>
+                            <li><button class="dropdown-item mount" id="zombiehorseMountdirtbrown" type="button">Dirt
+                                    Brown Zombie Horse<img id="zombiehorsedirtbrown-mount" class="dropdownIcon"></button></li>
+                            <li><button class="dropdown-item mount" id="zombiehorseMountlavander" type="button">Lavander
+                                    Zombie Horse<img id="zombiehorselavander-mount" class="dropdownIcon"></button></li>
+                            <li><button class="dropdown-item mount" id="zombiehorseMountmossygreen" type="button">Mossy
+                                     Zombie Horse<img id="zombiehorsemossygreen-mount" class="dropdownIcon"></button></li>
                         </div>
                         <button class="dropdown-item mount" id="unequipMount" type="button">Unequip</button>
-                    </ul>
-                </div>
-                <div class="dropdown" id="horseSkinButton">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2"
-                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <img class="armorIcon" src="../assets/Icon_Drahar_Off.c3cf578a.png">
-                    </button>
-                    <ul class="dropdown-menu">
-                        <!-- <input class="form-control first-dropdown" id="mountInput" type="text" placeholder="Search.."> -->
-                        <div class="dropdown-container">
-                            <li><button class="dropdown-item horseSkin" id="horseSkinblack" type="button">Black</button>
-                            </li>
-                            <li><button class="dropdown-item horseSkin" id="horseSkinbuckskin"
-                                    type="button">Buckskin</button></li>
-                            <li><button class="dropdown-item horseSkin" id="horseSkinchestnut"
-                                    type="button">Chestnut</button></li>
-                            <li><button class="dropdown-item horseSkin" id="horseSkincream" type="button">Cream</button>
-                            </li>
-                            <li><button class="dropdown-item horseSkin" id="horseSkincremello"
-                                    type="button">Cremello</button></li>
-                            <li><button class="dropdown-item horseSkin" id="horseSkindapplegrey" type="button">Dapple
-                                    Grey</button></li>
-                            <li><button class="dropdown-item horseSkin" id="horseSkindarkbay" type="button">Dark
-                                    Bay</button></li>
-                            <li><button class="dropdown-item horseSkin" id="horseSkindarkbaypaint" type="button">Dark
-                                    Bay Paint</button></li>
-                            <li><button class="dropdown-item horseSkin" id="horseSkindun" type="button">Dun</button>
-                            </li>
-                            <li><button class="dropdown-item horseSkin" id="horseSkinpalomino"
-                                    type="button">Palomino</button></li>
-                            <li><button class="dropdown-item horseSkin" id="horseSkinpiebald"
-                                    type="button">Piebald</button></li>
-                            <li><button class="dropdown-item horseSkin" id="horseSkinsilverbay" type="button">Silver
-                                    Bay</button></li>
-                            <li><button class="dropdown-item horseSkin" id="horseSkinwhite" type="button">White</button>
-                            </li>
-                        </div>
-                    </ul>
-                </div>
-                <div class="dropdown" id="zombieHorseSkinButton">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2"
-                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <img class="armorIcon" src="../assets/Icon_Enveni_Off.ee5c4b83.png">
-                    </button>
-                    <ul class="dropdown-menu">
-                        <!-- <input class="form-control first-dropdown" id="mountInput" type="text" placeholder="Search.."> -->
-                        <div class="dropdown-container">
-                            <li><button class="dropdown-item zombieHorseSkin" id="zombieHorseSkinblue"
-                                    type="button">Blue</button></li>
-                            <li><button class="dropdown-item zombieHorseSkin" id="zombieHorseSkinbrown"
-                                    type="button">Brown</button></li>
-                            <li><button class="dropdown-item zombieHorseSkin" id="zombieHorseSkingreen"
-                                    type="button">Green</button></li>
-                            <li><button class="dropdown-item zombieHorseSkin" id="zombieHorseSkinpurple"
-                                    type="button">Purple</button></li>
-                        </div>
                     </ul>
                 </div>
             </div>

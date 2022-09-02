@@ -78,7 +78,7 @@
     "materials" : [
         {
             "doubleSided" : true,
-            "name" : "Material",
+            "name" : "Material.019",
             "pbrMetallicRoughness" : {
                 "baseColorFactor" : [
                     0.800000011920929,
@@ -86,14 +86,13 @@
                     0.800000011920929,
                     1
                 ],
-                "metallicFactor" : 0,
-                "roughnessFactor" : 0.5
+                "roughnessFactor" : 0.5527864098548889
             }
         }
     ],
     "meshes" : [
         {
-            "name" : "Mesh.021",
+            "name" : "Mesh.006",
             "primitives" : [
                 {
                     "attributes" : {
@@ -123,14 +122,14 @@
             "componentType" : 5126,
             "count" : 2054,
             "max" : [
-                36.439552307128906,
-                9.28834342956543,
-                4.487659454345703
+                35.088584899902344,
+                8.008331298828125,
+                6.097332000732422
             ],
             "min" : [
-                -26.4769344329834,
-                -26.8421573638916,
-                -61.405548095703125
+                -27.098800659179688,
+                -27.001419067382812,
+                -63.650211334228516
             ],
             "type" : "VEC3"
         },
@@ -183,33 +182,33 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 16532,
+            "byteLength" : 16509,
             "byteOffset" : 0
         },
         {
             "buffer" : 0,
             "byteLength" : 1528,
-            "byteOffset" : 16532
+            "byteOffset" : 16512
         },
         {
             "buffer" : 0,
             "byteLength" : 4584,
-            "byteOffset" : 18060
+            "byteOffset" : 18040
         },
         {
             "buffer" : 0,
             "byteLength" : 6112,
-            "byteOffset" : 22644
+            "byteOffset" : 22624
         },
         {
             "buffer" : 0,
             "byteLength" : 4584,
-            "byteOffset" : 28756
+            "byteOffset" : 28736
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 33340,
+            "byteLength" : 33320,
             "uri" : "sm_yun_dhodin_paldron_r.bin"
         }
     ]

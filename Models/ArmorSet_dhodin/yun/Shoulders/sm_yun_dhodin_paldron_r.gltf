@@ -78,7 +78,7 @@
     "materials" : [
         {
             "doubleSided" : true,
-            "name" : "Material.019",
+            "name" : "Material.001",
             "pbrMetallicRoughness" : {
                 "baseColorFactor" : [
                     0.800000011920929,
@@ -122,14 +122,14 @@
             "componentType" : 5126,
             "count" : 2054,
             "max" : [
-                35.088584899902344,
-                8.008331298828125,
-                6.097332000732422
+                35.0877571105957,
+                6.851963520050049,
+                3.1593894958496094
             ],
             "min" : [
                 -27.098800659179688,
-                -27.001419067382812,
-                -63.650211334228516
+                -31.352689743041992,
+                -61.564945220947266
             ],
             "type" : "VEC3"
         },
@@ -182,33 +182,33 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 16509,
+            "byteLength" : 16498,
             "byteOffset" : 0
         },
         {
             "buffer" : 0,
             "byteLength" : 1528,
-            "byteOffset" : 16512
+            "byteOffset" : 16500
         },
         {
             "buffer" : 0,
             "byteLength" : 4584,
-            "byteOffset" : 18040
+            "byteOffset" : 18028
         },
         {
             "buffer" : 0,
             "byteLength" : 6112,
-            "byteOffset" : 22624
+            "byteOffset" : 22612
         },
         {
             "buffer" : 0,
             "byteLength" : 4584,
-            "byteOffset" : 28736
+            "byteOffset" : 28724
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 33320,
+            "byteLength" : 33308,
             "uri" : "sm_yun_dhodin_paldron_r.bin"
         }
     ]

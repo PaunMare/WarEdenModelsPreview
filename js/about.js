@@ -13,10 +13,10 @@ let image3 = document.getElementById('tab-icon-4');
 let aboutheading = document.getElementById('about-underheading');
 aboutheading.innerHTML = "SKILL-BASED BATTLEGROUND";
 
-image0.src = '../img/Icon_Batleground_On.png';
-image1.src = '../img/Icon_Play.png';
-image2.src = '../img/Icon_Tech.png';
-image3.src = '../img/Icon_Immutable.png';
+image0.src = './img/Icon_Batleground_On.png';
+image1.src = './img/Icon_Play.png';
+image2.src = './img/Icon_Tech.png';
+image3.src = './img/Icon_Immutable.png';
 
 let radio0selected = true, radio1selected = false, radio2selected = false, radio3selected = false;
 
@@ -45,48 +45,48 @@ option3.addEventListener("click", function () {
 
 option0.addEventListener("mouseenter", function () {
     if (!radio0selected)
-        image0.src = '../img/Icon_Batleground_On.png';
+        image0.src = './img/Icon_Batleground_On.png';
 });
 
 option1.addEventListener("mouseenter", function () {
     if (!radio1selected)
-        image1.src = '../img/Icon_Play_On.png';
+        image1.src = './img/Icon_Play_On.png';
 
 });
 
 option2.addEventListener("mouseenter", function () {
     if (!radio2selected)
-        image2.src = '../img/Icon_Tech_On.png';
+        image2.src = './img/Icon_Tech_On.png';
 
 });
 
 option3.addEventListener("mouseenter", function () {
     if (!radio3selected)
-        image3.src = '../img/Icon_Immutable_On.png';
+        image3.src = './img/Icon_Immutable_On.png';
 
 });
 
 option0.addEventListener("mouseleave", function () {
     if (!radio0selected)
-        image0.src = '../img/Icon_Batleground.png';
+        image0.src = './img/Icon_Batleground.png';
 
 });
 
 option1.addEventListener("mouseleave", function () {
     if (!radio1selected)
-        image1.src = '../img/Icon_Play.png';
+        image1.src = './img/Icon_Play.png';
 
 });
 
 option2.addEventListener("mouseleave", function () {
     if (!radio2selected)
-        image2.src = '../img/Icon_Tech.png';
+        image2.src = './img/Icon_Tech.png';
 
 });
 
 option3.addEventListener("mouseleave", function () {
     if (!radio3selected)
-        image3.src = '../img/Icon_Immutable.png';
+        image3.src = './img/Icon_Immutable.png';
 
 });
 
@@ -94,50 +94,50 @@ myCarousel.addEventListener('slide.bs.carousel', function (e) {
     switch (e.from) {
         case 0: {
             radio0.checked = false;
-            image0.src = '../img/Icon_Batleground.png';
+            image0.src = './img/Icon_Batleground.png';
             radio0selected = false;
         } break;
         case 1: {
             radio1.checked = false;
-            image1.src = '../img/Icon_Play.png';
+            image1.src = './img/Icon_Play.png';
             radio1selected = false;
         } break;
         case 2: {
             radio2.checked = false;
-            image2.src = '../img/Icon_Tech.png';
+            image2.src = './img/Icon_Tech.png';
             radio2selected = false;
         } break;
         case 3: {
             radio3.checked = false;
-            image3.src = '../img/Icon_Immutable.png';
+            image3.src = './img/Icon_Immutable.png';
             radio3selected = false;
         } break;
     }
     switch (e.to) {
         case 0: {
             radio0.checked = true;
-            image0.src = '../img/Icon_Batleground_On.png';
+            image0.src = './img/Icon_Batleground_On.png';
             aboutheading.innerHTML = "SKILL-BASED BATTLEGROUND";
 
             radio0selected = true;
         } break;
         case 1: {
             radio1.checked = true;
-            image1.src = '../img/Icon_Play_On.png';
+            image1.src = './img/Icon_Play_On.png';
             aboutheading.innerHTML = "FREE TO PLAY AND NO PAY TO WIN";
 
             radio1selected = true;
         } break;
         case 2: {
             radio2.checked = true;
-            image2.src = '../img/Icon_Tech_On.png';
+            image2.src = './img/Icon_Tech_On.png';
             aboutheading.innerHTML = "CUSTOM-MADE TECH SOLUTIONS";
 
             radio2selected = true;
         } break;
         case 3: {
             radio3.checked = true;
-            image3.src = '../img/Icon_Immutable_On.png';
+            image3.src = './img/Icon_Immutable_On.png';
             aboutheading.innerHTML = "IMMUTABLE X / ETHEREUM";
 
             radio3selected = true;

@@ -120,27 +120,27 @@
     "accessors" : [
         {
             "componentType" : 5126,
-            "count" : 8029,
+            "count" : 8089,
             "max" : [
-                24.82861328125,
-                7.2138671875,
-                5.41796875
+                24.827892303466797,
+                9.502598762512207,
+                3.438274383544922
             ],
             "min" : [
                 -30.26708984375,
-                -30.215484619140625,
-                -59.02734375
+                -30.80608367919922,
+                -58.691627502441406
             ],
             "type" : "VEC3"
         },
         {
             "componentType" : 5126,
-            "count" : 8029,
+            "count" : 8089,
             "type" : "VEC3"
         },
         {
             "componentType" : 5126,
-            "count" : 8029,
+            "count" : 8089,
             "type" : "VEC2"
         },
         {
@@ -182,33 +182,33 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 56092,
+            "byteLength" : 56371,
             "byteOffset" : 0
         },
         {
             "buffer" : 0,
             "byteLength" : 1528,
-            "byteOffset" : 56092
+            "byteOffset" : 56372
         },
         {
             "buffer" : 0,
             "byteLength" : 4584,
-            "byteOffset" : 57620
+            "byteOffset" : 57900
         },
         {
             "buffer" : 0,
             "byteLength" : 6112,
-            "byteOffset" : 62204
+            "byteOffset" : 62484
         },
         {
             "buffer" : 0,
             "byteLength" : 4584,
-            "byteOffset" : 68316
+            "byteOffset" : 68596
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 72900,
+            "byteLength" : 73180,
             "uri" : "sm_yun_heodedna_paldron_l.bin"
         }
     ]

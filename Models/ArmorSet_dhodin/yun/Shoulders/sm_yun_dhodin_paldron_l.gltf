@@ -122,14 +122,14 @@
             "componentType" : 5126,
             "count" : 2054,
             "max" : [
-                27.26594352722168,
-                7.76904296875,
-                5.413480758666992
+                27.265850067138672,
+                6.78495454788208,
+                2.4996395111083984
             ],
             "min" : [
                 -34.94073486328125,
-                -27.332229614257812,
-                -64.36608123779297
+                -31.384647369384766,
+                -62.33097839355469
             ],
             "type" : "VEC3"
         },
@@ -182,33 +182,33 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 16403,
+            "byteLength" : 16389,
             "byteOffset" : 0
         },
         {
             "buffer" : 0,
             "byteLength" : 1528,
-            "byteOffset" : 16404
+            "byteOffset" : 16392
         },
         {
             "buffer" : 0,
             "byteLength" : 4584,
-            "byteOffset" : 17932
+            "byteOffset" : 17920
         },
         {
             "buffer" : 0,
             "byteLength" : 6112,
-            "byteOffset" : 22516
+            "byteOffset" : 22504
         },
         {
             "buffer" : 0,
             "byteLength" : 4584,
-            "byteOffset" : 28628
+            "byteOffset" : 28616
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 33212,
+            "byteLength" : 33200,
             "uri" : "sm_yun_dhodin_paldron_l.bin"
         }
     ]

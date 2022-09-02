@@ -1,6 +1,6 @@
 {
     "asset" : {
-        "generator" : "Khronos glTF Blender I/O v3.2.40",
+        "generator" : "Khronos glTF Blender I/O v3.2.43",
         "version" : "2.0"
     },
     "extensionsUsed" : [
@@ -88,9 +88,9 @@
             "componentType" : 5126,
             "count" : 5345,
             "max" : [
-                21.471885681152344,
+                21.472131729125977,
                 34.45639419555664,
-                8.854812622070312
+                8.8543701171875
             ],
             "min" : [
                 -22.301904678344727,
@@ -118,7 +118,7 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 41440,
+            "byteLength" : 41311,
             "byteOffset" : 0
         }
     ],
@@ -130,7 +130,7 @@
     ],
     "buffers" : [
         {
-            "byteLength" : 41440,
+            "byteLength" : 41312,
             "uri" : "sm_dwarf_heodedna_helmet.bin"
         }
     ]

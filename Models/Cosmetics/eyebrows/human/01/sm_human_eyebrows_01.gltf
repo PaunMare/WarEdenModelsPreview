@@ -1,6 +1,6 @@
 {
     "asset" : {
-        "generator" : "Khronos glTF Blender I/O v1.8.19",
+        "generator" : "Khronos glTF Blender I/O v3.2.43",
         "version" : "2.0"
     },
     "extensionsUsed" : [
@@ -21,30 +21,27 @@
     "nodes" : [
         {
             "mesh" : 0,
-            "name" : "sm_human_eyebrows_01",
-            "rotation" : [
-                0.7071068286895752,
-                0,
-                0,
-                0.7071067094802856
-            ]
+            "name" : "sm_human_eyebrows_01"
         }
     ],
     "materials" : [
         {
             "doubleSided" : true,
-            "name" : "lambert1.004",
+            "name" : "lambert1.003",
             "pbrMetallicRoughness" : {
-                "baseColorTexture" : {
-                    "index" : 0
-                },
+                "baseColorFactor" : [
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.800000011920929,
+                    1
+                ],
                 "metallicFactor" : 0
             }
         }
     ],
     "meshes" : [
         {
-            "name" : "Mesh.014",
+            "name" : "Mesh.048",
             "primitives" : [
                 {
                     "attributes" : {
@@ -69,32 +66,19 @@
             ]
         }
     ],
-    "textures" : [
-        {
-            "sampler" : 0,
-            "source" : 0
-        }
-    ],
-    "images" : [
-        {
-            "mimeType" : "image/png",
-            "name" : "t_human_eyebrows_01_base",
-            "uri" : "t_human_eyebrows_01_base.png"
-        }
-    ],
     "accessors" : [
         {
             "componentType" : 5126,
             "count" : 75,
             "max" : [
-                5.6730451583862305,
-                13.332720756530762,
-                -12.291854858398438
+                5.673044681549072,
+                14.0535249710083,
+                13.332793235778809
             ],
             "min" : [
                 -5.663302898406982,
-                10.174004554748535,
-                -14.05352783203125
+                12.291799545288086,
+                10.174005508422852
             ],
             "type" : "VEC3"
         },
@@ -117,14 +101,8 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 887,
+            "byteLength" : 885,
             "byteOffset" : 0
-        }
-    ],
-    "samplers" : [
-        {
-            "magFilter" : 9729,
-            "minFilter" : 9987
         }
     ],
     "buffers" : [

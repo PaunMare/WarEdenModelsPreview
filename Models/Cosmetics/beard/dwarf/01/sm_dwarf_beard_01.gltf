@@ -1,6 +1,6 @@
 {
     "asset" : {
-        "generator" : "Khronos glTF Blender I/O v3.2.40",
+        "generator" : "Khronos glTF Blender I/O v3.2.43",
         "version" : "2.0"
     },
     "extensionsUsed" : [
@@ -21,7 +21,7 @@
     "nodes" : [
         {
             "mesh" : 0,
-            "name" : "sm_human_beard_01",
+            "name" : "sm_dwarf_beard_01",
             "rotation" : [
                 0.7071068286895752,
                 0,
@@ -33,11 +33,14 @@
     "materials" : [
         {
             "doubleSided" : true,
-            "name" : "m_dwaf_beard_01",
+            "name" : "Beard01.002",
             "pbrMetallicRoughness" : {
-                "baseColorTexture" : {
-                    "index" : 0
-                },
+                "baseColorFactor" : [
+                    0.5,
+                    0.5,
+                    0.5,
+                    1
+                ],
                 "metallicFactor" : 0,
                 "roughnessFactor" : 0.5527864098548889
             }
@@ -70,68 +73,49 @@
             ]
         }
     ],
-    "textures" : [
-        {
-            "sampler" : 0,
-            "source" : 0
-        }
-    ],
-    "images" : [
-        {
-            "mimeType" : "image/png",
-            "name" : "t_dwarf_beard_01",
-            "uri" : "t_dwarf_beard_01.png"
-        }
-    ],
     "accessors" : [
         {
             "componentType" : 5126,
-            "count" : 2267,
+            "count" : 2744,
             "max" : [
-                21.91289520263672,
-                32.463356018066406,
-                27.83447265625
+                16.527019500732422,
+                23.874217987060547,
+                10.918373107910156
             ],
             "min" : [
-                -22.441505432128906,
-                2.7150726318359375,
-                -12.304595947265625
+                -16.527029037475586,
+                7.036099433898926,
+                -8.895599365234375
             ],
             "type" : "VEC3"
         },
         {
             "componentType" : 5126,
-            "count" : 2267,
+            "count" : 2744,
             "type" : "VEC3"
         },
         {
             "componentType" : 5126,
-            "count" : 2267,
+            "count" : 2744,
             "type" : "VEC2"
         },
         {
             "componentType" : 5123,
-            "count" : 10953,
+            "count" : 13926,
             "type" : "SCALAR"
         }
     ],
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 19259,
+            "byteLength" : 23347,
             "byteOffset" : 0
-        }
-    ],
-    "samplers" : [
-        {
-            "magFilter" : 9729,
-            "minFilter" : 9987
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 19260,
-            "uri" : "sm_human_beard_01.bin"
+            "byteLength" : 23348,
+            "uri" : "sm_dwarf_beard_01.bin"
         }
     ]
 }

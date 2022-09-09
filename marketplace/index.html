@@ -9,10 +9,10 @@
     <meta name="viewport" content="minimal-ui, width=device-width, initial-scale=1, user-scalable=no">
     <script src="https://kit.fontawesome.com/31934fcd04.js" crossorigin="anonymous"></script>
     <title>WarEden Marketplace</title>
-  <script type="module" crossorigin src="../assets/marketplace.5a69669b.js"></script>
+  <script type="module" crossorigin src="../assets/marketplace.85b01af1.js"></script>
   <link rel="modulepreload" href="../assets/splide.esm.cd103580.js">
   <link rel="stylesheet" href="../assets/splide.esm.87ade321.css">
-  <link rel="stylesheet" href="../assets/marketplace.b1ca99a9.css">
+  <link rel="stylesheet" href="../assets/marketplace.c9d99e17.css">
 </head>
 
 <body id="body">
@@ -32,14 +32,22 @@
         </ul>
     </nav>
     <div id="app">
+        <div class="upper-row">
+            <button>
+                <img id="body-ui" src="../assets/Race_On.7d830dee.png">
+            </button>
+            <button>
+                <img id="armor-ui" src="../assets/Gear_Off.a75a3f49.png">
+            </button>
+        </div>
         <div class="lower-row" id="lower-row">
-            <section class="splide" aria-label="Splide Basic HTML Example">
+            <section class="splide splide-race" aria-label="Splide Basic HTML Example">
                 <div class="splide__arrows">
                     <button class="splide__arrow splide__arrow--prev">
-                        <img class="splide-img">
+                        <img id="left-arrow" src="../assets/Left.8542218e.png" class="splide-img prev-arrow">
                     </button>
                     <button class="splide__arrow splide__arrow--next">
-                        <img class="splide-img">
+                        <img id="right-arrow" src="../assets/Right.83b8f3d3.png" class="splide-img next-arrow">
                     </button>
                 </div>
                 <div class="splide__track">
@@ -50,6 +58,377 @@
                     </ul>
                 </div>
             </section>
+        </div>
+        <div class="Race-UI" id="Race-UI">
+            <div class="Human-UI" id="Human-UI">
+                <div class="column race-left-column">
+                    <p>Face</p>
+                    <p>Skin</p>
+                    <p>Hair Style</p>
+                    <p>Hair Color</p>
+                    <p>Beard Style</p>
+                    <p>Beard Color</p>
+                </div>
+                <div class="column ">
+                    <section class="splide cosmetics-splide" id="human-face-splide">
+                        <div class="splide__arrows">
+                            <button class="splide__arrow splide__arrow--prev">
+                                <img src="../assets/Left.8542218e.png" class="splide-img  prev-arrow">
+                            </button>
+                            <button class="splide__arrow splide__arrow--next">
+                                <img src="../assets/Right.83b8f3d3.png" class="splide-img next-arrow">
+                            </button>
+                        </div>
+                        <div class="splide__track">
+                            <ul class="splide__list">
+                                <li class="splide__slide">1</li>
+                                <li class="splide__slide">2</li>
+                                <li class="splide__slide">3</li>
+                                <li class="splide__slide">4</li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section class="splide cosmetics-splide" id="human-skin-splide">
+                        <div class="splide__arrows">
+                            <button class="splide__arrow splide__arrow--prev">
+                                <img src="../assets/Left.8542218e.png" class="splide-img  prev-arrow">
+                            </button>
+                            <button class="splide__arrow splide__arrow--next">
+                                <img src="../assets/Right.83b8f3d3.png" class="splide-img next-arrow">
+                            </button>
+                        </div>
+                        <div class="splide__track">
+                            <ul class="splide__list">
+                                <li class="splide__slide"><img class="cosmetics-splide-img" src="../assets/color_swatch_base.d1fad7f1.png"></li>
+                                <li class="splide__slide"><img class="cosmetics-splide-img" src="../assets/color_swatch_medium.5f9a4cba.png"></li>
+                                <li class="splide__slide"><img class="cosmetics-splide-img" src="../assets/color_swatch_tanned.6d230537.png"></li>
+                                <li class="splide__slide"><img class="cosmetics-splide-img" src="../assets/color_swatch_cinnamon.74a366a4.png"></li>
+                                <li class="splide__slide"><img class="cosmetics-splide-img" src="../assets/color_swatch_choco.9eaed5cf.png"></li>
+                                <li class="splide__slide"><img class="cosmetics-splide-img" src="../assets/color_swatch_dark.689c5408.png"></li>
+                                <li class="splide__slide"><img class="cosmetics-splide-img" src="../assets/color_swatch_grey.79eae0f4.png"></li>
+                                <li class="splide__slide"><img class="cosmetics-splide-img" src="../assets/color_swatch_pale.6bc7b484.png"></li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section class="splide cosmetics-splide" id="human-hair-splide">
+                        <div class="splide__arrows">
+                            <button class="splide__arrow splide__arrow--prev">
+                                <img src="../assets/Left.8542218e.png" class="splide-img  prev-arrow">
+                            </button>
+                            <button class="splide__arrow splide__arrow--next">
+                                <img src="../assets/Right.83b8f3d3.png" class="splide-img next-arrow">
+                            </button>
+                        </div>
+                        <div class="splide__track">
+                            <ul class="splide__list">
+                                <li class="splide__slide">1</li>
+                                <li class="splide__slide">2</li>
+                                <li class="splide__slide">3</li>
+                                <li class="splide__slide">4</li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section class="splide cosmetics-splide" id="human-hair-color-splide">
+                        <div class="splide__arrows">
+                            <button class="splide__arrow splide__arrow--prev">
+                                <img src="../assets/Left.8542218e.png" class="splide-img  prev-arrow">
+                            </button>
+                            <button class="splide__arrow splide__arrow--next">
+                                <img src="../assets/Right.83b8f3d3.png" class="splide-img next-arrow">
+                            </button>
+                        </div>
+                        <div class="splide__track">
+                            <ul class="splide__list">
+                                <li class="splide__slide"><img class="cosmetics-splide-img" src="../assets/color_swatch_oak.b3edae31.png"></li>
+                                <li class="splide__slide"><img class="cosmetics-splide-img" src="../assets/color_swatch_brown.1f2ca091.png"></li>
+                                <li class="splide__slide"><img class="cosmetics-splide-img" src="../assets/color_swatch_caramel.2d8f5b68.png"></li>
+                                <li class="splide__slide"><img class="cosmetics-splide-img" src="../assets/color_swatch_honey.15ab99da.png"></li>
+                                <li class="splide__slide"><img class="cosmetics-splide-img" src="../assets/color_swatch_blond.c43b409b.png"></li>
+                                <li class="splide__slide"><img class="cosmetics-splide-img" src="../assets/color_swatch_white.7a46dd0c.png"></li>
+                                <li class="splide__slide"><img class="cosmetics-splide-img" src="../assets/color_swatch_silver.c0602d9e.png"></li>
+                                <li class="splide__slide"><img class="cosmetics-splide-img" src="../assets/color_swatch_black.9f80d372.png"></li>
+                                <li class="splide__slide"><img class="cosmetics-splide-img" src="../assets/color_swatch_raven.dd8e8b48.png"></li>
+                                <li class="splide__slide"><img class="cosmetics-splide-img" src="../assets/color_swatch_burgundy.e3ab7325.png"></li>
+                                <li class="splide__slide"><img class="cosmetics-splide-img" src="../assets/color_swatch_auburn.565c7ce6.png"></li>
+                                <li class="splide__slide"><img class="cosmetics-splide-img" src="../assets/color_swatch_ginger.d8fa09c7.png"></li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section class="splide cosmetics-splide" id="human-beard-splide">
+                        <div class="splide__arrows">
+                            <button class="splide__arrow splide__arrow--prev">
+                                <img src="../assets/Left.8542218e.png" class="splide-img prev-arrow">
+                            </button>
+                            <button class="splide__arrow splide__arrow--next">
+                                <img src="../assets/Right.83b8f3d3.png" class="splide-img next-arrow">
+                            </button>
+                        </div>
+                        <div class="splide__track">
+                            <ul class="splide__list">
+                                <li class="splide__slide">1</li>
+                                <li class="splide__slide">2</li>
+                                <li class="splide__slide">3</li>
+                                <li class="splide__slide">4</li>
+                                <li class="splide__slide">5</li>
+                                <li class="splide__slide">6</li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section class="splide cosmetics-splide" id="human-beard-color-splide">
+                        <div class="splide__arrows">
+                            <button class="splide__arrow splide__arrow--prev">
+                                <img src="../assets/Left.8542218e.png" class="splide-img  prev-arrow">
+                            </button>
+                            <button class="splide__arrow splide__arrow--next">
+                                <img src="../assets/Right.83b8f3d3.png" class="splide-img next-arrow">
+                            </button>
+                        </div>
+                        <div class="splide__track">
+                            <ul class="splide__list">
+                                <li class="splide__slide"><img class="cosmetics-splide-img" src="../assets/color_swatch_oak.b3edae31.png"></li>
+                                <li class="splide__slide"><img class="cosmetics-splide-img" src="../assets/color_swatch_brown.1f2ca091.png"></li>
+                                <li class="splide__slide"><img class="cosmetics-splide-img" src="../assets/color_swatch_caramel.2d8f5b68.png"></li>
+                                <li class="splide__slide"><img class="cosmetics-splide-img" src="../assets/color_swatch_honey.15ab99da.png"></li>
+                                <li class="splide__slide"><img class="cosmetics-splide-img" src="../assets/color_swatch_blond.c43b409b.png"></li>
+                                <li class="splide__slide"><img class="cosmetics-splide-img" src="../assets/color_swatch_white.7a46dd0c.png"></li>
+                                <li class="splide__slide"><img class="cosmetics-splide-img" src="../assets/color_swatch_silver.c0602d9e.png"></li>
+                                <li class="splide__slide"><img class="cosmetics-splide-img" src="../assets/color_swatch_black.9f80d372.png"></li>
+                                <li class="splide__slide"><img class="cosmetics-splide-img" src="../assets/color_swatch_raven.dd8e8b48.png"></li>
+                                <li class="splide__slide"><img class="cosmetics-splide-img" src="../assets/color_swatch_burgundy.e3ab7325.png"></li>
+                                <li class="splide__slide"><img class="cosmetics-splide-img" src="../assets/color_swatch_auburn.565c7ce6.png"></li>
+                                <li class="splide__slide"><img class="cosmetics-splide-img" src="../assets/color_swatch_ginger.d8fa09c7.png"></li>
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div class="Dwarf-UI" id="Dwarf-UI">
+                <div class="column race-left-column">
+                    <p>Beard Style</p>
+                    <p>Beard Color</p>
+                </div>
+                <div class="column">
+                    <section class="splide cosmetics-splide" id="dwarf-beard-splide">
+                        <div class="splide__arrows">
+                            <button class="splide__arrow splide__arrow--prev">
+                                <img src="../assets/Left.8542218e.png" class="splide-img prev-arrow">
+                            </button>
+                            <button class="splide__arrow splide__arrow--next">
+                                <img src="../assets/Right.83b8f3d3.png" class="splide-img next-arrow">
+                            </button>
+                        </div>
+                        <div class="splide__track">
+                            <ul class="splide__list">
+                                <li class="splide__slide">1</li>
+                                <li class="splide__slide">2</li>
+                                <li class="splide__slide">3</li>
+                                <li class="splide__slide">4</li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section class="splide cosmetics-splide" id="dwarf-beard-color-splide">
+                        <div class="splide__arrows">
+                            <button class="splide__arrow splide__arrow--prev">
+                                <img src="../assets/Left.8542218e.png" class="splide-img  prev-arrow">
+                            </button>
+                            <button class="splide__arrow splide__arrow--next">
+                                <img src="../assets/Right.83b8f3d3.png" class="splide-img next-arrow">
+                            </button>
+                        </div>
+                        <div class="splide__track">
+                            <ul class="splide__list">
+                                <li class="splide__slide"><img class="cosmetics-splide-img" src="../assets/color_swatch_blond.c43b409b.png"></li>
+                                <li class="splide__slide"><img class="cosmetics-splide-img" src="../assets/color_swatch_caramel.2d8f5b68.png"></li>
+                                <li class="splide__slide"><img class="cosmetics-splide-img" src="../assets/color_swatch_brown.1f2ca091.png"></li>
+                                <li class="splide__slide"><img class="cosmetics-splide-img" src="../assets/color_swatch_oak.b3edae31.png"></li>
+                                <li class="splide__slide"><img class="cosmetics-splide-img" src="../assets/color_swatch_coal.3da32e1d.png"></li>
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div class="Yun-UI" id="Yun-UI">
+                <div class="column race-left-column">
+                    <p>Face</p>
+                    <p>Skin</p>
+                    <p>Eyebrow Style</p>
+                    <p>Tusk Style</p>
+                    <p>Hair Style</p>
+                    <p>Hair Color</p>
+                    <p>Beard Style</p>
+                    <p>Beard Color</p>
+                </div>
+                <div class="column">
+                    <section class="splide cosmetics-splide" id="yun-face-splide">
+                        <div class="splide__arrows">
+                            <button class="splide__arrow splide__arrow--prev">
+                                <img src="../assets/Left.8542218e.png" class="splide-img  prev-arrow">
+                            </button>
+                            <button class="splide__arrow splide__arrow--next">
+                                <img src="../assets/Right.83b8f3d3.png" class="splide-img next-arrow">
+                            </button>
+                        </div>
+                        <div class="splide__track">
+                            <ul class="splide__list">
+                                <li class="splide__slide">1</li>
+                                <li class="splide__slide">2</li>
+                                <li class="splide__slide">3</li>
+                                <li class="splide__slide">4</li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section class="splide cosmetics-splide" id="yun-skin-splide">
+                        <div class="splide__arrows">
+                            <button class="splide__arrow splide__arrow--prev">
+                                <img src="../assets/Left.8542218e.png" class="splide-img  prev-arrow">
+                            </button>
+                            <button class="splide__arrow splide__arrow--next">
+                                <img src="../assets/Right.83b8f3d3.png" class="splide-img next-arrow">
+                            </button>
+                        </div>
+                        <div class="splide__track">
+                            <ul class="splide__list">
+                                <li class="splide__slide"><img class="cosmetics-splide-img" src="../assets/color_swatch_base.d1fad7f1.png"></li>
+                                <li class="splide__slide"><img class="cosmetics-splide-img" src="../assets/color_swatch_medium.5f9a4cba.png"></li>
+                                <li class="splide__slide"><img class="cosmetics-splide-img" src="../assets/color_swatch_tanned.6d230537.png"></li>
+                                <li class="splide__slide"><img class="cosmetics-splide-img" src="../assets/color_swatch_cinnamon.74a366a4.png"></li>
+                                <li class="splide__slide"><img class="cosmetics-splide-img" src="../assets/color_swatch_choco.9eaed5cf.png"></li>
+                                <li class="splide__slide"><img class="cosmetics-splide-img" src="../assets/color_swatch_dark.689c5408.png"></li>
+                                <li class="splide__slide"><img class="cosmetics-splide-img" src="../assets/color_swatch_grey.79eae0f4.png"></li>
+                                <li class="splide__slide"><img class="cosmetics-splide-img" src="../assets/color_swatch_pale.6bc7b484.png"></li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section class="splide cosmetics-splide" id="yun-eyebrow-splide">
+                        <div class="splide__arrows">
+                            <button class="splide__arrow splide__arrow--prev">
+                                <img src="../assets/Left.8542218e.png" class="splide-img  prev-arrow">
+                            </button>
+                            <button class="splide__arrow splide__arrow--next">
+                                <img src="../assets/Right.83b8f3d3.png" class="splide-img next-arrow">
+                            </button>
+                        </div>
+                        <div class="splide__track">
+                            <ul class="splide__list">
+                                <li class="splide__slide">1</li>
+                                <li class="splide__slide">2</li>
+                                <li class="splide__slide">3</li>
+                                <li class="splide__slide">4</li>
+                                <li class="splide__slide">5</li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section class="splide cosmetics-splide" id="yun-tusk-splide">
+                        <div class="splide__arrows">
+                            <button class="splide__arrow splide__arrow--prev">
+                                <img src="../assets/Left.8542218e.png" class="splide-img  prev-arrow">
+                            </button>
+                            <button class="splide__arrow splide__arrow--next">
+                                <img src="../assets/Right.83b8f3d3.png" class="splide-img next-arrow">
+                            </button>
+                        </div>
+                        <div class="splide__track">
+                            <ul class="splide__list">
+                                <li class="splide__slide">1</li>
+                                <li class="splide__slide">2</li>
+                                <li class="splide__slide">3</li>
+                                <li class="splide__slide">4</li>
+                                <!-- <li class="splide__slide">5</li> -->
+                            </ul>
+                        </div>
+                    </section>
+                    <section class="splide cosmetics-splide" id="yun-hair-splide">
+                        <div class="splide__arrows">
+                            <button class="splide__arrow splide__arrow--prev">
+                                <img src="../assets/Left.8542218e.png" class="splide-img  prev-arrow">
+                            </button>
+                            <button class="splide__arrow splide__arrow--next">
+                                <img src="../assets/Right.83b8f3d3.png" class="splide-img next-arrow">
+                            </button>
+                        </div>
+                        <div class="splide__track">
+                            <ul class="splide__list">
+                                <li class="splide__slide">1</li>
+                                <li class="splide__slide">2</li>
+                                <li class="splide__slide">3</li>
+                                <li class="splide__slide">4</li>
+                                <li class="splide__slide">5</li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section class="splide cosmetics-splide" id="yun-hair-color-splide">
+                        <div class="splide__arrows">
+                            <button class="splide__arrow splide__arrow--prev">
+                                <img src="../assets/Left.8542218e.png" class="splide-img  prev-arrow">
+                            </button>
+                            <button class="splide__arrow splide__arrow--next">
+                                <img src="../assets/Right.83b8f3d3.png" class="splide-img next-arrow">
+                            </button>
+                        </div>
+                        <div class="splide__track">
+                            <ul class="splide__list">
+                                <li class="splide__slide"><img class="cosmetics-splide-img" src="../assets/color_swatch_blond.c43b409b.png"></li>
+                                <li class="splide__slide"><img class="cosmetics-splide-img" src="../assets/color_swatch_caramel.2d8f5b68.png"></li>
+                                <li class="splide__slide"><img class="cosmetics-splide-img" src="../assets/color_swatch_brown.1f2ca091.png"></li>
+                                <li class="splide__slide"><img class="cosmetics-splide-img" src="../assets/color_swatch_oak.b3edae31.png"></li>
+                                <li class="splide__slide"><img class="cosmetics-splide-img" src="../assets/color_swatch_coal.3da32e1d.png"></li>
+                                <li class="splide__slide"><img class="cosmetics-splide-img" src="../assets/color_swatch_slate.7df8f2d7.png"></li>
+                                <li class="splide__slide"><img class="cosmetics-splide-img" src="../assets/color_swatch_silver.c0602d9e.png"></li>
+                                <li class="splide__slide"><img class="cosmetics-splide-img" src="../assets/color_swatch_white.7a46dd0c.png"></li>
+                                <li class="splide__slide"><img class="cosmetics-splide-img" src="../assets/color_swatch_coral.342bb81b.png"></li>
+                                <li class="splide__slide"><img class="cosmetics-splide-img" src="../assets/color_swatch_ruby.35141929.png"></li>
+                                <li class="splide__slide"><img class="cosmetics-splide-img" src="../assets/color_swatch_emerald.2ee2b623.png"></li>
+                                <li class="splide__slide"><img class="cosmetics-splide-img" src="../assets/color_swatch_sage.6c4006bb.png"></li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section class="splide cosmetics-splide" id="yun-beard-splide">
+                        <div class="splide__arrows">
+                            <button class="splide__arrow splide__arrow--prev">
+                                <img src="../assets/Left.8542218e.png" class="splide-img prev-arrow">
+                            </button>
+                            <button class="splide__arrow splide__arrow--next">
+                                <img src="../assets/Right.83b8f3d3.png" class="splide-img next-arrow">
+                            </button>
+                        </div>
+                        <div class="splide__track">
+                            <ul class="splide__list">
+                                <li class="splide__slide">1</li>
+                                <li class="splide__slide">2</li>
+                                <li class="splide__slide">3</li>
+                                <li class="splide__slide">4</li>
+                                <li class="splide__slide">5</li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section class="splide cosmetics-splide" id="yun-beard-color-splide">
+                        <div class="splide__arrows">
+                            <button class="splide__arrow splide__arrow--prev">
+                                <img src="../assets/Left.8542218e.png" class="splide-img  prev-arrow">
+                            </button>
+                            <button class="splide__arrow splide__arrow--next">
+                                <img src="../assets/Right.83b8f3d3.png" class="splide-img next-arrow">
+                            </button>
+                        </div>
+                        <div class="splide__track">
+                            <ul class="splide__list">
+                                <li class="splide__slide"><img class="cosmetics-splide-img" src="../assets/color_swatch_blond.c43b409b.png"></li>
+                                <li class="splide__slide"><img class="cosmetics-splide-img" src="../assets/color_swatch_caramel.2d8f5b68.png"></li>
+                                <li class="splide__slide"><img class="cosmetics-splide-img" src="../assets/color_swatch_brown.1f2ca091.png"></li>
+                                <li class="splide__slide"><img class="cosmetics-splide-img" src="../assets/color_swatch_oak.b3edae31.png"></li>
+                                <li class="splide__slide"><img class="cosmetics-splide-img" src="../assets/color_swatch_coal.3da32e1d.png"></li>
+                                <li class="splide__slide"><img class="cosmetics-splide-img" src="../assets/color_swatch_slate.7df8f2d7.png"></li>
+                                <li class="splide__slide"><img class="cosmetics-splide-img" src="../assets/color_swatch_silver.c0602d9e.png"></li>
+                                <li class="splide__slide"><img class="cosmetics-splide-img" src="../assets/color_swatch_white.7a46dd0c.png"></li>
+                                <li class="splide__slide"><img class="cosmetics-splide-img" src="../assets/color_swatch_coral.342bb81b.png"></li>
+                                <li class="splide__slide"><img class="cosmetics-splide-img" src="../assets/color_swatch_ruby.35141929.png"></li>
+                                <li class="splide__slide"><img class="cosmetics-splide-img" src="../assets/color_swatch_emerald.2ee2b623.png"></li>
+                                <li class="splide__slide"><img class="cosmetics-splide-img" src="../assets/color_swatch_sage.6c4006bb.png"></li>
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+            </div>
         </div>
         <div class="UI" id="UI">
             <div class="column left-column" id="left-column">
@@ -62,20 +441,20 @@
                         <input class="form-control first-dropdown" id="helmetInput" type="text" autocomplete="off"
                             placeholder="Search..">
                         <div class="dropdown-container">
-                            <li><button class="dropdown-item helmet" id="avianHelmet" type="button">Avian
+                            <li class="helmet-li"><button class="dropdown-item helmet" id="avianHelmet" type="button">Avian
                                     Helmet
                                     <img id="avian-helmet" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item helmet" id="scortchedHelmet" type="button">Scorched Helmet
+                            <li class="helmet-li"><button class="dropdown-item helmet" id="scortchedHelmet" type="button">Scorched Helmet
                                     <img id="scortched-helmet" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item helmet" id="dhodinHelmet" type="button">Dhodin Helmet <img
+                            <li class="helmet-li"><button class="dropdown-item helmet" id="dhodinHelmet" type="button">Dhodin Helmet <img
                                         id="dhodin-helmet" class="dropdownIcon"></button></li>
-                            <li> <button class="dropdown-item helmet" id="voidHelmet" type="button">Void Helmet <img
+                            <li class="helmet-li"> <button class="dropdown-item helmet" id="voidHelmet" type="button">Void Helmet <img
                                         id="void-helmet" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item helmet" id="heodednaHelmet" type="button">Heodedna Helmet
+                            <li class="helmet-li"><button class="dropdown-item helmet" id="heodednaHelmet" type="button">Heodedna Helmet
                                     <img id="heodedna-helmet" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item helmet" id="varnaicHelmet" type="button">Varnaic Helmet
+                            <li class="helmet-li"><button class="dropdown-item helmet" id="varnaicHelmet" type="button">Varnaic Helmet
                                     <img id="varnaic-helmet" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item helmet" id="mushroomHelmet" type="button">Mushroom Helmet
+                            <li class="helmet-li"><button class="dropdown-item helmet" id="mushroomHelmet" type="button">Mushroom Helmet
                                     <img id="mushroom-helmet" class="dropdownIcon"></button></li>
 
                         </div>
@@ -91,19 +470,19 @@
                         <input class="form-control first-dropdown" id="shoulderInput" type="text"
                             placeholder="Search..">
                         <div class="dropdown-container">
-                            <li><button class="dropdown-item shoulders" id="avianShoulders" type="button">Avian
+                            <li class="shoulder-li"><button class="dropdown-item shoulders" id="avianShoulders" type="button">Avian
                                     Shoulders <img id="avian-shoulder" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item shoulders" id="scortchedShoulders" type="button">Scorced
+                            <li class="shoulder-li"><button class="dropdown-item shoulders" id="scortchedShoulders" type="button">Scorced
                                     Shoulders <img id="scortched-shoulder" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item shoulders" id="dhodinShoulders" type="button">Dhodin
+                            <li class="shoulder-li"><button class="dropdown-item shoulders" id="dhodinShoulders" type="button">Dhodin
                                     Shoulders <img id="dhodin-shoulder" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item shoulders" id="voidShoulders" type="button">Void Shoulders
+                            <li class="shoulder-li"><button class="dropdown-item shoulders" id="voidShoulders" type="button">Void Shoulders
                                     <img id="void-shoulder" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item shoulders" id="heodednaShoulders" type="button">Heodedna
+                            <li class="shoulder-li"><button class="dropdown-item shoulders" id="heodednaShoulders" type="button">Heodedna
                                     Shoulders <img id="heodedna-shoulder" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item shoulders" id="varnaicShoulders" type="button">Varnaic
+                            <li class="shoulder-li"><button class="dropdown-item shoulders" id="varnaicShoulders" type="button">Varnaic
                                     Shoulders <img id="varnaic-shoulder" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item shoulders" id="mushroomShoulders" type="button">Mushroom
+                            <li class="shoulder-li"><button class="dropdown-item shoulders" id="mushroomShoulders" type="button">Mushroom
                                     Shoulders <img id="mushroom-shoulder" class="dropdownIcon"></button></li>
                         </div>
                         <button class="dropdown-item shoulders" id="unequipShoulders" type="button">Unequip</button>
@@ -117,19 +496,19 @@
                     <ul class="dropdown-menu first-">
                         <input class="form-control first-dropdown" id="chestInput" type="text" placeholder="Search..">
                         <div class="dropdown-container">
-                            <li><button class="dropdown-item chest" id="avianChest" type="button">Avian Chest
+                            <li class="chest-li"><button class="dropdown-item chest" id="avianChest" type="button">Avian Chest
                                     <img id="avian-chest" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item chest" id="scortchedChest" type="button">Scorched Chest
+                            <li class="chest-li"><button class="dropdown-item chest" id="scortchedChest" type="button">Scorched Chest
                                     <img id="scortched-chest" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item chest" id="dhodinChest" type="button">Dhodin Chest <img
+                            <li class="chest-li"><button class="dropdown-item chest" id="dhodinChest" type="button">Dhodin Chest <img
                                         id="dhodin-chest" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item chest" id="voidChest" type="button">Void Chest <img
+                            <li class="chest-li"><button class="dropdown-item chest" id="voidChest" type="button">Void Chest <img
                                         id="void-chest" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item chest" id="heodednaChest" type="button">Heodedna Chest <img
+                            <li class="chest-li"><button class="dropdown-item chest" id="heodednaChest" type="button">Heodedna Chest <img
                                         id="heodedna-chest" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item chest" id="varnaicChest" type="button">Varnaic Chest <img
+                            <li class="chest-li"><button class="dropdown-item chest" id="varnaicChest" type="button">Varnaic Chest <img
                                         id="varnaic-chest" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item chest" id="mushroomChest" type="button">Mushroom Chest <img
+                            <li class="chest-li"><button class="dropdown-item chest" id="mushroomChest" type="button">Mushroom Chest <img
                                         id="mushroom-chest" class="dropdownIcon"></button></li>
                         </div>
                         <button class="dropdown-item chest" id="unequipChest" type="button">Unequip</button>
@@ -143,19 +522,19 @@
                     <ul class="dropdown-menu">
                         <input class="form-control first-dropdown" id="forearmInput" type="text" placeholder="Search..">
                         <div class="dropdown-container">
-                            <li><button class="dropdown-item forearms" id="avianForearm" type="button">Avian
+                            <li class="forearm-li"><button class="dropdown-item forearms" id="avianForearm" type="button">Avian
                                     Forearm <img id="avian-forearm" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item forearms" id="scortchedForearm" type="button">Scorched
+                            <li class="forearm-li"><button class="dropdown-item forearms" id="scortchedForearm" type="button">Scorched
                                     Forearm <img id="scortched-forearm" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item forearms" id="dhodinForearm" type="button">Dhodin Forearm
+                            <li class="forearm-li"><button class="dropdown-item forearms" id="dhodinForearm" type="button">Dhodin Forearm
                                     <img id="dhodin-forearm" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item forearms" id="voidForearm" type="button">Void Forearm <img
+                            <li class="forearm-li"><button class="dropdown-item forearms" id="voidForearm" type="button">Void Forearm <img
                                         id="void-forearm" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item forearms" id="heodednaForearm" type="button">Heodedna
+                            <li class="forearm-li"><button class="dropdown-item forearms" id="heodednaForearm" type="button">Heodedna
                                     Forearm <img id="heodedna-forearm" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item forearms" id="varnaicForearm" type="button">Varnaic
+                            <li class="forearm-li"><button class="dropdown-item forearms" id="varnaicForearm" type="button">Varnaic
                                     Forearm <img id="varnaic-forearm" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item forearms" id="mushroomForearm" type="button">Mushroom
+                            <li class="forearm-li"><button class="dropdown-item forearms" id="mushroomForearm" type="button">Mushroom
                                     Forearm <img id="mushroom-forearm" class="dropdownIcon"></button></li>
                         </div>
                         <button class="dropdown-item forearms" id="unequipForearm" type="button">Unequip</button>
@@ -170,17 +549,17 @@
                     <ul class="dropdown-menu">
                         <input class="form-control first-dropdown" id="swordInput" type="text" placeholder="Search..">
                         <div class="dropdown-container">
-                            <li><button class="dropdown-item sword" id="sword69" type="button">Citrine Crystal<img
+                            <li class="sword-li"><button class="dropdown-item sword" id="sword69" type="button">Citrine Crystal<img
                                         id="sword-69" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item sword" id="sword77" type="button">Gold Vindicator <img
+                            <li class="sword-li"><button class="dropdown-item sword" id="sword77" type="button">Gold Vindicator <img
                                         id="sword-77" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item sword" id="sword171" type="button">Bronze Bandit <img
+                            <li class="sword-li"><button class="dropdown-item sword" id="sword171" type="button">Bronze Bandit <img
                                         id="sword-171" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item sword" id="sword25" type="button">Yellow Iron Wolf<img
+                            <li class="sword-li"><button class="dropdown-item sword" id="sword25" type="button">Yellow Iron Wolf<img
                                         id="sword-25" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item sword" id="sword17" type="button">Ruby Dragon<img
+                            <li class="sword-li"><button class="dropdown-item sword" id="sword17" type="button">Ruby Dragon<img
                                         id="sword-17" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item sword" id="sword181" type="button">Bone Marrow<img
+                            <li class="sword-li"><button class="dropdown-item sword" id="sword181" type="button">Bone Marrow<img
                                         id="sword-181" class="dropdownIcon"></button></li>
                         </div>
                         <button class="dropdown-item sword" id="swordunequip" type="button">Unequip</button>
@@ -197,19 +576,19 @@
                     <ul class="dropdown-menu">
                         <input class="form-control first-dropdown" id="pantsInput" type="text" placeholder="Search..">
                         <div class="dropdown-container">
-                            <li><button class="dropdown-item pants" id="avianPants" type="button">Avian Pants
+                            <li class="pants-li"><button class="dropdown-item pants" id="avianPants" type="button">Avian Pants
                                     <img id="avian-pants" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item pants" id="scortchedPants" type="button">Scorched Pants
+                            <li class="pants-li"><button class="dropdown-item pants" id="scortchedPants" type="button">Scorched Pants
                                     <img id="scortched-pants" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item pants" id="dhodinPants" type="button">Dhodin Pants <img
+                            <li class="pants-li"><button class="dropdown-item pants" id="dhodinPants" type="button">Dhodin Pants <img
                                         id="dhodin-pants" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item pants" id="voidPants" type="button">Void Pants <img
+                            <li class="pants-li"><button class="dropdown-item pants" id="voidPants" type="button">Void Pants <img
                                         id="void-pants" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item pants" id="heodednaPants" type="button">Heodedna Pants <img
+                            <li class="pants-li"><button class="dropdown-item pants" id="heodednaPants" type="button">Heodedna Pants <img
                                         id="heodedna-pants" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item pants" id="varnaicPants" type="button">Varnaic Pants <img
+                            <li class="pants-li"><button class="dropdown-item pants" id="varnaicPants" type="button">Varnaic Pants <img
                                         id="varnaic-pants" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item pants" id="mushroomPants" type="button">Mushroom Pants <img
+                            <li class="pants-li"><button class="dropdown-item pants" id="mushroomPants" type="button">Mushroom Pants <img
                                         id="mushroom-pants" class="dropdownIcon"></button></li>
                         </div>
                         <button class="dropdown-item pants" id="unequipPants" type="button">Unequip</button>
@@ -223,19 +602,19 @@
                     <ul class="dropdown-menu">
                         <input class="form-control first-dropdown" id="tassetInput" type="text" placeholder="Search..">
                         <div class="dropdown-container">
-                            <li><button class="dropdown-item tassets" id="avianTassets" type="button">Avian
+                            <li class="tassets-li"><button class="dropdown-item tassets" id="avianTassets" type="button">Avian
                                     Tassets <img id="avian-tasset" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item tassets" id="scortchedTassets" type="button">Scorched
+                            <li class="tassets-li"><button class="dropdown-item tassets" id="scortchedTassets" type="button">Scorched
                                     Tassets <img id="scortched-tasset" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item tassets" id="dhodinTassets" type="button">Dhodin Tassets
+                            <li class="tassets-li"><button class="dropdown-item tassets" id="dhodinTassets" type="button">Dhodin Tassets
                                     <img id="dhodin-tasset" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item tassets" id="voidTassets" type="button">Void Tassets <img
+                            <li class="tassets-li"><button class="dropdown-item tassets" id="voidTassets" type="button">Void Tassets <img
                                         id="void-tasset" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item tassets" id="heodednaTassets" type="button">Heodedna
+                            <li class="tassets-li"><button class="dropdown-item tassets" id="heodednaTassets" type="button">Heodedna
                                     Tassets <img id="heodedna-tasset" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item tassets" id="varnaicTassets" type="button">Varnaic
+                            <li class="tassets-li"><button class="dropdown-item tassets" id="varnaicTassets" type="button">Varnaic
                                     Tassets <img id="varnaic-tasset" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item tassets" id="mushroomTassets" type="button">Mushroom
+                            <li class="tassets-li"><button class="dropdown-item tassets" id="mushroomTassets" type="button">Mushroom
                                     Tassets <img id="mushroom-tasset" class="dropdownIcon"></button></li>
                         </div>
                         <button class="dropdown-item tassets" id="unequipTassets" type="button">Unequip</button>
@@ -249,19 +628,19 @@
                     <ul class="dropdown-menu">
                         <input class="form-control first-dropdown" id="beltInput" type="text" placeholder="Search..">
                         <div class="dropdown-container">
-                            <li><button class="dropdown-item belt" id="avianBelt" type="button">Avian Belt <img
+                            <li class="belt-li"><button class="dropdown-item belt" id="avianBelt" type="button">Avian Belt <img
                                         id="avian-belt" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item belt" id="scortchedBelt" type="button">Scorched Belt <img
+                            <li class="belt-li"><button class="dropdown-item belt" id="scortchedBelt" type="button">Scorched Belt <img
                                         id="scortched-belt" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item belt" id="dhodinBelt" type="button">Dhodin Belt <img
+                            <li class="belt-li"><button class="dropdown-item belt" id="dhodinBelt" type="button">Dhodin Belt <img
                                         id="dhodin-belt" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item belt" id="voidBelt" type="button">Void Belt <img
+                            <li class="belt-li"><button class="dropdown-item belt" id="voidBelt" type="button">Void Belt <img
                                         id="void-belt" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item belt" id="heodednaBelt" type="button">Heodedna Belt <img
+                            <li class="belt-li"><button class="dropdown-item belt" id="heodednaBelt" type="button">Heodedna Belt <img
                                         id="heodedna-belt" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item belt" id="varnaicBelt" type="button">Varnaic Belt <img
+                            <li class="belt-li"><button class="dropdown-item belt" id="varnaicBelt" type="button">Varnaic Belt <img
                                         id="varnaic-belt" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item belt" id="mushroomBelt" type="button">Mushroom Belt <img
+                            <li class="belt-li"><button class="dropdown-item belt" id="mushroomBelt" type="button">Mushroom Belt <img
                                         id="mushroom-belt" class="dropdownIcon"></button></li>
                         </div>
                         <button class="dropdown-item belt" id="unequipBelt" type="button">Unequip</button>
@@ -275,19 +654,19 @@
                     <ul class="dropdown-menu">
                         <input class="form-control first-dropdown" id="bootsInput" type="text" placeholder="Search..">
                         <div class="dropdown-container">
-                            <li><button class="dropdown-item boots" id="avianBoots" type="button">Avian Boots
+                            <li class="boots-li"><button class="dropdown-item boots" id="avianBoots" type="button">Avian Boots
                                     <img id="avian-boots" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item boots" id="scortchedBoots" type="button">Scorched Boots
+                            <li class="boots-li"><button class="dropdown-item boots" id="scortchedBoots" type="button">Scorched Boots
                                     <img id="scortched-boots" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item boots" id="dhodinBoots" type="button">Dhodin Boots <img
+                            <li class="boots-li"><button class="dropdown-item boots" id="dhodinBoots" type="button">Dhodin Boots <img
                                         id="dhodin-boots" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item boots" id="voidBoots" type="button">Void Boots <img
+                            <li class="boots-li"><button class="dropdown-item boots" id="voidBoots" type="button">Void Boots <img
                                         id="void-boots" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item boots" id="heodednaBoots" type="button">Heodedna Boots <img
+                            <li class="boots-li"><button class="dropdown-item boots" id="heodednaBoots" type="button">Heodedna Boots <img
                                         id="heodedna-boots" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item boots" id="varnaicBoots" type="button">Varnaic Boots <img
+                            <li class="boots-li"><button class="dropdown-item boots" id="varnaicBoots" type="button">Varnaic Boots <img
                                         id="varnaic-boots" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item boots" id="mushroomBoots" type="button">Mushroom Boots <img
+                            <li class="boots-li"><button class="dropdown-item boots" id="mushroomBoots" type="button">Mushroom Boots <img
                                         id="mushroom-boots" class="dropdownIcon"></button></li>
                         </div>
                         <button class="dropdown-item boots" id="unequipBoots" type="button">Unequip</button>
@@ -301,64 +680,64 @@
                     <ul class="dropdown-menu">
                         <input class="form-control first-dropdown" id="mountInput" type="text" placeholder="Search..">
                         <div class="dropdown-container">
-                            <li><button class="dropdown-item mount" id="manahoundMountgrimrocks" type="button">Grimrocks
+                            <li class="mount-li"><button class="dropdown-item mount" id="manahoundMountgrimrocks" type="button">Grimrocks
                                     Mana Hound<img id="manahoundgrimrocks-mount" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item mount" id="raptorMountcopperbrown" type="button">Copper Brown
+                            <li class="mount-li"><button class="dropdown-item mount" id="raptorMountcopperbrown" type="button">Copper Brown
                                     Raptor<img id="raptorcopperbrown-mount" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item mount" id="raptorMountolive" type="button">Olive
+                            <li class="mount-li"><button class="dropdown-item mount" id="raptorMountolive" type="button">Olive
                                     Raptor<img id="raptorolive-mount" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item mount" id="raptorMountsteelgrey" type="button">Steel Grey
+                            <li class="mount-li"><button class="dropdown-item mount" id="raptorMountsteelgrey" type="button">Steel Grey
                                     Raptor<img id="raptorsteelgrey-mount" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item mount" id="horseMountblack" type="button">Black Horse<img
+                            <li class="mount-li"><button class="dropdown-item mount" id="horseMountblack" type="button">Black Horse<img
                                         id="horseblack-mount" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item mount" id="horseMountbuck" type="button">Buck Horse<img
+                            <li class="mount-li"><button class="dropdown-item mount" id="horseMountbuck" type="button">Buck Horse<img
                                         id="horsebuck-mount" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item mount" id="horseMountcalico" type="button">Calico Horse<img
+                            <li class="mount-li"><button class="dropdown-item mount" id="horseMountcalico" type="button">Calico Horse<img
                                         id="horsecalico-mount" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item mount" id="horseMountchestnut" type="button">Chestnut
+                            <li class="mount-li"><button class="dropdown-item mount" id="horseMountchestnut" type="button">Chestnut
                                     Horse<img id="horsechestnut-mount" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item mount" id="horseMountwiredchestnut" type="button">Wired
+                            <li class="mount-li"><button class="dropdown-item mount" id="horseMountwiredchestnut" type="button">Wired
                                     Chestnut
                                     Horse<img id="horsewiredchestnut-mount" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item mount" id="horseMountcream" type="button">Cream Horse<img
+                            <li class="mount-li"><button class="dropdown-item mount" id="horseMountcream" type="button">Cream Horse<img
                                         id="horsecream-mount" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item mount" id="horseMountcremello" type="button">Cremello
+                            <li class="mount-li"><button class="dropdown-item mount" id="horseMountcremello" type="button">Cremello
                                     Horse<img id="horsecremello-mount" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item mount" id="horseMountdapplegrey" type="button">Dapple Grey
+                            <li class="mount-li"><button class="dropdown-item mount" id="horseMountdapplegrey" type="button">Dapple Grey
                                     Horse<img id="horsedapplegrey-mount" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item mount" id="horseMountdarkbay" type="button">Dark Bay
+                            <li class="mount-li"><button class="dropdown-item mount" id="horseMountdarkbay" type="button">Dark Bay
                                     Horse<img id="horsedarkbay-mount" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item mount" id="horseMountwireddarkbay" type="button">Wired Dark
+                            <li class="mount-li"><button class="dropdown-item mount" id="horseMountwireddarkbay" type="button">Wired Dark
                                     Bay
                                     Horse<img id="horsewireddarkbay-mount" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item mount" id="horseMountdarkgrey" type="button">Dark Grey
+                            <li class="mount-li"><button class="dropdown-item mount" id="horseMountdarkgrey" type="button">Dark Grey
                                     Horse<img id="horsedarkgrey-mount" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item mount" id="horseMountlightgrey" type="button">Light Grey
+                            <li class="mount-li"><button class="dropdown-item mount" id="horseMountlightgrey" type="button">Light Grey
                                     Horse<img id="horselightgrey-mount" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item mount" id="horseMountdun" type="button">Dun Horse<img
+                            <li class="mount-li"><button class="dropdown-item mount" id="horseMountdun" type="button">Dun Horse<img
                                         id="horsedun-mount" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item mount" id="horseMountpalomino" type="button">Palomino
+                            <li class="mount-li"><button class="dropdown-item mount" id="horseMountpalomino" type="button">Palomino
                                     Horse<img id="horsepalomino-mount" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item mount" id="horseMountpiebald" type="button">Piebald
+                            <li class="mount-li"><button class="dropdown-item mount" id="horseMountpiebald" type="button">Piebald
                                     Horse<img id="horsepiebald-mount" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item mount" id="horseMountroan" type="button">Roan Horse<img
+                            <li class="mount-li"><button class="dropdown-item mount" id="horseMountroan" type="button">Roan Horse<img
                                         id="horseroan-mount" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item mount" id="horseMountsilverbay" type="button">Silver Bay
+                            <li class="mount-li"><button class="dropdown-item mount" id="horseMountsilverbay" type="button">Silver Bay
                                     Horse<img id="horsesilverbay-mount" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item mount" id="horseMountspottedcream" type="button">Spotted
+                            <li class="mount-li"><button class="dropdown-item mount" id="horseMountspottedcream" type="button">Spotted
                                     Cream
                                     Horse<img id="horsespottedcream-mount" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item mount" id="horseMounttanned" type="button">Tanned Horse<img
+                            <li class="mount-li"><button class="dropdown-item mount" id="horseMounttanned" type="button">Tanned Horse<img
                                         id="horsetanned-mount" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item mount" id="horseMountwhite" type="button">White Horse<img
+                            <li class="mount-li"><button class="dropdown-item mount" id="horseMountwhite" type="button">White Horse<img
                                         id="horsewhite-mount" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item mount" id="zombiehorseMountcobalt" type="button">Cobalt
+                            <li class="mount-li"><button class="dropdown-item mount" id="zombiehorseMountcobalt" type="button">Cobalt
                                     Zombie Horse<img id="zombiehorsecobalt-mount" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item mount" id="zombiehorseMountdirtbrown" type="button">Dirt
+                            <li class="mount-li"><button class="dropdown-item mount" id="zombiehorseMountdirtbrown" type="button">Dirt
                                     Brown Zombie Horse<img id="zombiehorsedirtbrown-mount" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item mount" id="zombiehorseMountlavander" type="button">Lavander
+                            <li class="mount-li"><button class="dropdown-item mount" id="zombiehorseMountlavander" type="button">Lavander
                                     Zombie Horse<img id="zombiehorselavander-mount" class="dropdownIcon"></button></li>
-                            <li><button class="dropdown-item mount" id="zombiehorseMountmossygreen" type="button">Mossy
+                            <li class="mount-li"><button class="dropdown-item mount" id="zombiehorseMountmossygreen" type="button">Mossy
                                      Zombie Horse<img id="zombiehorsemossygreen-mount" class="dropdownIcon"></button></li>
                         </div>
                         <button class="dropdown-item mount" id="unequipMount" type="button">Unequip</button>
@@ -371,7 +750,7 @@
             <button class="UI-Handler btn btn-secondary" id="UI-Handler"><img id="uiHandlerImg" alt=""></button>
         </div>
     </div>
-
+    <script src="./tween.umd.js"></script>
     <script src="../js/splide.min.js"></script>
     
     <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"

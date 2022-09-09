@@ -26,18 +26,15 @@
                 0.7071068286895752,
                 0,
                 0,
-                0.7071068286895752
+                0.7071067094802856
             ]
         }
     ],
     "materials" : [
         {
             "doubleSided" : true,
-            "name" : "defaultMat5",
+            "name" : "defaultMat5.001",
             "pbrMetallicRoughness" : {
-                "baseColorTexture" : {
-                    "index" : 0
-                },
                 "metallicFactor" : 0,
                 "roughnessFactor" : 0.5527864098548889
             }
@@ -45,7 +42,7 @@
     ],
     "meshes" : [
         {
-            "name" : "Mesh",
+            "name" : "Mesh.003",
             "primitives" : [
                 {
                     "attributes" : {
@@ -70,32 +67,19 @@
             ]
         }
     ],
-    "textures" : [
-        {
-            "sampler" : 0,
-            "source" : 0
-        }
-    ],
-    "images" : [
-        {
-            "mimeType" : "image/png",
-            "name" : "t_yun_hair",
-            "uri" : "t_yun_hair.png"
-        }
-    ],
     "accessors" : [
         {
             "componentType" : 5126,
             "count" : 1388,
             "max" : [
                 13.633625984191895,
-                36.24527359008789,
-                -16.3841552734375
+                36.24526596069336,
+                -16.384166717529297
             ],
             "min" : [
                 -13.633275032043457,
-                26.057838439941406,
-                -39.14801025390625
+                26.05782699584961,
+                -39.14802169799805
             ],
             "type" : "VEC3"
         },
@@ -120,12 +104,6 @@
             "buffer" : 0,
             "byteLength" : 11740,
             "byteOffset" : 0
-        }
-    ],
-    "samplers" : [
-        {
-            "magFilter" : 9729,
-            "minFilter" : 9987
         }
     ],
     "buffers" : [

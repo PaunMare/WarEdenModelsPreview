@@ -1,6 +1,6 @@
 {
     "asset" : {
-        "generator" : "Khronos glTF Blender I/O v3.2.40",
+        "generator" : "Khronos glTF Blender I/O v3.2.43",
         "version" : "2.0"
     },
     "extensionsUsed" : [
@@ -44,7 +44,7 @@
         },
         {
             "doubleSided" : true,
-            "name" : "Vranaic_Belt",
+            "name" : "Vranaic_Belt1",
             "pbrMetallicRoughness" : {
                 "baseColorTexture" : {
                     "index" : 1
@@ -56,7 +56,7 @@
     ],
     "meshes" : [
         {
-            "name" : "Mesh",
+            "name" : "Mesh.005",
             "primitives" : [
                 {
                     "attributes" : {
@@ -114,8 +114,8 @@
     "images" : [
         {
             "mimeType" : "image/png",
-            "name" : "t_human_varnaic_pants",
-            "uri" : "t_human_varnaic_pants.png"
+            "name" : "t_human_varnaic_belt2",
+            "uri" : "t_human_varnaic_belt2.png"
         },
         {
             "mimeType" : "image/png",
@@ -129,13 +129,13 @@
             "count" : 90,
             "max" : [
                 10.972715377807617,
-                10.50795841217041,
-                55.545047760009766
+                -2.2023773193359375,
+                10.50795841217041
             ],
             "min" : [
                 -10.972715377807617,
-                -18.07733917236328,
-                2.2023773193359375
+                -55.54505157470703,
+                -18.07733917236328
             ],
             "type" : "VEC3"
         },
@@ -159,13 +159,13 @@
             "count" : 965,
             "max" : [
                 18.801963806152344,
-                13.536250114440918,
-                4.622337341308594
+                16.147262573242188,
+                13.536250114440918
             ],
             "min" : [
                 -24.255666732788086,
-                -19.294050216674805,
-                -16.147262573242188
+                -4.62233829498291,
+                -19.294050216674805
             ],
             "type" : "VEC3"
         },
@@ -188,12 +188,12 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 567,
+            "byteLength" : 566,
             "byteOffset" : 0
         },
         {
             "buffer" : 0,
-            "byteLength" : 8506,
+            "byteLength" : 8499,
             "byteOffset" : 568
         }
     ],
@@ -205,7 +205,7 @@
     ],
     "buffers" : [
         {
-            "byteLength" : 9076,
+            "byteLength" : 9068,
             "uri" : "sm_human_varnaic_belt.bin"
         }
     ]

@@ -1,6 +1,6 @@
 {
     "asset" : {
-        "generator" : "Khronos glTF Blender I/O v3.2.43",
+        "generator" : "Khronos glTF Blender I/O v3.3.27",
         "version" : "2.0"
     },
     "extensionsUsed" : [
@@ -33,14 +33,8 @@
     "materials" : [
         {
             "doubleSided" : true,
-            "name" : "Beard03.002",
+            "name" : "Beard03.001",
             "pbrMetallicRoughness" : {
-                "baseColorFactor" : [
-                    0.5,
-                    0.5,
-                    0.5,
-                    1
-                ],
                 "metallicFactor" : 0,
                 "roughnessFactor" : 0.5527864098548889
             }
@@ -48,7 +42,7 @@
     ],
     "meshes" : [
         {
-            "name" : "Mesh.014",
+            "name" : "Mesh.005",
             "primitives" : [
                 {
                     "attributes" : {
@@ -76,27 +70,27 @@
     "accessors" : [
         {
             "componentType" : 5126,
-            "count" : 3640,
+            "count" : 3652,
             "max" : [
-                13.835680961608887,
-                26.273357391357422,
-                10.601348876953125
+                13.571374893188477,
+                27.52804946899414,
+                10.403192520141602
             ],
             "min" : [
-                -13.898366928100586,
-                11.812374114990234,
-                -9.129837036132812
+                -14.16267204284668,
+                13.067678451538086,
+                -9.328727722167969
             ],
             "type" : "VEC3"
         },
         {
             "componentType" : 5126,
-            "count" : 3640,
+            "count" : 3652,
             "type" : "VEC3"
         },
         {
             "componentType" : 5126,
-            "count" : 3640,
+            "count" : 3652,
             "type" : "VEC2"
         },
         {
@@ -108,13 +102,13 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 28882,
+            "byteLength" : 28969,
             "byteOffset" : 0
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 28884,
+            "byteLength" : 28972,
             "uri" : "sm_dwarf_beard_03.bin"
         }
     ]

@@ -1,6 +1,6 @@
 {
     "asset" : {
-        "generator" : "Khronos glTF Blender I/O v3.2.40",
+        "generator" : "Khronos glTF Blender I/O v1.8.19",
         "version" : "2.0"
     },
     "extensionsUsed" : [
@@ -23,10 +23,10 @@
             "mesh" : 0,
             "name" : "sm_dwarf_avian_belt",
             "rotation" : [
-                0.7071068286895752,
+                1,
                 0,
                 0,
-                0.7071067094802856
+                -4.371138828673793e-08
             ]
         }
     ],
@@ -89,8 +89,8 @@
             "count" : 830,
             "max" : [
                 27.556617736816406,
-                28.128726959228516,
-                45.95886993408203
+                28.12995719909668,
+                45.957645416259766
             ],
             "min" : [
                 -28.085247039794922,
@@ -118,7 +118,7 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 6713,
+            "byteLength" : 6760,
             "byteOffset" : 0
         }
     ],
@@ -130,7 +130,7 @@
     ],
     "buffers" : [
         {
-            "byteLength" : 6716,
+            "byteLength" : 6760,
             "uri" : "sm_dwarf_avian_belt.bin"
         }
     ]

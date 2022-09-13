@@ -1,6 +1,6 @@
 {
     "asset" : {
-        "generator" : "Khronos glTF Blender I/O v3.2.40",
+        "generator" : "Khronos glTF Blender I/O v3.2.43",
         "version" : "2.0"
     },
     "extensionsUsed" : [
@@ -38,13 +38,14 @@
                 "baseColorTexture" : {
                     "index" : 0
                 },
-                "metallicFactor" : 0
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5527864098548889
             }
         }
     ],
     "meshes" : [
         {
-            "name" : "Mesh",
+            "name" : "Mesh.001",
             "primitives" : [
                 {
                     "attributes" : {
@@ -88,13 +89,13 @@
             "count" : 3741,
             "max" : [
                 20.738658905029297,
-                17.605567932128906,
-                14.032363891601562
+                25.213882446289062,
+                17.605567932128906
             ],
             "min" : [
                 -20.5261173248291,
-                -19.234848022460938,
-                -25.213882446289062
+                -14.032364845275879,
+                -19.234848022460938
             ],
             "type" : "VEC3"
         },
@@ -117,7 +118,7 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 30040,
+            "byteLength" : 30043,
             "byteOffset" : 0
         }
     ],
@@ -129,7 +130,7 @@
     ],
     "buffers" : [
         {
-            "byteLength" : 30040,
+            "byteLength" : 30044,
             "uri" : "sm_human_dhodin_belt.bin"
         }
     ]

@@ -1,6 +1,6 @@
 {
     "asset" : {
-        "generator" : "Khronos glTF Blender I/O v3.2.43",
+        "generator" : "Khronos glTF Blender I/O v3.3.27",
         "version" : "2.0"
     },
     "extensionsUsed" : [
@@ -33,7 +33,7 @@
     "materials" : [
         {
             "doubleSided" : true,
-            "name" : "Beard06.002",
+            "name" : "Beard06.001",
             "pbrMetallicRoughness" : {
                 "metallicFactor" : 0,
                 "roughnessFactor" : 0.5527864098548889
@@ -42,7 +42,7 @@
     ],
     "meshes" : [
         {
-            "name" : "Mesh.017",
+            "name" : "Mesh.004",
             "primitives" : [
                 {
                     "attributes" : {
@@ -72,14 +72,14 @@
             "componentType" : 5126,
             "count" : 4196,
             "max" : [
-                13.786417961120605,
-                27.68085479736328,
-                23.661178588867188
+                14.136363983154297,
+                28.872507095336914,
+                23.024370193481445
             ],
             "min" : [
-                -14.315028190612793,
-                6.116345405578613,
-                -12.509368896484375
+                -13.964639663696289,
+                7.308832168579102,
+                -13.146193504333496
             ],
             "type" : "VEC3"
         },
@@ -102,13 +102,13 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 33961,
+            "byteLength" : 34040,
             "byteOffset" : 0
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 33964,
+            "byteLength" : 34040,
             "uri" : "sm_dwarf_beard_06.bin"
         }
     ]

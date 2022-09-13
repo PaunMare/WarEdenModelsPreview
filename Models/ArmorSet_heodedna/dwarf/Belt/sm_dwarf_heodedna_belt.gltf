@@ -1,6 +1,6 @@
 {
     "asset" : {
-        "generator" : "Khronos glTF Blender I/O v3.2.40",
+        "generator" : "Khronos glTF Blender I/O v1.8.19",
         "version" : "2.0"
     },
     "extensionsUsed" : [
@@ -23,17 +23,17 @@
             "mesh" : 0,
             "name" : "sm_dwarf_heodedna_belt",
             "rotation" : [
-                0.7071068286895752,
+                -1,
                 0,
                 0,
-                0.7071067094802856
+                7.549790126404332e-08
             ]
         }
     ],
     "materials" : [
         {
             "doubleSided" : true,
-            "name" : "t_armor_heodedna_belt.001",
+            "name" : "t_armor_heodedna_belt.003",
             "pbrMetallicRoughness" : {
                 "baseColorTexture" : {
                     "index" : 0
@@ -45,7 +45,7 @@
     ],
     "meshes" : [
         {
-            "name" : "Mesh.032",
+            "name" : "Mesh.004",
             "primitives" : [
                 {
                     "attributes" : {
@@ -88,9 +88,9 @@
             "componentType" : 5126,
             "count" : 2048,
             "max" : [
-                29.39718246459961,
+                29.395843505859375,
                 31.386497497558594,
-                29.40038299560547
+                29.40097427368164
             ],
             "min" : [
                 -28.38873291015625,
@@ -118,7 +118,7 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 16751,
+            "byteLength" : 16837,
             "byteOffset" : 0
         }
     ],
@@ -130,7 +130,7 @@
     ],
     "buffers" : [
         {
-            "byteLength" : 16752,
+            "byteLength" : 16840,
             "uri" : "sm_dwarf_heodedna_belt.bin"
         }
     ]

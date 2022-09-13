@@ -33,7 +33,7 @@
     "materials" : [
         {
             "doubleSided" : true,
-            "name" : "Belt.001",
+            "name" : "Belt2",
             "pbrMetallicRoughness" : {
                 "baseColorTexture" : {
                     "index" : 0
@@ -45,7 +45,7 @@
     ],
     "meshes" : [
         {
-            "name" : "Mesh.017",
+            "name" : "Mesh.003",
             "primitives" : [
                 {
                     "attributes" : {
@@ -88,14 +88,14 @@
             "componentType" : 5126,
             "count" : 1622,
             "max" : [
-                18.364086151123047,
-                17.830602645874023,
-                36.976234436035156
+                18.363075256347656,
+                5.865631103515625,
+                17.831180572509766
             ],
             "min" : [
                 -18.37171173095703,
-                -18.38480567932129,
-                -5.865631103515625
+                -36.976234436035156,
+                -18.38480567932129
             ],
             "type" : "VEC3"
         },
@@ -118,7 +118,7 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 13256,
+            "byteLength" : 13219,
             "byteOffset" : 0
         }
     ],
@@ -130,7 +130,7 @@
     ],
     "buffers" : [
         {
-            "byteLength" : 13256,
+            "byteLength" : 13220,
             "uri" : "sm_human_mushroom_belt.bin"
         }
     ]

@@ -1,6 +1,6 @@
 {
     "asset" : {
-        "generator" : "Khronos glTF Blender I/O v3.2.40",
+        "generator" : "Khronos glTF Blender I/O v3.2.43",
         "version" : "2.0"
     },
     "extensionsUsed" : [
@@ -45,7 +45,7 @@
     ],
     "meshes" : [
         {
-            "name" : "Mesh.044",
+            "name" : "Mesh.006",
             "primitives" : [
                 {
                     "attributes" : {
@@ -91,13 +91,13 @@
             "count" : 1516,
             "max" : [
                 18.829818725585938,
-                13.275578498840332,
-                52.725460052490234
+                6.349822044372559,
+                13.275578498840332
             ],
             "min" : [
                 -18.365421295166016,
-                -18.835325241088867,
-                -6.349822044372559
+                -52.725460052490234,
+                -18.835323333740234
             ],
             "type" : "VEC3"
         },
@@ -125,7 +125,7 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 15563,
+            "byteLength" : 15564,
             "byteOffset" : 0
         }
     ],

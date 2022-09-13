@@ -1,6 +1,6 @@
 {
     "asset" : {
-        "generator" : "Khronos glTF Blender I/O v3.2.43",
+        "generator" : "Khronos glTF Blender I/O v1.8.19",
         "version" : "2.0"
     },
     "extensionsUsed" : [
@@ -21,13 +21,7 @@
     "nodes" : [
         {
             "mesh" : 0,
-            "name" : "sm_dwarf_mushroom_belt",
-            "rotation" : [
-                0.7071068286895752,
-                0,
-                0,
-                0.7071067094802856
-            ]
+            "name" : "sm_dwarf_mushroom_belt"
         }
     ],
     "materials" : [
@@ -88,14 +82,14 @@
             "componentType" : 5126,
             "count" : 1622,
             "max" : [
-                28.367111206054688,
-                31.78807258605957,
-                53.89695739746094
+                28.367372512817383,
+                24.890642166137695,
+                8.805049896240234
             ],
             "min" : [
                 -29.895009994506836,
-                -24.890642166137695,
-                -8.805047988891602
+                -31.787250518798828,
+                -53.8969612121582
             ],
             "type" : "VEC3"
         },
@@ -118,7 +112,7 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 13245,
+            "byteLength" : 13273,
             "byteOffset" : 0
         }
     ],
@@ -130,7 +124,7 @@
     ],
     "buffers" : [
         {
-            "byteLength" : 13248,
+            "byteLength" : 13276,
             "uri" : "sm_dwarf_mushroom_belt.bin"
         }
     ]

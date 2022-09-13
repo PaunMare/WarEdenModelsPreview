@@ -1,6 +1,6 @@
 {
     "asset" : {
-        "generator" : "Khronos glTF Blender I/O v1.8.19",
+        "generator" : "Khronos glTF Blender I/O v3.3.27",
         "version" : "2.0"
     },
     "extensionsUsed" : [
@@ -33,18 +33,19 @@
     "materials" : [
         {
             "doubleSided" : true,
-            "name" : "Belt",
+            "name" : "Belt1",
             "pbrMetallicRoughness" : {
                 "baseColorTexture" : {
                     "index" : 0
                 },
-                "metallicFactor" : 0
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5527864098548889
             }
         }
     ],
     "meshes" : [
         {
-            "name" : "Mesh.013",
+            "name" : "Mesh.009",
             "primitives" : [
                 {
                     "attributes" : {
@@ -78,8 +79,8 @@
     "images" : [
         {
             "mimeType" : "image/png",
-            "name" : "t_human_avian_belt",
-            "uri" : "t_human_avian_belt.png"
+            "name" : "t_human_avian_belt_d",
+            "uri" : "t_human_avian_belt_d.png"
         }
     ],
     "accessors" : [
@@ -87,14 +88,14 @@
             "componentType" : 5126,
             "count" : 830,
             "max" : [
-                18.082380294799805,
-                12.510109901428223,
-                35.50434875488281
+                19.095741271972656,
+                7.802060127258301,
+                13.189208030700684
             ],
             "min" : [
-                -18.0823917388916,
-                -17.949661254882812,
-                -7.486930847167969
+                -19.094852447509766,
+                -37.59602355957031,
+                -18.977121353149414
             ],
             "type" : "VEC3"
         },
@@ -117,7 +118,7 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 6598,
+            "byteLength" : 6642,
             "byteOffset" : 0
         }
     ],
@@ -129,7 +130,7 @@
     ],
     "buffers" : [
         {
-            "byteLength" : 6600,
+            "byteLength" : 6644,
             "uri" : "sm_human_avian_belt.bin"
         }
     ]

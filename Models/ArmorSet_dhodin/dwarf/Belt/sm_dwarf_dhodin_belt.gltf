@@ -1,6 +1,6 @@
 {
     "asset" : {
-        "generator" : "Khronos glTF Blender I/O v3.2.40",
+        "generator" : "Khronos glTF Blender I/O v3.3.27",
         "version" : "2.0"
     },
     "extensionsUsed" : [
@@ -21,13 +21,7 @@
     "nodes" : [
         {
             "mesh" : 0,
-            "name" : "sm_dwarf_dhodin_belt",
-            "rotation" : [
-                0.7071068286895752,
-                0,
-                0,
-                0.7071067094802856
-            ]
+            "name" : "sm_dwarf_dhodin_belt"
         }
     ],
     "materials" : [
@@ -45,7 +39,7 @@
     ],
     "meshes" : [
         {
-            "name" : "Mesh",
+            "name" : "Mesh.010",
             "primitives" : [
                 {
                     "attributes" : {
@@ -86,27 +80,27 @@
     "accessors" : [
         {
             "componentType" : 5126,
-            "count" : 4184,
+            "count" : 4481,
             "max" : [
-                32.13909912109375,
-                29.87693214416504,
-                54.05590057373047
+                32.14086151123047,
+                26.976408004760742,
+                28.9357967376709
             ],
             "min" : [
                 -32.04688262939453,
-                -26.976408004760742,
-                -28.93579864501953
+                -29.87617301940918,
+                -54.055904388427734
             ],
             "type" : "VEC3"
         },
         {
             "componentType" : 5126,
-            "count" : 4184,
+            "count" : 4481,
             "type" : "VEC3"
         },
         {
             "componentType" : 5126,
-            "count" : 4184,
+            "count" : 4481,
             "type" : "VEC2"
         },
         {
@@ -118,7 +112,7 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 32538,
+            "byteLength" : 34073,
             "byteOffset" : 0
         }
     ],
@@ -130,7 +124,7 @@
     ],
     "buffers" : [
         {
-            "byteLength" : 32540,
+            "byteLength" : 34076,
             "uri" : "sm_dwarf_dhodin_belt.bin"
         }
     ]

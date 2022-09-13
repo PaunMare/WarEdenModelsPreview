@@ -1,6 +1,6 @@
 {
     "asset" : {
-        "generator" : "Khronos glTF Blender I/O v3.2.40",
+        "generator" : "Khronos glTF Blender I/O v1.8.19",
         "version" : "2.0"
     },
     "extensionsUsed" : [
@@ -21,19 +21,13 @@
     "nodes" : [
         {
             "mesh" : 0,
-            "name" : "sm_dwarf_void_belt",
-            "rotation" : [
-                0.7071068286895752,
-                0,
-                0,
-                0.7071067094802856
-            ]
+            "name" : "sm_dwarf_void_belt"
         }
     ],
     "materials" : [
         {
             "doubleSided" : true,
-            "name" : "lambert2.001",
+            "name" : "lambert2.002",
             "pbrMetallicRoughness" : {
                 "baseColorTexture" : {
                     "index" : 0
@@ -45,7 +39,7 @@
     ],
     "meshes" : [
         {
-            "name" : "Mesh.031",
+            "name" : "Mesh.003",
             "primitives" : [
                 {
                     "attributes" : {
@@ -90,14 +84,14 @@
             "componentType" : 5126,
             "count" : 1516,
             "max" : [
-                27.783523559570312,
-                28.859947204589844,
-                50.0496826171875
+                27.78261947631836,
+                24.682069778442383,
+                9.025602340698242
             ],
             "min" : [
                 -28.252899169921875,
-                -24.682069778442383,
-                -9.025601387023926
+                -28.858169555664062,
+                -50.049686431884766
             ],
             "type" : "VEC3"
         },
@@ -125,7 +119,7 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 15850,
+            "byteLength" : 15723,
             "byteOffset" : 0
         }
     ],
@@ -137,7 +131,7 @@
     ],
     "buffers" : [
         {
-            "byteLength" : 15852,
+            "byteLength" : 15724,
             "uri" : "sm_dwarf_void_belt.bin"
         }
     ]

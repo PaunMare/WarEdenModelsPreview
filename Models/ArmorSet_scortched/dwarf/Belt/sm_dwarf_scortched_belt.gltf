@@ -1,6 +1,6 @@
 {
     "asset" : {
-        "generator" : "Khronos glTF Blender I/O v3.2.40",
+        "generator" : "Khronos glTF Blender I/O v3.3.27",
         "version" : "2.0"
     },
     "extensionsUsed" : [
@@ -21,13 +21,7 @@
     "nodes" : [
         {
             "mesh" : 0,
-            "name" : "sm_dwarf_scortched_belt",
-            "rotation" : [
-                0.7071068286895752,
-                0,
-                0,
-                0.7071067094802856
-            ]
+            "name" : "sm_dwarf_scortched_belt"
         }
     ],
     "materials" : [
@@ -45,7 +39,7 @@
     ],
     "meshes" : [
         {
-            "name" : "Mesh.001",
+            "name" : "Mesh.011",
             "primitives" : [
                 {
                     "attributes" : {
@@ -89,13 +83,13 @@
             "count" : 1717,
             "max" : [
                 30.118499755859375,
-                27.83391571044922,
-                36.542938232421875
+                27.17999267578125,
+                7.258310317993164
             ],
             "min" : [
                 -29.953262329101562,
-                -27.17999267578125,
-                -7.258308410644531
+                -27.835372924804688,
+                -36.54425048828125
             ],
             "type" : "VEC3"
         },
@@ -118,7 +112,7 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 14023,
+            "byteLength" : 14102,
             "byteOffset" : 0
         }
     ],
@@ -130,7 +124,7 @@
     ],
     "buffers" : [
         {
-            "byteLength" : 14024,
+            "byteLength" : 14104,
             "uri" : "sm_dwarf_scortched_belt.bin"
         }
     ]

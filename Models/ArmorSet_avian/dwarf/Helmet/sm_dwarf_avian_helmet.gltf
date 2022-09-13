@@ -1,6 +1,6 @@
 {
     "asset" : {
-        "generator" : "Khronos glTF Blender I/O v3.2.40",
+        "generator" : "Khronos glTF Blender I/O v3.3.27",
         "version" : "2.0"
     },
     "extensionsUsed" : [
@@ -21,7 +21,7 @@
     "nodes" : [
         {
             "mesh" : 0,
-            "name" : "sm_human_avian_helmet",
+            "name" : "sm_dwarf_avian_helmet",
             "rotation" : [
                 0.7071068286895752,
                 0,
@@ -33,7 +33,7 @@
     "materials" : [
         {
             "doubleSided" : true,
-            "name" : "Helmet1.003",
+            "name" : "Helmet1.001",
             "pbrMetallicRoughness" : {
                 "baseColorTexture" : {
                     "index" : 0
@@ -45,7 +45,7 @@
     ],
     "meshes" : [
         {
-            "name" : "Mesh.024",
+            "name" : "Mesh.019",
             "primitives" : [
                 {
                     "attributes" : {
@@ -88,13 +88,13 @@
             "componentType" : 5126,
             "count" : 918,
             "max" : [
-                16.55433464050293,
-                28.86815643310547,
-                -0.2645745277404785
+                16.70632553100586,
+                28.868160247802734,
+                -0.264617919921875
             ],
             "min" : [
-                -16.568031311035156,
-                -10.076780319213867,
+                -16.74517822265625,
+                -10.079586029052734,
                 -36.64960479736328
             ],
             "type" : "VEC3"
@@ -118,7 +118,7 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 8308,
+            "byteLength" : 8309,
             "byteOffset" : 0
         }
     ],
@@ -130,7 +130,7 @@
     ],
     "buffers" : [
         {
-            "byteLength" : 8308,
+            "byteLength" : 8312,
             "uri" : "sm_dwarf_avian_helmet.bin"
         }
     ]

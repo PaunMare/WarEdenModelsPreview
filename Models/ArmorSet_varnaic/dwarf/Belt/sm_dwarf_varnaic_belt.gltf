@@ -1,6 +1,6 @@
 {
     "asset" : {
-        "generator" : "Khronos glTF Blender I/O v3.2.40",
+        "generator" : "Khronos glTF Blender I/O v1.8.19",
         "version" : "2.0"
     },
     "extensionsUsed" : [
@@ -21,13 +21,7 @@
     "nodes" : [
         {
             "mesh" : 0,
-            "name" : "sm_dwarf_varnaic_belt",
-            "rotation" : [
-                0.7071068286895752,
-                0,
-                0,
-                0.7071067094802856
-            ]
+            "name" : "sm_dwarf_varnaic_belt"
         }
     ],
     "materials" : [
@@ -126,27 +120,27 @@
     "accessors" : [
         {
             "componentType" : 5126,
-            "count" : 90,
+            "count" : 103,
             "max" : [
-                10.115534782409668,
-                23.769628524780273,
-                35.35847091674805
+                10.114944458007812,
+                23.705425262451172,
+                -4.3633623123168945
             ],
             "min" : [
                 -14.838218688964844,
-                -23.705425262451172,
-                4.363360404968262
+                -23.769622802734375,
+                -35.358482360839844
             ],
             "type" : "VEC3"
         },
         {
             "componentType" : 5126,
-            "count" : 90,
+            "count" : 103,
             "type" : "VEC3"
         },
         {
             "componentType" : 5126,
-            "count" : 90,
+            "count" : 103,
             "type" : "VEC2"
         },
         {
@@ -159,13 +153,13 @@
             "count" : 965,
             "max" : [
                 27.87023162841797,
-                28.67732810974121,
-                6.337799072265625
+                24.668264389038086,
+                14.482658386230469
             ],
             "min" : [
                 -36.130760192871094,
-                -24.668264389038086,
-                -14.482658386230469
+                -28.675661087036133,
+                -6.339244842529297
             ],
             "type" : "VEC3"
         },
@@ -188,13 +182,13 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 587,
+            "byteLength" : 724,
             "byteOffset" : 0
         },
         {
             "buffer" : 0,
-            "byteLength" : 8506,
-            "byteOffset" : 588
+            "byteLength" : 8540,
+            "byteOffset" : 724
         }
     ],
     "samplers" : [
@@ -205,7 +199,7 @@
     ],
     "buffers" : [
         {
-            "byteLength" : 9096,
+            "byteLength" : 9264,
             "uri" : "sm_dwarf_varnaic_belt.bin"
         }
     ]

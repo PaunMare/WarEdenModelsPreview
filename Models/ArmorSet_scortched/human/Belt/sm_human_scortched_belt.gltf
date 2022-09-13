@@ -1,6 +1,6 @@
 {
     "asset" : {
-        "generator" : "Khronos glTF Blender I/O v1.8.19",
+        "generator" : "Khronos glTF Blender I/O v3.2.43",
         "version" : "2.0"
     },
     "extensionsUsed" : [
@@ -26,25 +26,26 @@
                 0.7071068286895752,
                 0,
                 0,
-                0.7071068286895752
+                0.7071067094802856
             ]
         }
     ],
     "materials" : [
         {
             "doubleSided" : true,
-            "name" : "Pojas.001",
+            "name" : "Pojas",
             "pbrMetallicRoughness" : {
                 "baseColorTexture" : {
                     "index" : 0
                 },
-                "metallicFactor" : 0
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.858578622341156
             }
         }
     ],
     "meshes" : [
         {
-            "name" : "Mesh.050",
+            "name" : "Mesh.004",
             "primitives" : [
                 {
                     "attributes" : {
@@ -87,14 +88,14 @@
             "componentType" : 5126,
             "count" : 1717,
             "max" : [
-                21.71028709411621,
-                16.714248657226562,
-                31.96536636352539
+                21.71137237548828,
+                7.593934059143066,
+                16.714248657226562
             ],
             "min" : [
-                -21.037553787231445,
-                -18.74848175048828,
-                -7.593934059143066
+                -21.11363983154297,
+                -31.965368270874023,
+                -19.918682098388672
             ],
             "type" : "VEC3"
         },
@@ -117,7 +118,7 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 14144,
+            "byteLength" : 14165,
             "byteOffset" : 0
         }
     ],
@@ -129,7 +130,7 @@
     ],
     "buffers" : [
         {
-            "byteLength" : 14144,
+            "byteLength" : 14168,
             "uri" : "sm_human_scortched_belt.bin"
         }
     ]

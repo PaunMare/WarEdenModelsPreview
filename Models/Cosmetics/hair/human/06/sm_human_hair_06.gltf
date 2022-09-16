@@ -1,6 +1,6 @@
 {
     "asset" : {
-        "generator" : "Khronos glTF Blender I/O v3.2.43",
+        "generator" : "Khronos glTF Blender I/O v3.3.27",
         "version" : "2.0"
     },
     "extensionsUsed" : [
@@ -30,8 +30,8 @@
             ],
             "scale" : [
                 1.0099999904632568,
-                1.0099996328353882,
-                1.0099996328353882
+                1.0099995136260986,
+                1.0099995136260986
             ]
         }
     ],
@@ -40,12 +40,6 @@
             "doubleSided" : true,
             "name" : "lambert4.001",
             "pbrMetallicRoughness" : {
-                "baseColorFactor" : [
-                    0.800000011920929,
-                    0.800000011920929,
-                    0.800000011920929,
-                    1
-                ],
                 "metallicFactor" : 0,
                 "roughnessFactor" : 0.5527864098548889
             }
@@ -113,13 +107,13 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 12385,
+            "byteLength" : 12368,
             "byteOffset" : 0
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 12388,
+            "byteLength" : 12368,
             "uri" : "sm_human_hair_06.bin"
         }
     ]

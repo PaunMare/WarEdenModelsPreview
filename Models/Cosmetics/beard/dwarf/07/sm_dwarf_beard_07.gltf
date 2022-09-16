@@ -33,7 +33,7 @@
     "materials" : [
         {
             "doubleSided" : true,
-            "name" : "dwarf_beard_07.001",
+            "name" : "dwarf_beard_07.002",
             "pbrMetallicRoughness" : {
                 "metallicFactor" : 0,
                 "roughnessFactor" : 0.5
@@ -42,7 +42,7 @@
     ],
     "meshes" : [
         {
-            "name" : "Mesh.006",
+            "name" : "Mesh.007",
             "primitives" : [
                 {
                     "attributes" : {
@@ -72,14 +72,14 @@
             "componentType" : 5126,
             "count" : 6786,
             "max" : [
-                18.04592514038086,
-                30.1070556640625,
-                52.368404388427734
+                25.11315155029297,
+                43.06525802612305,
+                49.45517349243164
             ],
             "min" : [
-                -18.575279235839844,
-                -1.635380744934082,
-                -9.881586074829102
+                -25.11315155029297,
+                5.169573783874512,
+                -10.286652565002441
             ],
             "type" : "VEC3"
         },
@@ -102,13 +102,13 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 54659,
+            "byteLength" : 54783,
             "byteOffset" : 0
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 54660,
+            "byteLength" : 54784,
             "uri" : "sm_dwarf_beard_07.bin"
         }
     ]

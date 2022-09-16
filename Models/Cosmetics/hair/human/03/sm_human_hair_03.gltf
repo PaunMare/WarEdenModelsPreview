@@ -1,6 +1,6 @@
 {
     "asset" : {
-        "generator" : "Khronos glTF Blender I/O v3.2.43",
+        "generator" : "Khronos glTF Blender I/O v3.3.27",
         "version" : "2.0"
     },
     "extensionsUsed" : [
@@ -27,20 +27,19 @@
                 0,
                 0,
                 0.7071067094802856
+            ],
+            "translation" : [
+                0,
+                -157.07635498046875,
+                -2.5530078411102295
             ]
         }
     ],
     "materials" : [
         {
             "doubleSided" : true,
-            "name" : "Hair3.002",
+            "name" : "Hair3",
             "pbrMetallicRoughness" : {
-                "baseColorFactor" : [
-                    0.800000011920929,
-                    0.800000011920929,
-                    0.800000011920929,
-                    1
-                ],
                 "metallicFactor" : 0,
                 "roughnessFactor" : 0.5527864098548889
             }
@@ -48,7 +47,7 @@
     ],
     "meshes" : [
         {
-            "name" : "Mesh.035",
+            "name" : "Mesh.008",
             "primitives" : [
                 {
                     "attributes" : {
@@ -76,45 +75,45 @@
     "accessors" : [
         {
             "componentType" : 5126,
-            "count" : 1931,
+            "count" : 745,
             "max" : [
-                9.3811616897583,
-                7.214860916137695,
-                -4.092124938964844
+                9.90076732635498,
+                9.670794486999512,
+                -161.48837280273438
             ],
             "min" : [
-                -9.341551780700684,
-                -7.854277610778809,
-                -18.500717163085938
+                -9.80871868133545,
+                -6.493711471557617,
+                -176.09927368164062
             ],
             "type" : "VEC3"
         },
         {
             "componentType" : 5126,
-            "count" : 1931,
+            "count" : 745,
             "type" : "VEC3"
         },
         {
             "componentType" : 5126,
-            "count" : 1931,
+            "count" : 745,
             "type" : "VEC2"
         },
         {
             "componentType" : 5123,
-            "count" : 11010,
+            "count" : 4047,
             "type" : "SCALAR"
         }
     ],
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 13537,
+            "byteLength" : 6549,
             "byteOffset" : 0
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 13540,
+            "byteLength" : 6552,
             "uri" : "sm_human_hair_03.bin"
         }
     ]

@@ -1,6 +1,6 @@
 {
     "asset" : {
-        "generator" : "Khronos glTF Blender I/O v3.2.43",
+        "generator" : "Khronos glTF Blender I/O v3.3.27",
         "version" : "2.0"
     },
     "extensionsUsed" : [
@@ -71,13 +71,13 @@
             "count" : 360,
             "max" : [
                 6.370825290679932,
-                13.934314727783203,
-                13.209845542907715
+                13.37823486328125,
+                13.398210525512695
             ],
             "min" : [
                 -6.370825290679932,
-                11.678886413574219,
-                8.905854225158691
+                11.12279987335205,
+                9.094217300415039
             ],
             "type" : "VEC3"
         },
@@ -100,13 +100,13 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 3445,
+            "byteLength" : 3439,
             "byteOffset" : 0
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 3448,
+            "byteLength" : 3440,
             "uri" : "sm_human_eyebrows_03.bin"
         }
     ]

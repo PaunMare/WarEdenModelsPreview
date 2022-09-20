@@ -1,6 +1,6 @@
 {
     "asset" : {
-        "generator" : "Khronos glTF Blender I/O v3.2.43",
+        "generator" : "Khronos glTF Blender I/O v3.3.27",
         "version" : "2.0"
     },
     "extensionsUsed" : [
@@ -29,12 +29,6 @@
             "doubleSided" : true,
             "name" : "Hair05",
             "pbrMetallicRoughness" : {
-                "baseColorFactor" : [
-                    0.5,
-                    0.5,
-                    0.5,
-                    1
-                ],
                 "metallicFactor" : 0,
                 "roughnessFactor" : 0.5527864098548889
             }
@@ -70,45 +64,45 @@
     "accessors" : [
         {
             "componentType" : 5126,
-            "count" : 1582,
+            "count" : 1596,
             "max" : [
-                11.991982460021973,
-                29.42620849609375,
-                24.127376556396484
+                12.324331283569336,
+                29.426158905029297,
+                24.158180236816406
             ],
             "min" : [
-                -12.895916938781738,
+                -13.248847961425781,
                 3.2370147705078125,
-                -18.902671813964844
+                -19.33905792236328
             ],
             "type" : "VEC3"
         },
         {
             "componentType" : 5126,
-            "count" : 1582,
+            "count" : 1596,
             "type" : "VEC3"
         },
         {
             "componentType" : 5126,
-            "count" : 1582,
+            "count" : 1596,
             "type" : "VEC2"
         },
         {
             "componentType" : 5123,
-            "count" : 8322,
+            "count" : 8403,
             "type" : "SCALAR"
         }
     ],
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 13506,
+            "byteLength" : 13752,
             "byteOffset" : 0
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 13508,
+            "byteLength" : 13752,
             "uri" : "sm_yun_hair_05.bin"
         }
     ]

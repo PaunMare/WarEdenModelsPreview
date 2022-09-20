@@ -1,6 +1,6 @@
 {
     "asset" : {
-        "generator" : "Khronos glTF Blender I/O v3.2.43",
+        "generator" : "Khronos glTF Blender I/O v3.3.27",
         "version" : "2.0"
     },
     "extensionsUsed" : [
@@ -27,14 +27,8 @@
     "materials" : [
         {
             "doubleSided" : true,
-            "name" : "Hair04",
+            "name" : "Hair04.001",
             "pbrMetallicRoughness" : {
-                "baseColorFactor" : [
-                    0.5,
-                    0.5,
-                    0.5,
-                    1
-                ],
                 "metallicFactor" : 0,
                 "roughnessFactor" : 0.5527864098548889
             }
@@ -42,7 +36,7 @@
     ],
     "meshes" : [
         {
-            "name" : "Mesh.016",
+            "name" : "Mesh.003",
             "primitives" : [
                 {
                     "attributes" : {
@@ -70,45 +64,45 @@
     "accessors" : [
         {
             "componentType" : 5126,
-            "count" : 2508,
+            "count" : 2584,
             "max" : [
-                13.849384307861328,
-                28.596435546875,
-                26.38772964477539
+                14.122458457946777,
+                28.59636688232422,
+                26.387731552124023
             ],
             "min" : [
-                -14.278426170349121,
-                3.7735137939453125,
-                -13.74771785736084
+                -14.463040351867676,
+                3.4173789024353027,
+                -14.141580581665039
             ],
             "type" : "VEC3"
         },
         {
             "componentType" : 5126,
-            "count" : 2508,
+            "count" : 2584,
             "type" : "VEC3"
         },
         {
             "componentType" : 5126,
-            "count" : 2508,
+            "count" : 2584,
             "type" : "VEC2"
         },
         {
             "componentType" : 5123,
-            "count" : 13215,
+            "count" : 13659,
             "type" : "SCALAR"
         }
     ],
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 20368,
+            "byteLength" : 21018,
             "byteOffset" : 0
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 20368,
+            "byteLength" : 21020,
             "uri" : "sm_yun_hair_04.bin"
         }
     ]

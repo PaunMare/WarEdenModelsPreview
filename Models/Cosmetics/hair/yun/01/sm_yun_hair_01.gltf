@@ -1,6 +1,6 @@
 {
     "asset" : {
-        "generator" : "Khronos glTF Blender I/O v3.2.43",
+        "generator" : "Khronos glTF Blender I/O v3.3.27",
         "version" : "2.0"
     },
     "extensionsUsed" : [
@@ -27,16 +27,6 @@
                 0,
                 0,
                 0.7071067094802856
-            ],
-            "scale" : [
-                100,
-                100,
-                100
-            ],
-            "translation" : [
-                0,
-                -178.9154815673828,
-                5.999515056610107
             ]
         }
     ],
@@ -86,27 +76,27 @@
     "accessors" : [
         {
             "componentType" : 5126,
-            "count" : 1850,
+            "count" : 1852,
             "max" : [
-                0.1445000022649765,
-                0.18129999935626984,
-                -1.8224999904632568
+                14.451066017150879,
+                24.067306518554688,
+                -3.272480010986328
             ],
             "min" : [
-                -0.23669999837875366,
-                -0.24899999797344208,
-                -2.1085000038146973
+                -23.670000076293945,
+                -18.962692260742188,
+                -31.87247085571289
             ],
             "type" : "VEC3"
         },
         {
             "componentType" : 5126,
-            "count" : 1850,
+            "count" : 1852,
             "type" : "VEC3"
         },
         {
             "componentType" : 5126,
-            "count" : 1850,
+            "count" : 1852,
             "type" : "VEC2"
         },
         {
@@ -118,13 +108,13 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 15719,
+            "byteLength" : 15748,
             "byteOffset" : 0
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 15720,
+            "byteLength" : 15748,
             "uri" : "sm_yun_hair_01.bin"
         }
     ]

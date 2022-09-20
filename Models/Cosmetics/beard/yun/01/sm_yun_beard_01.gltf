@@ -1,6 +1,6 @@
 {
     "asset" : {
-        "generator" : "Khronos glTF Blender I/O v3.2.43",
+        "generator" : "Khronos glTF Blender I/O v3.3.27",
         "version" : "2.0"
     },
     "extensionsUsed" : [
@@ -23,24 +23,28 @@
             "mesh" : 0,
             "name" : "sm_yun_beard_01",
             "rotation" : [
-                0.7071068286895752,
+                0.7071066498756409,
                 0,
                 0,
-                0.7071067094802856
+                0.70710688829422
+            ],
+            "scale" : [
+                0.01000000536441803,
+                0.01000000536441803,
+                0.01000000536441803
+            ],
+            "translation" : [
+                -0.003920313436537981,
+                1.780462622642517,
+                -0.06029711291193962
             ]
         }
     ],
     "materials" : [
         {
             "doubleSided" : true,
-            "name" : "defaultMat4.001",
+            "name" : "Material #37",
             "pbrMetallicRoughness" : {
-                "baseColorFactor" : [
-                    0.800000011920929,
-                    0.800000011920929,
-                    0.800000011920929,
-                    1
-                ],
                 "metallicFactor" : 0,
                 "roughnessFactor" : 0.5527864098548889
             }
@@ -48,7 +52,7 @@
     ],
     "meshes" : [
         {
-            "name" : "Mesh.008",
+            "name" : "Mesh.003",
             "primitives" : [
                 {
                     "attributes" : {
@@ -76,14 +80,14 @@
     "accessors" : [
         {
             "componentType" : 5126,
-            "count" : 268,
+            "count" : 999,
             "max" : [
-                8.647210121154785,
-                38.06663513183594,
-                7.125017166137695
+                9.504685401916504,
+                39.121395111083984,
+                8.546438217163086
             ],
             "min" : [
-                -8.646864891052246,
+                -9.267660140991211,
                 24.41864013671875,
                 -5.103179931640625
             ],
@@ -91,30 +95,30 @@
         },
         {
             "componentType" : 5126,
-            "count" : 268,
+            "count" : 999,
             "type" : "VEC3"
         },
         {
             "componentType" : 5126,
-            "count" : 268,
+            "count" : 999,
             "type" : "VEC2"
         },
         {
             "componentType" : 5123,
-            "count" : 1380,
+            "count" : 3783,
             "type" : "SCALAR"
         }
     ],
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 2688,
+            "byteLength" : 9273,
             "byteOffset" : 0
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 2688,
+            "byteLength" : 9276,
             "uri" : "sm_yun_beard_01.bin"
         }
     ]

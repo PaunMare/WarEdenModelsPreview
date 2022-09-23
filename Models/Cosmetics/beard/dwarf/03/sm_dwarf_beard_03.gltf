@@ -70,45 +70,45 @@
     "accessors" : [
         {
             "componentType" : 5126,
-            "count" : 3652,
+            "count" : 3483,
             "max" : [
-                13.571374893188477,
-                27.52804946899414,
-                10.403192520141602
+                13.448450088500977,
+                27.884031295776367,
+                10.839091300964355
             ],
             "min" : [
-                -14.16267204284668,
-                13.067678451538086,
-                -9.328727722167969
+                -13.37779426574707,
+                13.423660278320312,
+                -9.509305953979492
             ],
             "type" : "VEC3"
         },
         {
             "componentType" : 5126,
-            "count" : 3652,
+            "count" : 3483,
             "type" : "VEC3"
         },
         {
             "componentType" : 5126,
-            "count" : 3652,
+            "count" : 3483,
             "type" : "VEC2"
         },
         {
             "componentType" : 5123,
-            "count" : 17301,
+            "count" : 17397,
             "type" : "SCALAR"
         }
     ],
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 28969,
+            "byteLength" : 28487,
             "byteOffset" : 0
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 28972,
+            "byteLength" : 28488,
             "uri" : "sm_dwarf_beard_03.bin"
         }
     ]

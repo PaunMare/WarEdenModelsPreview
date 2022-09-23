@@ -32,14 +32,6 @@
                 "metallicFactor" : 0,
                 "roughnessFactor" : 0.5
             }
-        },
-        {
-            "doubleSided" : true,
-            "name" : "Hair04.001",
-            "pbrMetallicRoughness" : {
-                "metallicFactor" : 0,
-                "roughnessFactor" : 0.5527864098548889
-            }
         }
     ],
     "meshes" : [
@@ -65,26 +57,6 @@
                     "indices" : 3,
                     "material" : 0,
                     "mode" : 4
-                },
-                {
-                    "attributes" : {
-                        "POSITION" : 4,
-                        "NORMAL" : 5,
-                        "TEXCOORD_0" : 6
-                    },
-                    "extensions" : {
-                        "KHR_draco_mesh_compression" : {
-                            "bufferView" : 1,
-                            "attributes" : {
-                                "POSITION" : 0,
-                                "NORMAL" : 1,
-                                "TEXCOORD_0" : 2
-                            }
-                        }
-                    },
-                    "indices" : 7,
-                    "material" : 1,
-                    "mode" : 4
                 }
             ]
         }
@@ -92,80 +64,45 @@
     "accessors" : [
         {
             "componentType" : 5126,
-            "count" : 399,
+            "count" : 2983,
             "max" : [
                 14.990252494812012,
                 38.562740325927734,
-                25.325387954711914
+                26.38772964477539
             ],
             "min" : [
                 -15.801101684570312,
-                5.648791790008545,
+                3.417384624481201,
                 -18.343442916870117
             ],
             "type" : "VEC3"
         },
         {
             "componentType" : 5126,
-            "count" : 399,
+            "count" : 2983,
             "type" : "VEC3"
         },
         {
             "componentType" : 5126,
-            "count" : 399,
+            "count" : 2983,
             "type" : "VEC2"
         },
         {
             "componentType" : 5123,
-            "count" : 585,
-            "type" : "SCALAR"
-        },
-        {
-            "componentType" : 5126,
-            "count" : 2584,
-            "max" : [
-                14.122457504272461,
-                28.596364974975586,
-                26.38772964477539
-            ],
-            "min" : [
-                -14.463040351867676,
-                3.417384624481201,
-                -14.141580581665039
-            ],
-            "type" : "VEC3"
-        },
-        {
-            "componentType" : 5126,
-            "count" : 2584,
-            "type" : "VEC3"
-        },
-        {
-            "componentType" : 5126,
-            "count" : 2584,
-            "type" : "VEC2"
-        },
-        {
-            "componentType" : 5123,
-            "count" : 13659,
+            "count" : 14244,
             "type" : "SCALAR"
         }
     ],
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 3275,
+            "byteLength" : 24242,
             "byteOffset" : 0
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 21018,
-            "byteOffset" : 3276
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 24296,
+            "byteLength" : 24244,
             "uri" : "sm_yun_hair_06.bin"
         }
     ]

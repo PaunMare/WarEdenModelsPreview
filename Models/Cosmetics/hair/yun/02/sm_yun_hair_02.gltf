@@ -33,7 +33,7 @@
     "materials" : [
         {
             "doubleSided" : true,
-            "name" : "Material #38",
+            "name" : "Hair02",
             "pbrMetallicRoughness" : {
                 "metallicFactor" : 0,
                 "roughnessFactor" : 0.5527864098548889

@@ -42,7 +42,7 @@
     ],
     "meshes" : [
         {
-            "name" : "Mesh.003",
+            "name" : "Mesh.001",
             "primitives" : [
                 {
                     "attributes" : {
@@ -74,7 +74,7 @@
             "max" : [
                 13.234410285949707,
                 26.161373138427734,
-                4.18308162689209
+                4.183082580566406
             ],
             "min" : [
                 -13.763026237487793,
@@ -102,13 +102,13 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 13107,
+            "byteLength" : 13160,
             "byteOffset" : 0
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 13108,
+            "byteLength" : 13160,
             "uri" : "sm_dwarf_beard_05.bin"
         }
     ]

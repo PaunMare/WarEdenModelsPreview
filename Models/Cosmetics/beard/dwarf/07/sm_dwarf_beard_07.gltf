@@ -72,9 +72,9 @@
             "componentType" : 5126,
             "count" : 6786,
             "max" : [
-                25.11315155029297,
-                43.06525802612305,
-                49.45517349243164
+                25.114761352539062,
+                45.57603073120117,
+                49.6698112487793
             ],
             "min" : [
                 -25.11315155029297,
@@ -102,13 +102,13 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 54783,
+            "byteLength" : 54860,
             "byteOffset" : 0
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 54784,
+            "byteLength" : 54860,
             "uri" : "sm_dwarf_beard_07.bin"
         }
     ]

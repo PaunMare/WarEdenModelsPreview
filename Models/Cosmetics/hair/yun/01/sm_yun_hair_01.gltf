@@ -21,26 +21,14 @@
     "nodes" : [
         {
             "mesh" : 0,
-            "name" : "sm_yun_hair_01",
-            "rotation" : [
-                0.7071068286895752,
-                0,
-                0,
-                0.7071067094802856
-            ]
+            "name" : "sm_yun_hair_01"
         }
     ],
     "materials" : [
         {
             "doubleSided" : true,
-            "name" : "Hair_01",
+            "name" : "Hair01",
             "pbrMetallicRoughness" : {
-                "baseColorFactor" : [
-                    0.5,
-                    0.5,
-                    0.5,
-                    1
-                ],
                 "metallicFactor" : 0,
                 "roughnessFactor" : 0.5527864098548889
             }
@@ -48,7 +36,7 @@
     ],
     "meshes" : [
         {
-            "name" : "Hair_01_feathers_Plane_001",
+            "name" : "Mesh.004",
             "primitives" : [
                 {
                     "attributes" : {
@@ -76,45 +64,45 @@
     "accessors" : [
         {
             "componentType" : 5126,
-            "count" : 1852,
+            "count" : 1866,
             "max" : [
-                14.451066017150879,
-                24.067306518554688,
-                -3.272480010986328
+                15.1696195602417,
+                32.1258430480957,
+                24.158180236816406
             ],
             "min" : [
-                -23.670000076293945,
-                -18.962692260742188,
-                -31.87247085571289
+                -22.951486587524414,
+                3.2370147705078125,
+                -19.33905792236328
             ],
             "type" : "VEC3"
         },
         {
             "componentType" : 5126,
-            "count" : 1852,
+            "count" : 1866,
             "type" : "VEC3"
         },
         {
             "componentType" : 5126,
-            "count" : 1852,
+            "count" : 1866,
             "type" : "VEC2"
         },
         {
             "componentType" : 5123,
-            "count" : 8706,
+            "count" : 8799,
             "type" : "SCALAR"
         }
     ],
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 15748,
+            "byteLength" : 16066,
             "byteOffset" : 0
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 15748,
+            "byteLength" : 16068,
             "uri" : "sm_yun_hair_01.bin"
         }
     ]

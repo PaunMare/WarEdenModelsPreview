@@ -1,6 +1,6 @@
 {
     "asset" : {
-        "generator" : "Khronos glTF Blender I/O v3.2.40",
+        "generator" : "Khronos glTF Blender I/O v3.3.27",
         "version" : "2.0"
     },
     "extensionsUsed" : [
@@ -21,7 +21,7 @@
     "nodes" : [
         {
             "mesh" : 0,
-            "name" : "sm_human_dhodin_gauntlets_r",
+            "name" : "sm_human_dhodin_gauntlet_r",
             "rotation" : [
                 0.7071068286895752,
                 0,
@@ -35,12 +35,6 @@
             "doubleSided" : true,
             "name" : "t_armor_dhobin_gloves4",
             "pbrMetallicRoughness" : {
-                "baseColorFactor" : [
-                    0.5,
-                    0.5,
-                    0.5,
-                    1
-                ],
                 "metallicFactor" : 0,
                 "roughnessFactor" : 0.5527864098548889
             }
@@ -48,7 +42,7 @@
     ],
     "meshes" : [
         {
-            "name" : "Mesh.001",
+            "name" : "Mesh.005",
             "primitives" : [
                 {
                     "attributes" : {
@@ -80,14 +74,14 @@
             "componentType" : 5126,
             "count" : 1624,
             "max" : [
-                10.999526977539062,
-                10.040350914001465,
-                -0.5027847290039062
+                11.454939842224121,
+                10.520642280578613,
+                0.08536815643310547
             ],
             "min" : [
-                -10.496429443359375,
-                -11.721526145935059,
-                -35.774940490722656
+                -10.934590339660645,
+                -12.146960258483887,
+                -36.654178619384766
             ],
             "type" : "VEC3"
         },
@@ -115,13 +109,13 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 13782,
+            "byteLength" : 13652,
             "byteOffset" : 0
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 13784,
+            "byteLength" : 13652,
             "uri" : "sm_human_dhodin_gauntlet_r.bin"
         }
     ]

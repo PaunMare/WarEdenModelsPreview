@@ -1,6 +1,6 @@
 {
     "asset" : {
-        "generator" : "Khronos glTF Blender I/O v3.2.43",
+        "generator" : "Khronos glTF Blender I/O v3.3.27",
         "version" : "2.0"
     },
     "extensionsUsed" : [
@@ -45,7 +45,7 @@
     ],
     "meshes" : [
         {
-            "name" : "Mesh",
+            "name" : "Mesh.041",
             "primitives" : [
                 {
                     "attributes" : {
@@ -82,16 +82,16 @@
         {
             "mimeType" : "image/png",
             "name" : "t_human_void_helmet",
-            "uri" : "t_human_void_helmet.png"
+            "uri" : "t_human_void_helmet.jpg"
         }
     ],
     "accessors" : [
         {
             "componentType" : 5126,
-            "count" : 1504,
+            "count" : 2397,
             "max" : [
-                18.379009246826172,
-                40.966835021972656,
+                18.379737854003906,
+                40.96797180175781,
                 12.73541259765625
             ],
             "min" : [
@@ -103,29 +103,29 @@
         },
         {
             "componentType" : 5126,
-            "count" : 1504,
+            "count" : 2397,
             "type" : "VEC3"
         },
         {
             "componentType" : 5126,
-            "count" : 1504,
+            "count" : 2397,
             "type" : "VEC2"
         },
         {
             "componentType" : 5126,
-            "count" : 1504,
+            "count" : 2397,
             "type" : "VEC2"
         },
         {
             "componentType" : 5123,
-            "count" : 6534,
+            "count" : 11235,
             "type" : "SCALAR"
         }
     ],
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 14734,
+            "byteLength" : 22253,
             "byteOffset" : 0
         }
     ],
@@ -137,7 +137,7 @@
     ],
     "buffers" : [
         {
-            "byteLength" : 14736,
+            "byteLength" : 22256,
             "uri" : "sm_yun_void_helmet.bin"
         }
     ]

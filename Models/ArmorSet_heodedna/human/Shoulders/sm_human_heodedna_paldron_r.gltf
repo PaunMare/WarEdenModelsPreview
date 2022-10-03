@@ -1,6 +1,6 @@
 {
     "asset" : {
-        "generator" : "Khronos glTF Blender I/O v1.8.19",
+        "generator" : "Khronos glTF Blender I/O v3.3.27",
         "version" : "2.0"
     },
     "extensionsUsed" : [
@@ -23,29 +23,23 @@
             "mesh" : 0,
             "name" : "sm_human_heodedna_paldron_r",
             "rotation" : [
-                -0.0358382910490036,
-                0.21043142676353455,
-                0.7526566386222839,
-                -0.6228500604629517
+                0.03583826869726181,
+                -0.21043148636817932,
+                -0.7526568174362183,
+                0.6228499412536621
             ],
             "scale" : [
-                1.0099999904632568,
-                1.0099999904632568,
-                1.0099999904632568
+                1.010000228881836,
+                1.010000228881836,
+                1.0100001096725464
             ]
         }
     ],
     "materials" : [
         {
             "doubleSided" : true,
-            "name" : "t_armor_heodedna_paldron.002",
+            "name" : "t_armor_heodedna_paldron.001",
             "pbrMetallicRoughness" : {
-                "baseColorFactor" : [
-                    0.5,
-                    0.5,
-                    0.5,
-                    1
-                ],
                 "metallicFactor" : 0,
                 "roughnessFactor" : 0.5527864098548889
             }
@@ -53,7 +47,7 @@
     ],
     "meshes" : [
         {
-            "name" : "Mesh.013",
+            "name" : "Mesh.017",
             "primitives" : [
                 {
                     "attributes" : {
@@ -81,11 +75,11 @@
     "accessors" : [
         {
             "componentType" : 5126,
-            "count" : 8021,
+            "count" : 8093,
             "max" : [
-                -4.096174716949463,
-                18.76203155517578,
-                16.344696044921875
+                -4.0961761474609375,
+                18.761661529541016,
+                16.344528198242188
             ],
             "min" : [
                 -39.92378234863281,
@@ -96,12 +90,12 @@
         },
         {
             "componentType" : 5126,
-            "count" : 8021,
+            "count" : 8093,
             "type" : "VEC3"
         },
         {
             "componentType" : 5126,
-            "count" : 8021,
+            "count" : 8093,
             "type" : "VEC2"
         },
         {
@@ -113,13 +107,13 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 56773,
+            "byteLength" : 57111,
             "byteOffset" : 0
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 56776,
+            "byteLength" : 57112,
             "uri" : "sm_human_heodedna_paldron_r.bin"
         }
     ]

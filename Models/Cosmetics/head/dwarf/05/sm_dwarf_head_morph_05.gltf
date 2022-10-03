@@ -1404,11 +1404,8 @@
     "materials" : [
         {
             "doubleSided" : true,
-            "name" : "t_dwarf_base_head.004",
+            "name" : "t_dwarf_base_head.003",
             "pbrMetallicRoughness" : {
-                "baseColorTexture" : {
-                    "index" : 0
-                },
                 "metallicFactor" : 0,
                 "roughnessFactor" : 0.5527864098548889
             }
@@ -1421,7 +1418,7 @@
                     "sm_dwarf_base_head.002"
                 ]
             },
-            "name" : "sm_dwarf_base_head.004",
+            "name" : "sm_dwarf_base_head.003",
             "primitives" : [
                 {
                     "attributes" : {
@@ -1459,19 +1456,6 @@
             "weights" : [
                 1
             ]
-        }
-    ],
-    "textures" : [
-        {
-            "sampler" : 0,
-            "source" : 0
-        }
-    ],
-    "images" : [
-        {
-            "mimeType" : "image/png",
-            "name" : "t_morf_dwarf_head_05_d",
-            "uri" : "t_morf_dwarf_head_05_d.png"
         }
     ],
     "skins" : [
@@ -1645,12 +1629,6 @@
             "buffer" : 0,
             "byteLength" : 4160,
             "byteOffset" : 77308
-        }
-    ],
-    "samplers" : [
-        {
-            "magFilter" : 9729,
-            "minFilter" : 9987
         }
     ],
     "buffers" : [

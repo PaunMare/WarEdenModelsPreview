@@ -4070,27 +4070,27 @@
         {
             "mimeType" : "image/png",
             "name" : "t_yun_chest",
-            "uri" : "t_yun_chest.png"
+            "uri" : "t_yun_chest.jpg"
         },
         {
             "mimeType" : "image/png",
             "name" : "t_yun_head",
-            "uri" : "t_yun_head.png"
+            "uri" : "t_yun_head.jpg"
         },
         {
             "mimeType" : "image/png",
             "name" : "t_yun_feet",
-            "uri" : "t_yun_feet.png"
+            "uri" : "t_yun_feet.jpg"
         },
         {
             "mimeType" : "image/png",
             "name" : "t_yun_hands",
-            "uri" : "t_yun_hands.png"
+            "uri" : "t_yun_hands.jpg"
         },
         {
             "mimeType" : "image/png",
             "name" : "t_yun_pants",
-            "uri" : "t_yun_pants.png"
+            "uri" : "t_yun_pants.jpg"
         }
     ],
     "skins" : [

@@ -1,6 +1,6 @@
 {
     "asset" : {
-        "generator" : "Khronos glTF Blender I/O v3.2.40",
+        "generator" : "Khronos glTF Blender I/O v3.3.27",
         "version" : "2.0"
     },
     "extensionsUsed" : [
@@ -35,11 +35,7 @@
             "doubleSided" : true,
             "name" : "lambert1.003",
             "pbrMetallicRoughness" : {
-                "baseColorTexture" : {
-                    "index" : 0
-                },
-                "metallicFactor" : 0,
-                "roughnessFactor" : 0.5527864098548889
+                "metallicFactor" : 0
             }
         }
     ],
@@ -70,27 +66,14 @@
             ]
         }
     ],
-    "textures" : [
-        {
-            "sampler" : 0,
-            "source" : 0
-        }
-    ],
-    "images" : [
-        {
-            "mimeType" : "image/png",
-            "name" : "t_human_void_paldrons",
-            "uri" : "t_human_void_paldrons.png"
-        }
-    ],
     "accessors" : [
         {
             "componentType" : 5126,
             "count" : 2965,
             "max" : [
-                24.021896362304688,
-                10.226136207580566,
-                1.7795734405517578
+                24.022693634033203,
+                10.22712516784668,
+                1.779571533203125
             ],
             "min" : [
                 -16.795307159423828,
@@ -118,19 +101,13 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 23938,
+            "byteLength" : 23701,
             "byteOffset" : 0
-        }
-    ],
-    "samplers" : [
-        {
-            "magFilter" : 9729,
-            "minFilter" : 9987
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 23940,
+            "byteLength" : 23704,
             "uri" : "sm_human_void_paldron_r.bin"
         }
     ]

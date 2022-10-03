@@ -1,6 +1,6 @@
 {
     "asset" : {
-        "generator" : "Khronos glTF Blender I/O v3.2.40",
+        "generator" : "Khronos glTF Blender I/O v3.3.27",
         "version" : "2.0"
     },
     "extensionsUsed" : [
@@ -42,7 +42,7 @@
     ],
     "meshes" : [
         {
-            "name" : "Mesh.012",
+            "name" : "Mesh.037",
             "primitives" : [
                 {
                     "attributes" : {
@@ -72,8 +72,8 @@
             "componentType" : 5126,
             "count" : 415,
             "max" : [
-                13.080947875976562,
-                12.460338592529297,
+                13.081172943115234,
+                12.459413528442383,
                 2.381011962890625
             ],
             "min" : [
@@ -102,13 +102,13 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 4040,
+            "byteLength" : 4067,
             "byteOffset" : 0
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 4040,
+            "byteLength" : 4068,
             "uri" : "sm_dwarf_avian_boots_up_r.bin"
         }
     ]

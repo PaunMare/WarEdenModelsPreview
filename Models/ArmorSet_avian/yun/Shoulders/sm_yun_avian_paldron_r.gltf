@@ -1,6 +1,6 @@
 {
     "asset" : {
-        "generator" : "Khronos glTF Blender I/O v3.2.43",
+        "generator" : "Khronos glTF Blender I/O v3.3.27",
         "version" : "2.0"
     },
     "extensionsUsed" : [
@@ -42,7 +42,7 @@
     ],
     "meshes" : [
         {
-            "name" : "Mesh.024",
+            "name" : "Mesh.040",
             "primitives" : [
                 {
                     "attributes" : {
@@ -72,13 +72,13 @@
             "componentType" : 5126,
             "count" : 5877,
             "max" : [
-                40.63548278808594,
-                33.802677154541016,
-                1.5773919820785522
+                35.65530776977539,
+                32.35028076171875,
+                1.5776596069335938
             ],
             "min" : [
-                -18.785520553588867,
-                -33.96953582763672,
+                -24.064992904663086,
+                -32.86778259277344,
                 -59.075225830078125
             ],
             "type" : "VEC3"
@@ -102,13 +102,13 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 43807,
+            "byteLength" : 43727,
             "byteOffset" : 0
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 43808,
+            "byteLength" : 43728,
             "uri" : "sm_yun_avian_paldron_r.bin"
         }
     ]

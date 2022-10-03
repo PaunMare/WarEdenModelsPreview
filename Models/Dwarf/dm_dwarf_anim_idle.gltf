@@ -11282,7 +11282,7 @@
         {
             "mimeType" : "image/png",
             "name" : "t_dwarf_base_chest",
-            "uri" : "t_dwarf_base_chest.png"
+            "uri" : "t_dwarf_base_chest.jpg"
         },
         {
             "mimeType" : "image/png",
@@ -11297,22 +11297,22 @@
         {
             "mimeType" : "image/png",
             "name" : "t_dwarf_base_feet",
-            "uri" : "t_dwarf_base_feet.png"
+            "uri" : "t_dwarf_base_feet.jpg"
         },
         {
             "mimeType" : "image/png",
             "name" : "t_dwarf_base_hands",
-            "uri" : "t_dwarf_base_hands.png"
+            "uri" : "t_dwarf_base_hands.jpg"
         },
         {
             "mimeType" : "image/png",
             "name" : "t_dwarf_base_head",
-            "uri" : "t_dwarf_base_head.png"
+            "uri" : "t_dwarf_base_head.jpg"
         },
         {
             "mimeType" : "image/png",
             "name" : "t_dwarf_base_pants",
-            "uri" : "t_dwarf_base_pants.png"
+            "uri" : "t_dwarf_base_pants.jpg"
         }
     ],
     "skins" : [

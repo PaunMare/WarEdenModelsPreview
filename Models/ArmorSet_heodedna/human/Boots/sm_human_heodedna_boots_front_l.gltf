@@ -1,6 +1,6 @@
 {
     "asset" : {
-        "generator" : "Khronos glTF Blender I/O v1.8.19",
+        "generator" : "Khronos glTF Blender I/O v3.3.27",
         "version" : "2.0"
     },
     "extensionsUsed" : [
@@ -30,8 +30,8 @@
             ],
             "scale" : [
                 1.0099999904632568,
-                1.0099999904632568,
-                1.0099999904632568
+                1.0099998712539673,
+                1.0099998712539673
             ]
         }
     ],
@@ -40,12 +40,6 @@
             "doubleSided" : true,
             "name" : "t_armor_heodedna_boots5",
             "pbrMetallicRoughness" : {
-                "baseColorFactor" : [
-                    0.5,
-                    0.5,
-                    0.5,
-                    1
-                ],
                 "metallicFactor" : 0,
                 "roughnessFactor" : 0.5527864098548889
             }
@@ -81,7 +75,7 @@
     "accessors" : [
         {
             "componentType" : 5126,
-            "count" : 604,
+            "count" : 608,
             "max" : [
                 4.518522262573242,
                 8.434080123901367,
@@ -96,12 +90,12 @@
         },
         {
             "componentType" : 5126,
-            "count" : 604,
+            "count" : 608,
             "type" : "VEC3"
         },
         {
             "componentType" : 5126,
-            "count" : 604,
+            "count" : 608,
             "type" : "VEC2"
         },
         {
@@ -113,13 +107,13 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 4941,
+            "byteLength" : 4986,
             "byteOffset" : 0
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 4944,
+            "byteLength" : 4988,
             "uri" : "sm_human_heodedna_boots_front_l.bin"
         }
     ]

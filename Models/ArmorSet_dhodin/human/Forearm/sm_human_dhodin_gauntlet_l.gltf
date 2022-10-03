@@ -1,6 +1,6 @@
 {
     "asset" : {
-        "generator" : "Khronos glTF Blender I/O v3.2.40",
+        "generator" : "Khronos glTF Blender I/O v3.3.27",
         "version" : "2.0"
     },
     "extensionsUsed" : [
@@ -35,12 +35,6 @@
             "doubleSided" : true,
             "name" : "t_armor_dhobin_gloves3",
             "pbrMetallicRoughness" : {
-                "baseColorFactor" : [
-                    0.5,
-                    0.5,
-                    0.5,
-                    1
-                ],
                 "metallicFactor" : 0,
                 "roughnessFactor" : 0.5527864098548889
             }
@@ -48,7 +42,7 @@
     ],
     "meshes" : [
         {
-            "name" : "Mesh.002",
+            "name" : "Mesh.004",
             "primitives" : [
                 {
                     "attributes" : {
@@ -80,14 +74,14 @@
             "componentType" : 5126,
             "count" : 1558,
             "max" : [
-                10.65086555480957,
-                9.93138599395752,
-                -0.3441925048828125
+                11.186920166015625,
+                10.524566650390625,
+                0.3634757995605469
             ],
             "min" : [
-                -10.206293106079102,
-                -11.47307014465332,
-                -35.5818977355957
+                -10.746187210083008,
+                -11.985307693481445,
+                -36.69231414794922
             ],
             "type" : "VEC3"
         },
@@ -115,13 +109,13 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 13095,
+            "byteLength" : 13042,
             "byteOffset" : 0
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 13096,
+            "byteLength" : 13044,
             "uri" : "sm_human_dhodin_gauntlet_l.bin"
         }
     ]

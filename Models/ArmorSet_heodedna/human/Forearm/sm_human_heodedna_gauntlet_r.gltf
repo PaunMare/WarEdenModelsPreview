@@ -1,6 +1,6 @@
 {
     "asset" : {
-        "generator" : "Khronos glTF Blender I/O v1.8.19",
+        "generator" : "Khronos glTF Blender I/O v3.3.27",
         "version" : "2.0"
     },
     "extensionsUsed" : [
@@ -30,8 +30,8 @@
             ],
             "scale" : [
                 1.0099999904632568,
-                1.0099999904632568,
-                1.0099999904632568
+                1.0099998712539673,
+                1.0099998712539673
             ]
         }
     ],
@@ -40,12 +40,6 @@
             "doubleSided" : true,
             "name" : "t_armor_heodedna_gauntlets1",
             "pbrMetallicRoughness" : {
-                "baseColorFactor" : [
-                    0.5,
-                    0.5,
-                    0.5,
-                    1
-                ],
                 "metallicFactor" : 0,
                 "roughnessFactor" : 0.5527864098548889
             }
@@ -81,10 +75,10 @@
     "accessors" : [
         {
             "componentType" : 5126,
-            "count" : 3599,
+            "count" : 3611,
             "max" : [
-                12.071235656738281,
-                9.080778121948242,
+                12.070350646972656,
+                9.081889152526855,
                 -0.7922325134277344
             ],
             "min" : [
@@ -96,12 +90,12 @@
         },
         {
             "componentType" : 5126,
-            "count" : 3599,
+            "count" : 3611,
             "type" : "VEC3"
         },
         {
             "componentType" : 5126,
-            "count" : 3599,
+            "count" : 3611,
             "type" : "VEC2"
         },
         {
@@ -113,13 +107,13 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 27366,
+            "byteLength" : 27324,
             "byteOffset" : 0
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 27368,
+            "byteLength" : 27324,
             "uri" : "sm_human_heodedna_gauntlet_r.bin"
         }
     ]

@@ -1,6 +1,6 @@
 {
     "asset" : {
-        "generator" : "Khronos glTF Blender I/O v3.2.40",
+        "generator" : "Khronos glTF Blender I/O v3.3.27",
         "version" : "2.0"
     },
     "extensionsUsed" : [
@@ -72,14 +72,14 @@
             "componentType" : 5126,
             "count" : 533,
             "max" : [
-                11.313785552978516,
-                8.99335765838623,
-                4.124892234802246
+                11.422026634216309,
+                9.076351165771484,
+                4.1248931884765625
             ],
             "min" : [
-                -9.487116813659668,
+                -9.615679740905762,
                 -12.45280933380127,
-                -30.374950408935547
+                -30.396360397338867
             ],
             "type" : "VEC3"
         },
@@ -102,13 +102,13 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 4725,
+            "byteLength" : 4703,
             "byteOffset" : 0
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 4728,
+            "byteLength" : 4704,
             "uri" : "sm_human_avian_gauntlet_r.bin"
         }
     ]

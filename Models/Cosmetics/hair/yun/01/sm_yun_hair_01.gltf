@@ -64,10 +64,10 @@
     "accessors" : [
         {
             "componentType" : 5126,
-            "count" : 1866,
+            "count" : 1868,
             "max" : [
-                15.1696195602417,
-                32.1258430480957,
+                15.169328689575195,
+                32.126319885253906,
                 24.158180236816406
             ],
             "min" : [
@@ -79,12 +79,12 @@
         },
         {
             "componentType" : 5126,
-            "count" : 1866,
+            "count" : 1868,
             "type" : "VEC3"
         },
         {
             "componentType" : 5126,
-            "count" : 1866,
+            "count" : 1868,
             "type" : "VEC2"
         },
         {
@@ -96,13 +96,13 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 16066,
+            "byteLength" : 16022,
             "byteOffset" : 0
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 16068,
+            "byteLength" : 16024,
             "uri" : "sm_yun_hair_01.bin"
         }
     ]

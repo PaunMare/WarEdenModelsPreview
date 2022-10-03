@@ -444,12 +444,12 @@
         {
             "mimeType" : "image/png",
             "name" : "m_cliff_rocks",
-            "uri" : "m_cliff_rocks.png"
+            "uri" : "m_cliff_rocks.jpg"
         },
         {
             "mimeType" : "image/png",
             "name" : "t_floor_01",
-            "uri" : "t_floor_01.png"
+            "uri" : "t_floor_01.jpg"
         }
     ],
     "accessors" : [

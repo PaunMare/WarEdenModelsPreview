@@ -1,6 +1,6 @@
 {
     "asset" : {
-        "generator" : "Khronos glTF Blender I/O v3.2.40",
+        "generator" : "Khronos glTF Blender I/O v3.3.27",
         "version" : "2.0"
     },
     "extensionsUsed" : [
@@ -42,7 +42,7 @@
     ],
     "meshes" : [
         {
-            "name" : "Mesh.008",
+            "name" : "Mesh.038",
             "primitives" : [
                 {
                     "attributes" : {
@@ -73,13 +73,13 @@
             "count" : 412,
             "max" : [
                 8.187307357788086,
-                -1.4846391677856445,
-                7.220497131347656
+                -1.4893285036087036,
+                7.995578289031982
             ],
             "min" : [
-                -10.983783721923828,
-                -18.008548736572266,
-                -7.944754600524902
+                -10.992140769958496,
+                -18.0457763671875,
+                -7.940883636474609
             ],
             "type" : "VEC3"
         },
@@ -102,13 +102,13 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 3935,
+            "byteLength" : 3972,
             "byteOffset" : 0
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 3936,
+            "byteLength" : 3972,
             "uri" : "sm_dwarf_avian_boots_back_r.bin"
         }
     ]

@@ -36,7 +36,7 @@
     ],
     "meshes" : [
         {
-            "name" : "Mesh.016",
+            "name" : "Mesh.036",
             "primitives" : [
                 {
                     "attributes" : {
@@ -64,27 +64,27 @@
     "accessors" : [
         {
             "componentType" : 5126,
-            "count" : 2983,
+            "count" : 2985,
             "max" : [
-                14.990252494812012,
-                38.562740325927734,
-                26.38772964477539
+                15.311100959777832,
+                40.281890869140625,
+                26.846168518066406
             ],
             "min" : [
-                -15.801101684570312,
-                3.417384624481201,
-                -18.343442916870117
+                -15.478951454162598,
+                5.136942386627197,
+                -17.88500213623047
             ],
             "type" : "VEC3"
         },
         {
             "componentType" : 5126,
-            "count" : 2983,
+            "count" : 2985,
             "type" : "VEC3"
         },
         {
             "componentType" : 5126,
-            "count" : 2983,
+            "count" : 2985,
             "type" : "VEC2"
         },
         {
@@ -96,13 +96,13 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 24242,
+            "byteLength" : 24327,
             "byteOffset" : 0
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 24244,
+            "byteLength" : 24328,
             "uri" : "sm_yun_hair_06.bin"
         }
     ]

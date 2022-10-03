@@ -1,6 +1,6 @@
 {
     "asset" : {
-        "generator" : "Khronos glTF Blender I/O v3.2.40",
+        "generator" : "Khronos glTF Blender I/O v3.3.27",
         "version" : "2.0"
     },
     "extensionsUsed" : [
@@ -35,8 +35,7 @@
             "doubleSided" : true,
             "name" : "sm_armor_human_void_paldron_lSG.002",
             "pbrMetallicRoughness" : {
-                "metallicFactor" : 0,
-                "roughnessFactor" : 0.858578622341156
+                "metallicFactor" : 0
             }
         }
     ],
@@ -72,9 +71,9 @@
             "componentType" : 5126,
             "count" : 1117,
             "max" : [
-                17.08760643005371,
-                10.588788032531738,
-                -0.8062276840209961
+                17.087312698364258,
+                10.588485717773438,
+                -0.8062286376953125
             ],
             "min" : [
                 -21.58238410949707,
@@ -102,13 +101,13 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 9814,
+            "byteLength" : 9707,
             "byteOffset" : 0
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 9816,
+            "byteLength" : 9708,
             "uri" : "sm_human_void_paldron_l.bin"
         }
     ]

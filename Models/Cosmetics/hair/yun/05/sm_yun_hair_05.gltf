@@ -27,7 +27,7 @@
     "materials" : [
         {
             "doubleSided" : true,
-            "name" : "Hair05",
+            "name" : "Hair05.003",
             "pbrMetallicRoughness" : {
                 "metallicFactor" : 0,
                 "roughnessFactor" : 0.5527864098548889
@@ -36,7 +36,7 @@
     ],
     "meshes" : [
         {
-            "name" : "Mesh.014",
+            "name" : "Mesh.034",
             "primitives" : [
                 {
                     "attributes" : {
@@ -66,14 +66,14 @@
             "componentType" : 5126,
             "count" : 1596,
             "max" : [
-                12.324331283569336,
-                29.426158905029297,
-                24.158180236816406
+                12.558585166931152,
+                31.71980094909668,
+                24.24801254272461
             ],
             "min" : [
-                -13.248847961425781,
-                3.2370147705078125,
-                -19.33905792236328
+                -13.014594078063965,
+                5.530534744262695,
+                -16.53569984436035
             ],
             "type" : "VEC3"
         },
@@ -96,13 +96,13 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 13752,
+            "byteLength" : 13768,
             "byteOffset" : 0
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 13752,
+            "byteLength" : 13768,
             "uri" : "sm_yun_hair_05.bin"
         }
     ]

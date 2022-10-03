@@ -1,6 +1,6 @@
 {
     "asset" : {
-        "generator" : "Khronos glTF Blender I/O v3.2.40",
+        "generator" : "Khronos glTF Blender I/O v3.3.27",
         "version" : "2.0"
     },
     "extensionsUsed" : [
@@ -14,8 +14,7 @@
         {
             "name" : "Scene",
             "nodes" : [
-                0,
-                1
+                0
             ]
         }
     ],
@@ -23,16 +22,6 @@
         {
             "mesh" : 0,
             "name" : "sm_human_void_helmet",
-            "rotation" : [
-                0.7071068286895752,
-                0,
-                0,
-                0.7071067094802856
-            ]
-        },
-        {
-            "mesh" : 1,
-            "name" : "sm_human_base_head",
             "rotation" : [
                 0.7071068286895752,
                 0,
@@ -56,7 +45,7 @@
     ],
     "meshes" : [
         {
-            "name" : "Mesh.045",
+            "name" : "Mesh.049",
             "primitives" : [
                 {
                     "attributes" : {
@@ -81,31 +70,6 @@
                     "mode" : 4
                 }
             ]
-        },
-        {
-            "name" : "Mesh.046",
-            "primitives" : [
-                {
-                    "attributes" : {
-                        "POSITION" : 5,
-                        "NORMAL" : 6,
-                        "TEXCOORD_0" : 7
-                    },
-                    "extensions" : {
-                        "KHR_draco_mesh_compression" : {
-                            "bufferView" : 1,
-                            "attributes" : {
-                                "POSITION" : 0,
-                                "NORMAL" : 1,
-                                "TEXCOORD_0" : 2
-                            }
-                        }
-                    },
-                    "indices" : 8,
-                    "material" : 0,
-                    "mode" : 4
-                }
-            ]
         }
     ],
     "textures" : [
@@ -118,86 +82,51 @@
         {
             "mimeType" : "image/png",
             "name" : "t_human_void_helmet",
-            "uri" : "t_human_void_helmet.png"
+            "uri" : "t_human_void_helmet.jpg"
         }
     ],
     "accessors" : [
         {
             "componentType" : 5126,
-            "count" : 1510,
+            "count" : 3071,
             "max" : [
-                13.185275077819824,
-                18.874235153198242,
-                3.7897682189941406
+                13.409696578979492,
+                19.294754028320312,
+                7.196174621582031
             ],
             "min" : [
-                -13.183722496032715,
-                -11.144094467163086,
-                -33.69424819946289
+                -13.40802001953125,
+                -11.82834529876709,
+                -31.2425537109375
             ],
             "type" : "VEC3"
         },
         {
             "componentType" : 5126,
-            "count" : 1510,
+            "count" : 3071,
             "type" : "VEC3"
         },
         {
             "componentType" : 5126,
-            "count" : 1510,
+            "count" : 3071,
             "type" : "VEC2"
         },
         {
             "componentType" : 5126,
-            "count" : 1510,
+            "count" : 3071,
             "type" : "VEC2"
         },
         {
             "componentType" : 5123,
-            "count" : 6534,
-            "type" : "SCALAR"
-        },
-        {
-            "componentType" : 5126,
-            "count" : 5657,
-            "max" : [
-                9.50432014465332,
-                15.57837200164795,
-                2.665283203125
-            ],
-            "min" : [
-                -9.594467163085938,
-                -5.989865303039551,
-                -23.452865600585938
-            ],
-            "type" : "VEC3"
-        },
-        {
-            "componentType" : 5126,
-            "count" : 5657,
-            "type" : "VEC3"
-        },
-        {
-            "componentType" : 5126,
-            "count" : 5657,
-            "type" : "VEC2"
-        },
-        {
-            "componentType" : 5123,
-            "count" : 32820,
+            "count" : 15207,
             "type" : "SCALAR"
         }
     ],
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 14791,
+            "byteLength" : 24873,
             "byteOffset" : 0
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 36222,
-            "byteOffset" : 14792
         }
     ],
     "samplers" : [
@@ -208,7 +137,7 @@
     ],
     "buffers" : [
         {
-            "byteLength" : 51016,
+            "byteLength" : 24876,
             "uri" : "sm_human_void_helmet.bin"
         }
     ]

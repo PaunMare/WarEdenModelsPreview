@@ -1379,7 +1379,7 @@
         },
         {
             "mesh" : 0,
-            "name" : "sm_dwarf_base_head.001",
+            "name" : "sm_dwarf_base_head",
             "skin" : 0
         },
         {
@@ -1387,7 +1387,7 @@
                 65,
                 64
             ],
-            "name" : "Armature.001",
+            "name" : "Armature",
             "rotation" : [
                 0.7071068286895752,
                 0,
@@ -1404,7 +1404,7 @@
     "materials" : [
         {
             "doubleSided" : true,
-            "name" : "t_dwarf_base_head.001",
+            "name" : "t_dwarf_base_head",
             "pbrMetallicRoughness" : {
                 "metallicFactor" : 0,
                 "roughnessFactor" : 0.5527864098548889
@@ -1415,10 +1415,10 @@
         {
             "extras" : {
                 "targetNames" : [
-                    "morf_dwarf_head_03"
+                    "3"
                 ]
             },
-            "name" : "sm_dwarf_base_head.001",
+            "name" : "sm_dwarf_base_head",
             "primitives" : [
                 {
                     "attributes" : {
@@ -1454,7 +1454,7 @@
                 }
             ],
             "weights" : [
-                0
+                1
             ]
         }
     ],
@@ -1528,7 +1528,7 @@
                 60,
                 59
             ],
-            "name" : "Armature.001"
+            "name" : "Armature"
         }
     ],
     "accessors" : [
@@ -1583,14 +1583,14 @@
             "componentType" : 5126,
             "count" : 1751,
             "max" : [
-                0.03589795529842377,
-                0.04426276683807373,
-                0.023962564766407013
+                0.03589790314435959,
+                0.044263362884521484,
+                0.023962751030921936
             ],
             "min" : [
-                -0.03562766686081886,
-                -0.06101655960083008,
-                -0.020094748586416245
+                -0.03562769666314125,
+                -0.061015963554382324,
+                -0.020094599574804306
             ],
             "type" : "VEC3"
         },

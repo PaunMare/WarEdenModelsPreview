@@ -1379,7 +1379,7 @@
         },
         {
             "mesh" : 0,
-            "name" : "sm_dwarf_base_head.002",
+            "name" : "sm_dwarf_base_head",
             "skin" : 0
         },
         {
@@ -1387,7 +1387,7 @@
                 65,
                 64
             ],
-            "name" : "Armature.002",
+            "name" : "Armature",
             "rotation" : [
                 0.7071068286895752,
                 0,
@@ -1404,7 +1404,7 @@
     "materials" : [
         {
             "doubleSided" : true,
-            "name" : "t_dwarf_base_head.002",
+            "name" : "t_dwarf_base_head",
             "pbrMetallicRoughness" : {
                 "metallicFactor" : 0,
                 "roughnessFactor" : 0.5527864098548889
@@ -1415,10 +1415,10 @@
         {
             "extras" : {
                 "targetNames" : [
-                    "morf_dwarf_head_04"
+                    "4"
                 ]
             },
-            "name" : "sm_dwarf_base_head.002",
+            "name" : "sm_dwarf_base_head",
             "primitives" : [
                 {
                     "attributes" : {
@@ -1528,7 +1528,7 @@
                 60,
                 59
             ],
-            "name" : "Armature.002"
+            "name" : "Armature"
         }
     ],
     "accessors" : [
@@ -1583,14 +1583,14 @@
             "componentType" : 5126,
             "count" : 1751,
             "max" : [
-                0.03539636358618736,
-                0.07592165470123291,
-                0.023962564766407013
+                0.017401712015271187,
+                0.01569974422454834,
+                0.028940143063664436
             ],
             "min" : [
-                -0.03562572970986366,
-                -0.061046719551086426,
-                -0.020094748586416245
+                -0.017526615411043167,
+                -0.039865732192993164,
+                -0.003292117267847061
             ],
             "type" : "VEC3"
         },

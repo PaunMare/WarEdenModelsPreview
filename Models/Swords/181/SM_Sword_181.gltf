@@ -1,8 +1,14 @@
 {
     "asset" : {
-        "generator" : "Khronos glTF Blender I/O v1.8.19",
+        "generator" : "Khronos glTF Blender I/O v3.2.43",
         "version" : "2.0"
     },
+    "extensionsUsed" : [
+        "KHR_draco_mesh_compression"
+    ],
+    "extensionsRequired" : [
+        "KHR_draco_mesh_compression"
+    ],
     "scene" : 0,
     "scenes" : [
         {
@@ -24,27 +30,26 @@
             ],
             "scale" : [
                 0.009999999776482582,
-                0.009999999776482582,
-                0.009999999776482582
+                0.009999998845160007,
+                0.009999998845160007
             ]
         }
     ],
     "materials" : [
         {
             "doubleSided" : true,
-            "name" : "lambert1.002",
+            "name" : "Sword129.003",
             "pbrMetallicRoughness" : {
                 "baseColorTexture" : {
                     "index" : 0
                 },
-                "metallicFactor" : 0,
-                "roughnessFactor" : 0.5527864098548889
+                "metallicFactor" : 0
             }
         }
     ],
     "meshes" : [
         {
-            "name" : "Mesh.002",
+            "name" : "Mesh.062",
             "primitives" : [
                 {
                     "attributes" : {
@@ -52,8 +57,19 @@
                         "NORMAL" : 1,
                         "TEXCOORD_0" : 2
                     },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 0,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1,
+                                "TEXCOORD_0" : 2
+                            }
+                        }
+                    },
                     "indices" : 3,
-                    "material" : 0
+                    "material" : 0,
+                    "mode" : 4
                 }
             ]
         }
@@ -67,66 +83,47 @@
     "images" : [
         {
             "mimeType" : "image/png",
-            "name" : "T_Sword_181_D",
-            "uri" : "T_Sword_181_D.jpg"
+            "name" : "t_sword_181_d",
+            "uri" : "t_sword_181_d.png"
         }
     ],
     "accessors" : [
         {
-            "bufferView" : 0,
             "componentType" : 5126,
-            "count" : 8535,
+            "count" : 7231,
             "max" : [
-                21.367502212524414,
-                9.082904815673828,
-                -1.875029444694519
+                14.481555938720703,
+                5.690906047821045,
+                0.10028076171875
             ],
             "min" : [
-                -21.367502212524414,
-                -7.572979927062988,
-                -150.08966064453125
+                -17.997486114501953,
+                -5.791491985321045,
+                -148.49066162109375
             ],
             "type" : "VEC3"
         },
         {
-            "bufferView" : 1,
             "componentType" : 5126,
-            "count" : 8535,
+            "count" : 7231,
             "type" : "VEC3"
         },
         {
-            "bufferView" : 2,
             "componentType" : 5126,
-            "count" : 8535,
+            "count" : 7231,
             "type" : "VEC2"
         },
         {
-            "bufferView" : 3,
             "componentType" : 5123,
-            "count" : 40104,
+            "count" : 31698,
             "type" : "SCALAR"
         }
     ],
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 102420,
+            "byteLength" : 49859,
             "byteOffset" : 0
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 102420,
-            "byteOffset" : 102420
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 68280,
-            "byteOffset" : 204840
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 80208,
-            "byteOffset" : 273120
         }
     ],
     "samplers" : [
@@ -137,8 +134,8 @@
     ],
     "buffers" : [
         {
-            "byteLength" : 353328,
-            "uri" : "SM_Sword_181.bin"
+            "byteLength" : 49860,
+            "uri" : "sm_sword_181.bin"
         }
     ]
 }

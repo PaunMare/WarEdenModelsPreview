@@ -1,8 +1,14 @@
 {
     "asset" : {
-        "generator" : "Khronos glTF Blender I/O v1.8.19",
+        "generator" : "Khronos glTF Blender I/O v3.3.27",
         "version" : "2.0"
     },
+    "extensionsUsed" : [
+        "KHR_draco_mesh_compression"
+    ],
+    "extensionsRequired" : [
+        "KHR_draco_mesh_compression"
+    ],
     "scene" : 0,
     "scenes" : [
         {
@@ -15,36 +21,30 @@
     "nodes" : [
         {
             "mesh" : 0,
-            "name" : "SM_Sword_37",
-            "rotation" : [
-                0.7071068286895752,
-                0,
-                0,
-                0.7071067094802856
-            ],
+            "name" : "sm_sword_37",
             "scale" : [
-                0.009999999776482582,
-                0.009999999776482582,
-                0.009999999776482582
+                0.5805804133415222,
+                0.5805804133415222,
+                0.5805804133415222
             ]
         }
     ],
     "materials" : [
         {
             "doubleSided" : true,
-            "name" : "lambert1",
+            "name" : "Material.010",
             "pbrMetallicRoughness" : {
                 "baseColorTexture" : {
                     "index" : 0
                 },
                 "metallicFactor" : 0,
-                "roughnessFactor" : 0.5527864098548889
+                "roughnessFactor" : 0.5
             }
         }
     ],
     "meshes" : [
         {
-            "name" : "Mesh",
+            "name" : "Plane.009",
             "primitives" : [
                 {
                     "attributes" : {
@@ -52,8 +52,19 @@
                         "NORMAL" : 1,
                         "TEXCOORD_0" : 2
                     },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 0,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1,
+                                "TEXCOORD_0" : 2
+                            }
+                        }
+                    },
                     "indices" : 3,
-                    "material" : 0
+                    "material" : 0,
+                    "mode" : 4
                 }
             ]
         }
@@ -67,66 +78,47 @@
     "images" : [
         {
             "mimeType" : "image/png",
-            "name" : "T_Sword_37_D",
-            "uri" : "T_Sword_37_D.jpg"
+            "name" : "t_sword_37_d",
+            "uri" : "t_sword_37_d.png"
         }
     ],
     "accessors" : [
         {
-            "bufferView" : 0,
             "componentType" : 5126,
-            "count" : 17506,
+            "count" : 2222,
             "max" : [
-                21.10426139831543,
-                8.164880752563477,
-                -5.7220458984375e-06
+                0.35651275515556335,
+                2.590855836868286,
+                0.12493567913770676
             ],
             "min" : [
-                -19.72093391418457,
-                -6.967154026031494,
-                -150.3457489013672
+                -0.356474906206131,
+                -0.035240620374679565,
+                -0.12496265023946762
             ],
             "type" : "VEC3"
         },
         {
-            "bufferView" : 1,
             "componentType" : 5126,
-            "count" : 17506,
+            "count" : 2222,
             "type" : "VEC3"
         },
         {
-            "bufferView" : 2,
             "componentType" : 5126,
-            "count" : 17506,
+            "count" : 2222,
             "type" : "VEC2"
         },
         {
-            "bufferView" : 3,
             "componentType" : 5123,
-            "count" : 66993,
+            "count" : 9036,
             "type" : "SCALAR"
         }
     ],
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 210072,
+            "byteLength" : 17082,
             "byteOffset" : 0
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 210072,
-            "byteOffset" : 210072
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 140048,
-            "byteOffset" : 420144
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 133986,
-            "byteOffset" : 560192
         }
     ],
     "samplers" : [
@@ -137,8 +129,8 @@
     ],
     "buffers" : [
         {
-            "byteLength" : 694180,
-            "uri" : "SM_Sword_37.bin"
+            "byteLength" : 17084,
+            "uri" : "sm_sword_37.bin"
         }
     ]
 }
